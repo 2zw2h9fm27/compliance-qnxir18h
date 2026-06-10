@@ -1,0 +1,10 @@
+{
+  "desiredContentHash": "6d2ce5a3d0ab62ca811dbee61b6732ca63e4ca80bb3c9c07190c81ac4f213507",
+  "docsUrl": "https://us-fda.docs.buildwithfern.com",
+  "starter": {
+    "repoOwner": "fern-api",
+    "repoName": "docs-starter-internal",
+    "commitSha": "63ef119238a1280f25fb1948cf2645fa9b7e9a21",
+    "label": "2026-05-21-upgrade-fern-cli-5.35.4"
+  }
+}
