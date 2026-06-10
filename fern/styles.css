@@ -1,0 +1,43 @@
+/* =========================================================
+   text-box-trim — removes half-leading from text elements
+   so content sits flush against its container edges.
+
+   Paired with text-box-edge to define trim boundaries:
+   - "cap alphabetic" = top trims to cap-height, bottom to baseline
+   - "ex alphabetic"  = top trims to x-height, bottom to baseline
+
+   Browser support: Chrome 133+, Edge 133+, Safari 18.2+.
+   Non-supporting browsers silently ignore these properties,
+   falling back to normal line-box behaviour (no breakage).
+   ========================================================= */
+
+/* --- Headings: trim both sides to cap-height / baseline --- */
+h1, h2, h3, h4, h5, h6 {
+  text-box-trim: both;
+  text-box-edge: cap alphabetic;
+}
+
+/* --- Body text: trim both sides --- */
+p, li, dd, dt, blockquote, figcaption, label, legend, summary {
+  text-box-trim: both;
+  text-box-edge: cap alphabetic;
+}
+
+/* --- Inline controls (buttons, links in nav, badges) --- */
+button, a, .badge, .chip, .tag, .pill {
+  text-box-trim: both;
+  text-box-edge: cap alphabetic;
+}
+
+/* --- Table cells --- */
+th, td {
+  text-box-trim: both;
+  text-box-edge: cap alphabetic;
+}
+
+/* --- Code blocks: use ex-height for a tighter fit on
+   monospaced lowercase-heavy content --- */
+code, pre, kbd, samp {
+  text-box-trim: both;
+  text-box-edge: ex alphabetic;
+}
