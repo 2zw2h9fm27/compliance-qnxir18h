@@ -56,6 +56,7 @@ function generateNavigation() {
   const sortedLetters = Object.keys(entriesByLetter).sort();
   const layout = sortedLetters.map(letter => ({
     section: letter,
+    collapsed: true,
     contents: entriesByLetter[letter]
   }));
 
