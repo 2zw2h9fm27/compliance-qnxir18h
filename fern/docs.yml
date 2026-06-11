@@ -8,7 +8,6 @@ instances:
         repo: saintus-create
         branch: main
       launch: dashboard
-title: Encyclopedia of Rhetoric
 css: styles.css
 navigation:
   - api: API Reference
@@ -18,3 +17,4 @@ colors:
   background: "#FFFFFF"
 logo:
   right-text: Encyclopedia of Rhetoric
+title: DER
