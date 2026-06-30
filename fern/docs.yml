@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
 
 instances:
-  - url: us-fda.docs.buildwithfern.com
+  - url: compliance.docs.buildwithfern.com
     edit-this-page:
       github:
-        owner: saintus-create
-        repo: saintus-create
+        owner: 2zw2h9fm27
+        repo: 2zw2h9fm27
         branch: main
       launch: dashboard
 css: styles.css
