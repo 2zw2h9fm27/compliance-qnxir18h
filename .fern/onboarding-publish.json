@@ -1,0 +1,10 @@
+{
+  "desiredContentHash": "f95e7cb525aeaa2a0be7c979c8e113c21dd081ba01f5fc30d3db8c1755f00761",
+  "docsUrl": "https://compliance.docs.buildwithfern.com",
+  "starter": {
+    "repoOwner": "fern-api",
+    "repoName": "docs-starter-internal",
+    "commitSha": "63ef119238a1280f25fb1948cf2645fa9b7e9a21",
+    "label": "2026-05-21-upgrade-fern-cli-5.35.4"
+  }
+}
