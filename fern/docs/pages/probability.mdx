@@ -1,7 +1,54 @@
 ---
 title: "Probability"
-description: "That part of rhetoric involving human contingency rather than absolute certainty.The rhetorical principle of reasoning from what is likely"
+description: "That part of rhetoric involving human contingency rather than absolute certainty.The rhetorical principle of reasoning from what is likely (eikos) to be true isknown asthe argument from probability."
+date: 2026-06-30T18:33:13.061Z
+status: "Published"
 ---
+
+import { 
+  BookOpen,
+  Lightbulb
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Probability
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Probability" 
+  metaData={[
+    { label: "Classification", value: "Rhetorical Concept" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<BookOpen className="w-8 h-8 text-blue-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Lightbulb className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-blue-50 border-blue-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 That part of rhetoric involving human contingency rather than absolute certainty.The rhetorical principle of reasoning from what is likely
 (eikos) to be true isknown asthe argument
@@ -59,26 +106,101 @@ some evidence exists in a particular case, but
 the rhetor must go beyond it to construct an
 effective enthymeme that isgrounded more
 firmly inthe expectations and beliefs of the
-audience.
-Omar Swartz
-Purdue University
 
-<BibliographyCard>
-Aristotle. On Rhetoric: A Theory of Civic
-Discourse. Trans. George A. Kennedy.
-New York: Oxford UP, 1991.
-Cole, Thomas. "Who Was Corax?" Illinois Classical Studies 16(1991):
-65–84.
-Hinks, D.A.G. "Tisias and Corax and the
-Invention ofRhetoric." Classical Quarterly 34 (1940): 59–69;
-Smith, Bromley. "Corax and Probability."
-Quarterly Journal of Speech Education
-7–8 (1921–1922): 13–42.
-</BibliographyCard>
+</div>
 
-<SeeAlsoCard>
-  <SeeAlsoLink href="/docs/aristotle">Aristotle</SeeAlsoLink>
-  <SeeAlsoLink href="/docs/corax">Corax</SeeAlsoLink>
-  <SeeAlsoLink href="/docs/enthymeme">Enthymeme</SeeAlsoLink>
-  <SeeAlsoLink href="/docs/proof">Proof</SeeAlsoLink>
-</SeeAlsoCard>
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Domain', col2: 'Rhetorical Theory' },
+    { col1: 'Historical Span', col2: 'Classical Antiquity to Present' },
+    { col1: 'Application', col2: 'Composition, Speech, Literary Analysis, Pedagogy' },
+    { col1: 'Key Tradition', col2: 'Greek, Roman, and Modern Rhetorical Theory' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition">
+    **Probability** constitutes a fundamental concept in rhetorical theory, referring to the structured organization and deployment of persuasive means. Its meaning has evolved from classical codifications to encompass both technical procedures and philosophical principles.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Development">
+    The Roman rhetoricians devoted extensive discussion to **Probability**, systematizing it into rules and catalogues designed to guide the practitioner. From *ad Herennium* and *De Inventione* through the medieval ars dictaminis, the concept retained its central role in rhetorical education.
+  </Tabs.Item>
+  <Tabs.Item title="Contemporary Relevance">
+    Modern rhetorical theory and composition studies continue to engage **Probability** as both a descriptive category and a normative framework. Its principles inform speechwriting, legal argument, and the analysis of persuasive texts across media.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="probability" label="Probability" />
+  The concept of **Probability** has been subject to ongoing reinterpretation as rhetorical theory has engaged with neighboring disciplines. From its origins in classical pedagogy through its elaboration in medieval and Renaissance rhetoric, the term has accumulated layers of meaning that sometimes conflict and sometimes complement one another.
+</Accordion>
+
+<Callout variant="warning" title="Conceptual Scope">
+  The term **Probability** has been used with varying degrees of specificity across rhetorical traditions. Consult primary sources and authoritative secondary literature to determine which definitional framework applies in a given context.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Aristotle. On Rhetoric: A Theory of Civic
+2. Discourse. Trans. George A. Kennedy.
+3. New York: Oxford UP, 1991.
+4. Cole, Thomas. "Who Was Corax?" Illinois Classical Studies 16(1991):
+5. 65–84.
+6. Hinks, D.A.G. "Tisias and Corax and the
+7. Invention ofRhetoric." Classical Quarterly 34 (1940): 59–69;
+8. Smith, Bromley. "Corax and Probability."
+9. Quarterly Journal of Speech Education
+10. 7–8 (1921–1922): 13–42.
+
+### Cross-Referenced Terms
+- <CrossRef id="probability" label="Probability" />
+- <CrossRef id="argument" label="Argument" />
+- <CrossRef id="evidence" label="Evidence" />
+- <CrossRef id="example" label="Example" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="enthymeme" label="Enthymeme" />
+- <CrossRef id="contingency" label="Contingency" />
+

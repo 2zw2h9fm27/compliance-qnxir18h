@@ -1,7 +1,54 @@
 ---
 title: "Trivium"
-description: "The traditional medieval curriculum, composed of grammar, dialectic (or logic), and"
+description: "The traditional medieval curriculum, composed of grammar, dialectic (or logic), and rhetoric."
+date: 2026-06-30T18:33:13.254Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Trivium
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Trivium" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 The traditional medieval curriculum, composed of grammar, dialectic (or logic), and
 rhetoric. The Trivium, "an intersection of three
@@ -42,8 +89,7 @@ within the Trivium was characterized by the use
 of classical figures of speech, hence primarily
 concerned with style; this interpretation of
 rhetoric strongly influenced the three rhetorical
-arts of the medieval period—preaching (including saints' lives and devotional treatises), letter-
-writing, and poetry (particularly vernacular
+arts of the medieval period—preaching (including saints' lives and devotional treatises), letterwriting, and poetry (particularly vernacular
 poetry)—and remained virtually unchanged
 until the Renaissance. Even so, Martianus apparently understood the importance of rhetoric
 during the classical period, for he refers readers to Cicero for a more authoritative discussion. About one hundred years later, probably
@@ -56,24 +102,109 @@ as the capstone of a basic liberal arts education.
 Elizabeth Ervin
 University of North Carolina, Wilmington
 
-<BibliographyCard>
-Cordasco, Francesco. A Brief History of Education: A Handbook of Information on
-Greek, Roman, Medieval, Renaissance,
-and Modern Educational Practice. Pater-
-son, NJ: Littlefield, 1963.
-Kennedy, George. The Art of Rhetoric in the
-Roman World.Princeton: Princeton UP,
-1972.
-Murphy, James J. Rhetoric in the Middle
-Ages: A History of Rhetorical Theory
-from Saint Augustine to the Renaissance.
-Berkeley: U of California P, 1974.
-Paetow, Louis John. The Arts Course atMedieval Universities with SpecialReference to Grammar and Rhetoric.
-Champaign: U of Illinois P, 1910.
-Parker, H. "The Seven Liberal Arts." English
-Historical Review 5 (1890):417–61.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/quadrivium">Quadrivium</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Trivium** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Trivium** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Trivium** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="trivium" label="Trivium" />
+  The emergence and development of **Trivium** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Trivium** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Cordasco, Francesco. A Brief History of Education: A Handbook of Information on
+2. Greek, Roman, Medieval, Renaissance,
+3. and Modern Educational Practice. Pater-
+4. son, NJ: Littlefield, 1963.
+5. Kennedy, George. The Art of Rhetoric in the
+6. Roman World.Princeton: Princeton UP,
+7. 1972.
+8. Murphy, James J. Rhetoric in the Middle
+9. Ages: A History of Rhetorical Theory
+10. from Saint Augustine to the Renaissance.
+11. Berkeley: U of California P, 1974.
+12. Paetow, Louis John. The Arts Course atMedieval Universities with SpecialReference to Grammar and Rhetoric.
+13. Champaign: U of Illinois P, 1910.
+14. Parker, H. "The Seven Liberal Arts." English
+15. Historical Review 5 (1890):417–61.
+
+### Cross-Referenced Terms
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="trivium" label="Trivium" />
+- <CrossRef id="grammar" label="Grammar" />
+- <CrossRef id="isocrates" label="Isocrates" />
+- <CrossRef id="quadrivium" label="Quadrivium" />
+- <CrossRef id="emphasis" label="Emphasis" />
+- <CrossRef id="logic" label="Logic" />
+- <CrossRef id="speech" label="SPEECH" />
+

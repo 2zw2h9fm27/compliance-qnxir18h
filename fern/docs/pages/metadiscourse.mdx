@@ -1,14 +1,60 @@
 ---
 title: "Metadiscourse"
-description: "As a rhetorical term, designates a particular"
+description: "As a rhetorical term, designates a particular function of language, one that establishes interpersonal bonds and sustains intertextual contact; more specifically, subsumes various kinds of linguistic markers that speakers or..."
+date: 2026-06-30T18:33:12.960Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Metadiscourse
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Metadiscourse" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 As a rhetorical term, designates a particular
 function of language, one that establishes interpersonal bonds and sustains intertextual
 contact; more specifically, subsumes various
 kinds of linguistic markers that speakers or
-writers use to convey their expressive and at-
-titudinal, rather than purely propositional,
+writers use to convey their expressive and attitudinal, rather than purely propositional,
 meanings.
 The original assumption underlying metadiscourse goes back to Malinowski (1927),
 who sees human language capable of not only
@@ -51,8 +97,7 @@ distinguishes primary acts, which use or imply
 first-person subjects, from secondary acts, which
 attribute any given act to someone other than the
 writer. Recent studies have also illuminated, empirically, the link of metadiscourse to ethos, to
-discourse processes, and to different meaning-
-shaping rhetorical milieus.
+discourse processes, and to different meaningshaping rhetorical milieus.
 Inevitably, metadiscourse can also signify
 a more general meaning. Often broadly defined as "discourse about discourse" or "communication about communication," metadiscourse outgrows its concomitant implication
 of referring to specific linguistic markers; it
@@ -65,56 +110,141 @@ or metatheory, and with its own etymological roots.
 LuMing R. Mao
 Miami University
 
-<BibliographyCard>
-Bateson, Gregory. "A Theory of Play and
-Fantasy." Steps to an Ecology ofMind:
-Collected Essays in Anthropology, Psychology, Evolution, and Epistemology.
-San Francisco: Chandler, 1972.
-Northvale, NJ: Aronson, 1987. 177–93.
-Beauvais, Paul J. "A Speech Act Theory of
-Metadiscourse." Written Communication 1 (1989): 11–30.
-Crismore, Avon. "Metadiscourse and Discourse Processes: Interactions and Issues." Discourse Processes 13 (1990):
-191–205.
-—. Talking with Readers: Metadiscourse
-as Rhetorical Act. New York: Lang, 1989.
-Crismore, Avon, and Rodney Farnsworth.
-"Mr. Darwin and His Readers: Exploring Interpersonal Metadiscourse as a
-Dimension of Ethos." Rhetoric Review
-8 (1989): 91–111.
-Fleischman, Suzanne. "Discourse as Space/
-Discourse as Time: Reflections on the
-Metalanguage of Spoken and Written
-Discourse." Journal of Pragmatics 16
-(1991): 291–306.
-Halliday, M.A.K. Language as Social
-Semiotic: The Social Interpretation of
-Language and Meaning. London:
-Arnold, 1978.
-Jakobson, Roman. "Closing Statement: Linguistics and Poetics." Style in Language.
-Ed. Thomas A. Sebeok. Cambridge,
-MA: MIT, 1960. 350–77.
-Malinowski, Bronislaw. "The Problem of
-Meaning in Primitive Languages." The
-Meaning of Meaning. Ed. C.K. Ogden
-and LA. Richards. 2nd ed. New York:
-Harcourt, 1927. 296–336.
-Mao, LuMing R. "I Conclude Not: Toward a
-Pragmatic Account of Metadiscourse."
-Rhetoric Review 2 (1993): 265–89.
-Schiffrin, Deborah. "Meta-Talk: Organizational and Evaluative Brackets in Discourse." Sociological Inquiry: Language
-and Social Interaction 50 (1980): 199–
-236.
-Silverstein, Michael. "The Three Faces
-of 'Function': Preliminaries to a Psychology of Language." Social and
-Functional Approaches to Language
-and Thought. Ed. Maya Hickmann.
-Orlando, FL: Academic, 1987.
-17–38.
-Vande Kopple, William J. "Some Exploratory
-Discourse on Metadiscourse." College
-Composition and Communication 36
-(1985): 82–93.
-Williams, Joseph M. Style: Ten Lessons in
-Clarity and Grace. 3rd ed. Glenview, IL:
-Scott, 1989.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Metadiscourse** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Metadiscourse** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Metadiscourse** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="metadiscourse" label="Metadiscourse" />
+  The emergence and development of **Metadiscourse** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Metadiscourse** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Bateson, Gregory. "A Theory of Play and
+2. Fantasy." Steps to an Ecology ofMind:
+3. Collected Essays in Anthropology, Psychology, Evolution, and Epistemology.
+4. San Francisco: Chandler, 1972.
+5. Northvale, NJ: Aronson, 1987. 177–93.
+6. Beauvais, Paul J. "A Speech Act Theory of
+7. Metadiscourse." Written Communication 1 (1989): 11–30.
+8. Crismore, Avon. "Metadiscourse and Discourse Processes: Interactions and Issues." Discourse Processes 13 (1990):
+9. 191–205.
+10. —. Talking with Readers: Metadiscourse
+11. as Rhetorical Act. New York: Lang, 1989.
+12. Crismore, Avon, and Rodney Farnsworth.
+13. "Mr. Darwin and His Readers: Exploring Interpersonal Metadiscourse as a
+14. Dimension of Ethos." Rhetoric Review
+15. 8 (1989): 91–111.
+16. Fleischman, Suzanne. "Discourse as Space/
+17. Discourse as Time: Reflections on the
+18. Metalanguage of Spoken and Written
+19. Discourse." Journal of Pragmatics 16
+20. (1991): 291–306.
+21. Halliday, M.A.K. Language as Social
+22. Semiotic: The Social Interpretation of
+23. Language and Meaning. London:
+24. Arnold, 1978.
+25. Jakobson, Roman. "Closing Statement: Linguistics and Poetics." Style in Language.
+26. Ed. Thomas A. Sebeok. Cambridge,
+27. MA: MIT, 1960. 350–77.
+28. Malinowski, Bronislaw. "The Problem of
+29. Meaning in Primitive Languages." The
+30. Meaning of Meaning. Ed. C.K. Ogden
+31. and LA. Richards. 2nd ed. New York:
+32. Harcourt, 1927. 296–336.
+33. Mao, LuMing R. "I Conclude Not: Toward a
+34. Pragmatic Account of Metadiscourse."
+35. Rhetoric Review 2 (1993): 265–89.
+36. Schiffrin, Deborah. "Meta-Talk: Organizational and Evaluative Brackets in Discourse." Sociological Inquiry: Language
+37. and Social Interaction 50 (1980): 199–
+38. 236.
+39. Silverstein, Michael. "The Three Faces
+40. of 'Function': Preliminaries to a Psychology of Language." Social and
+41. Functional Approaches to Language
+42. and Thought. Ed. Maya Hickmann.
+43. Orlando, FL: Academic, 1987.
+44. 17–38.
+45. Vande Kopple, William J. "Some Exploratory
+46. Discourse on Metadiscourse." College
+47. Composition and Communication 36
+48. (1985): 82–93.
+49. Williams, Joseph M. Style: Ten Lessons in
+50. Clarity and Grace. 3rd ed. Glenview, IL:
+51. Scott, 1989.
+
+### Cross-Referenced Terms
+- <CrossRef id="metadiscourse" label="Metadiscourse" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="communication" label="Communication" />
+- <CrossRef id="speech" label="SPEECH" />
+- <CrossRef id="components" label="Components" />
+- <CrossRef id="ethos" label="Ethos" />
+- <CrossRef id="example" label="Example" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+

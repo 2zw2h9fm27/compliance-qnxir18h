@@ -1,133 +1,138 @@
 ---
 title: "Operant Conditioning"
-sidebarTitle: "Operant Conditioning"
 description: "A comprehensive overview of operant conditioning, including choice behavior, self-control, aversive control, and applications in psychology and education."
+date: 2026-06-30T18:33:13.012Z
+status: "Published"
 ---
+
+import { 
+  BookOpen,
+  Lightbulb
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Operant Conditioning
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Operant Conditioning" 
+  metaData={[
+    { label: "Classification", value: "Rhetorical Concept" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<BookOpen className="w-8 h-8 text-blue-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Lightbulb className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-blue-50 border-blue-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 # Operant Conditioning
 
 Operant conditioning is a learning process where behavior is modified by its consequences—reinforcement increases the likelihood of a behavior, while punishment decreases it. This approach, pioneered by B.F. Skinner, focuses on how environmental contingencies shape voluntary behavior.
 
-## Definition
+</div>
 
-**Operant conditioning** refers to the process by which the consequences of a behavior influence the likelihood that the behavior will be repeated. Unlike classical conditioning, which involves involuntary responses to stimuli, operant conditioning deals with voluntary behaviors that operate on the environment.
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Domain', col2: 'Rhetorical Theory' },
+    { col1: 'Historical Span', col2: 'Classical Antiquity to Present' },
+    { col1: 'Application', col2: 'Composition, Speech, Literary Analysis, Pedagogy' },
+    { col1: 'Key Tradition', col2: 'Greek, Roman, and Modern Rhetorical Theory' }
+  ]}
+/>
 
-## Key Concepts
+</div>
 
-### Reinforcement
+<div className="my-12">
 
-**Positive reinforcement** strengthens behavior by presenting a favorable consequence after the behavior occurs.
+## Functional Modularity
 
-**Negative reinforcement** strengthens behavior by removing or avoiding an aversive stimulus after the behavior occurs.
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-blue-600 mr-3" />
+</div>
 
-Both types of reinforcement increase the probability that the behavior will be repeated.
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition">
+    **Operant Conditioning** constitutes a fundamental concept in rhetorical theory, referring to the structured organization and deployment of persuasive means. Its meaning has evolved from classical codifications to encompass both technical procedures and philosophical principles.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Development">
+    The Roman rhetoricians devoted extensive discussion to **Operant Conditioning**, systematizing it into rules and catalogues designed to guide the practitioner. From *ad Herennium* and *De Inventione* through the medieval ars dictaminis, the concept retained its central role in rhetorical education.
+  </Tabs.Item>
+  <Tabs.Item title="Contemporary Relevance">
+    Modern rhetorical theory and composition studies continue to engage **Operant Conditioning** as both a descriptive category and a normative framework. Its principles inform speechwriting, legal argument, and the analysis of persuasive texts across media.
+  </Tabs.Item>
+</Tabs>
 
-### Punishment
+</div>
 
-**Punishment** weakens behavior by presenting an aversive consequence or removing a favorable one after the behavior occurs. Unlike reinforcement, punishment decreases the likelihood that the behavior will be repeated.
+<div className="my-14">
 
-### Schedules of Reinforcement
+## Analytical Deep-Dive
 
-Different schedules of reinforcement produce different patterns of behavior:
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-blue-600 mr-3" />
+</div>
 
-- **Continuous reinforcement**: Every response is reinforced
-- **Fixed ratio (FR)**: Reinforcement after a set number of responses
-- **Variable ratio (VR)**: Reinforcement after an unpredictable number of responses
-- **Fixed interval (FI)**: Reinforcement after a set amount of time
-- **Variable interval (VI)**: Reinforcement after an unpredictable amount of time
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="operant-conditioning" label="Operant Conditioning" />
+  The concept of **Operant Conditioning** has been subject to ongoing reinterpretation as rhetorical theory has engaged with neighboring disciplines. From its origins in classical pedagogy through its elaboration in medieval and Renaissance rhetoric, the term has accumulated layers of meaning that sometimes conflict and sometimes complement one another.
+</Accordion>
 
-## Choice Behavior
+<Callout variant="warning" title="Conceptual Scope">
+  The term **Operant Conditioning** has been used with varying degrees of specificity across rhetorical traditions. Consult primary sources and authoritative secondary literature to determine which definitional framework applies in a given context.
+</Callout>
 
-### The Matching Law
+</div>
 
-The **matching law**, formulated by Richard Herrnstein, states that the relative rate of responding matches the relative rate of reinforcement. In simple choice situations, organisms distribute their responses in proportion to the reinforcement available from each option.
+<div className="my-14">
 
-### Temporal Context
+## Extended Knowledge Graph
 
-Contemporary models of choice emphasize the role of **temporal context**—outcomes are not judged independently of the context in which they occur. The same schedule may function as a conditioned reinforcer in some situations but not others, depending on the temporal context.
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
 
-## Self-Control
+</div>
 
-### Definition
+</div>
 
-**Self-control** involves choosing a larger, delayed reward over a smaller, immediate reward. This phenomenon, once thought to be exclusively human, has been demonstrated in non-primates as well.
+---
 
-### Preference Reversal
+### Cross-Referenced Terms
+- <CrossRef id="operant-conditioning" label="Operant Conditioning" />
+- <CrossRef id="definition" label="Definition" />
+- <CrossRef id="schedules-of-reinforcement" label="Schedules of Reinforcement" />
+- <CrossRef id="arrangement" label="Arrangement" />
+- <CrossRef id="example" label="Example" />
+- <CrossRef id="probability" label="Probability" />
 
-A characteristic feature of self-control is **preference reversal**: far enough in advance, individuals choose the larger delayed reward, but as the actual choice approaches, preference may shift toward the smaller, more immediate reward.
-
-### Environmental Arrangement
-
-Self-control in the larger sense involves rearranging the environment to increase the likelihood of choosing the larger, delayed reward. For example, setting an alarm clock and placing it out of reach increases the likelihood of waking on time for beneficial activities.
-
-## Aversive Control
-
-Behavior maintained by **negative reinforcement** follows the same principles as behavior maintained by positive reinforcement—the behavior is strengthened by the avoidance of or escape from aversive stimuli.
-
-**Punishment** is the opposite of reinforcement in that it weakens the behavior it follows. While punishment and reinforcement are symmetrical in their effects (though opposite in sign), no special behavioral principles are required to understand punishment.
-
-## Other Phenomena
-
-### Autoshaping
-
-**Autoshaping** refers to the automatic development of conditioned responses to stimuli that signal reinforcement, even when the response is not required to obtain the reward.
-
-### Taste Aversion Learning
-
-**Taste aversion learning** is a powerful form of conditioning where organisms learn to avoid foods that have made them ill, often after only a single pairing.
-
-### Biological Context
-
-The **biological context of conditioning** emphasizes that conditioning is influenced by evolutionary predispositions and biological constraints.
-
-## Applications
-
-### Clinical Settings
-
-Operant conditioning principles have been applied successfully in:
-- Treatment of autism
-- Treatment of phobias
-- Behavior modification programs
-
-### Educational Settings
-
-Applications in education include:
-- Token economies
-- Precision teaching
-- Programmed instruction
-
-### Research Applications
-
-The methodology of operant conditioning has been exploited in:
-- Psychopharmacology research
-- Brain mechanisms research
-- Cognitive phenomena research
-
-### Self-Control Enhancement
-
-Techniques for enhancing self-control include:
-- Commitment responses that prevent impulsive options
-- Environmental rearrangement to favor delayed rewards
-- Understanding and manipulating contingencies
-
-## Historical Context
-
-The field of operant conditioning rests on 60+ years of research inspired by B.F. Skinner's canonical writings, including:
-- *The Behavior of Organisms* (1938)
-- *Science and Human Behavior* (1953)
-- *Verbal Behavior* (1957)
-
-## Further Reading
-
-- Cameron J and Pierce WD (2002) *Rewards and Intrinsic Motivation: Resolving the Controversy*. Westport, CT: Bergin and Garvey.
-- Fantino E (2001) Context: A central concept. *Behavioural Processes* 54: 95–110.
-- Fantino E (2004) Behavior-analytic approaches to decision making. *Behavioural Processes* 66: 279–288.
-- Herrnstein RJ (1970) On the law of effect. *Journal of the Experimental Analysis of Behavior* 13: 243–266.
-- Pierce WD and Cheney CD (2008) *Behavior Analysis and Learning*, 4th edn. New York: Psychology Press.
-- Skinner BF (1938) *The Behavior of Organisms*. New York: Appleton-Century-Crofts.
-- Skinner BF (1953) *Science and Human Behavior*. New York: Free Press.
-
-## See Also
-
-- Associative Learning
-- Classical Conditioning

@@ -1,32 +1,75 @@
 ---
 title: "Homily"
 description: "Derived from Greek μiλíα (homilia), discourse,"
+date: 2026-06-30T18:33:12.866Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Homily
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Homily" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Derived from Greek μiλíα (homilia), discourse,
 converse, intercourse and its attendant verb
 μiλέμ (homileo). Although the word homily is
 now used almost interchangeably with sermon
-in many religious contexts, it has its own his-
-tory and distinctive meanings. Xenophon (428 –
+in many religious contexts, it has its own history and distinctive meanings. Xenophon (428 –
 354 B.C.E.) in Book 1 of Memorabilia uses the
 word to describe the familiar instruction
 a philosopher gave to his students. The verb
 μiλέμ used in the New Testament carries a
 similar meaning; in Acts 20:11, for example, it
-denotes Paul's familiar conversation with be-
-lievers about Christ and his doctrines. It implied
+denotes Paul's familiar conversation with believers about Christ and his doctrines. It implied
 an informal, didactic discussion, "question and
 answer" about the truths shared by believers. It
 included discussion of the life and sayings of
 Jesus and of Hebrew sacred literature: exegesis
 of text. Long before the advent of Christianity,
 the Hebrews had developed the practice of
-carrying on textual exegesis in religious meet-
-ings. Passages of sacred text would be read
+carrying on textual exegesis in religious meetings. Passages of sacred text would be read
 by recognized leaders of the community and
-expounded on for the instruction and edi-
-fication of the people. Over the centuries,
+expounded on for the instruction and edification of the people. Over the centuries,
 this practice evolved into complex sermon
 ic forms. A legacy of rabbinical writings
 was added to the corpus that could be drawn
@@ -34,22 +77,14 @@ upon for exegesis, and a hallmark of Judaic
 homilies became, in addition to moral/ethical
 application, skill in textual interpretation and
 aesthetics. As in the Christian traditions, the
-modern meaning of homilies and homiletic lit-
-erature in Jewish traditions is now basically
+modern meaning of homilies and homiletic literature in Jewish traditions is now basically
 synonymous with sermons. In the Christian tradition, the
-word hom-
-ily for a long time retained its meaning of infor-
-mal, conversational discourse about spiritual
+word homily for a long time retained its meaning of informal, conversational discourse about spiritual
 things based on the Hebrew scriptures,
-the life of Jesus, and the writings of the Chris-
-tian apostles and evangelists. A distinc-
-tion was made between the μiλέμ and
+the life of Jesus, and the writings of the Christian apostles and evangelists. A distinction was made between the μiλέμ and
 more formal, classically structured spiritual/
 ethical discourse (such as sermons—classified
-as λ γoζ;—and iλoσo iα or iλoσ μα philo-
-sophical discussion). The μiλα, designed to in-
-struct and edify, was intended for the commu-
-nity of already converted believers, whereas
+as λ γoζ;—and iλoσo iα or iλoσ μα philosophical discussion). The μiλα, designed to instruct and edify, was intended for the community of already converted believers, whereas
 sermons and speeches of other kinds were
 designed to convince the mind (as well as
 to move the passions and will, depending upon
@@ -104,16 +139,12 @@ the liturgy during the liturgical assembly"
 (52). Some form of "proclamation of the
 Word" is part of the regular worship in almost
 all Christian denominations, but if the
-word homily is used to describe that procla-
-mation, it is generally synonymous with
-sermon. Many Christians, however, includ-
-ing Catholics, also use the word homily
-in something like its original sense, distin-
-guishing it from other forms of sacred discourse
+word homily is used to describe that proclamation, it is generally synonymous with
+sermon. Many Christians, however, including Catholics, also use the word homily
+in something like its original sense, distinguishing it from other forms of sacred discourse
 and referring by it to a minister's or priest's
 informal, pastoral exposition of scripture for
-the instruction and improvement of a con-
-gregation of believers. Russel Hirst University of
+the instruction and improvement of a congregation of believers. Russel Hirst University of
 Tennessee
 Bede, the Venerable, Saint, 673–735. Homi-lies on the
 Gospels. Trans. Lawrence T. Martin and David Hurst.
@@ -146,3 +177,87 @@ Paulist P, 1991.
   <SeeAlsoLink href="/docs/homiletics">Homiletics</SeeAlsoLink>
   <SeeAlsoLink href="/docs/sermon-horace">Sermon Horace</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Homily** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Homily** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Homily** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="homily" label="Homily" />
+  The emergence and development of **Homily** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Homily** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="homily" label="Homily" />
+- <CrossRef id="sermon" label="SERMON" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="example" label="Example" />
+- <CrossRef id="exposition" label="Exposition" />
+- <CrossRef id="liturgy" label="Liturgy" />
+- <CrossRef id="ars-praedicandi" label="Ars praedicandi" />
+

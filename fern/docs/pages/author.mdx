@@ -1,7 +1,54 @@
 ---
 title: "Author"
-description: "Commonly, the individual who publishes writing and who is, in that sense, a professional"
+description: "Commonly, the individual who publishes writing and who is, in that sense, a professional writer."
+date: 2026-06-30T18:33:12.573Z
+status: "Published"
 ---
+
+import { 
+  BookOpen,
+  Lightbulb
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Author
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Author" 
+  metaData={[
+    { label: "Classification", value: "Rhetorical Concept" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<BookOpen className="w-8 h-8 text-blue-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Lightbulb className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-blue-50 border-blue-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Commonly, the individual who publishes writing and who is, in that sense, a professional
 writer. In legal, literary, and rhetorical theory,
@@ -52,8 +99,7 @@ challenge the status of author as a foundational
 concept or as a unified (or unifying), authoritative voice, emphasizing instead the writer as
 scribe, compiler, or commentator (rather than as
 originator or creator). This perspective recalls an
-earlier, Christian and medieval notion of writer-
-as-instrument (of an ultimate originating Author,
+earlier, Christian and medieval notion of writeras-instrument (of an ultimate originating Author,
 that is, God). The principle of intertextuality
 raises questions about the "originality" of any
 piece of writing. If all writing is a process ofsocial meaning making, then writers are not original creators so much as collaborators and participants in a wide-area textual discussion. Social
@@ -87,8 +133,7 @@ possession of knowledge or insight (meaning),
 who installs that meaning in a text, the instrument that "carries" meaning to the reader.
 Other contemporary developments further
 challenge conventional notions of authorship. Feminist theory encourages writing practices promoting a plurality of voices (rather than consistency of
-a dominant voice), a dialogic rather than mono-
-logic model. In rhetoric and composition, collaboration research has challenged "the myth of the
+a dominant voice), a dialogic rather than monologic model. In rhetoric and composition, collaboration research has challenged "the myth of the
 solitary writers" (Lunsford and Ede 73), establishing how frequent and typical collaborative writing
 is and suggesting social alternatives to the predominant individual models of discourse production.
 Developing computer writing technologies have
@@ -107,32 +152,117 @@ the "writer" has supplanted the "author."
 James E. Porter
 Purdue University
 
-<BibliographyCard>
-Barthes, Roland. "The Death of the Author."
-Image—Music—Text. Trans. Stephen
-Heath. New York: Hill and Wang, 1977.
-142–48.
-Foucault, Michel. "What Is an Author?" The
-Foucault Reader. Ed. Paul Rabinow.
-New York: Pantheon, 1984. 101–20.
-Lunsford, Andrea, and Lisa Ede. Singular
-Texts, Plural Authors. Carbondale: Southern Illinois UP, 1990. See esp. Chapter 3,
-"The Concept of Authorship: Explorations
-and (Dis)Closures" (72–102).
-Porter, James E. "Intellectual Property and
-the Construction of Authorship."
-Cardozo Arts & Entertainment Law
-Journal 10.2 (1992).
-—. "Selected Bibliography: The Concept
-of 'Author' in Rhetoric and Literary
-Theory." Rhetoric Society Quarterly 23
-(1993): 71–75.
-Woodmansee, Martha. "The Genius and the
-Copyright: Economic and Legal Conditions of the Emergence of the Author."
-Eighteenth-Century Studies 17 (1984):
-425–48.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/persona">Persona</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Domain', col2: 'Rhetorical Theory' },
+    { col1: 'Historical Span', col2: 'Classical Antiquity to Present' },
+    { col1: 'Application', col2: 'Composition, Speech, Literary Analysis, Pedagogy' },
+    { col1: 'Key Tradition', col2: 'Greek, Roman, and Modern Rhetorical Theory' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition">
+    **Author** constitutes a fundamental concept in rhetorical theory, referring to the structured organization and deployment of persuasive means. Its meaning has evolved from classical codifications to encompass both technical procedures and philosophical principles.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Development">
+    The Roman rhetoricians devoted extensive discussion to **Author**, systematizing it into rules and catalogues designed to guide the practitioner. From *ad Herennium* and *De Inventione* through the medieval ars dictaminis, the concept retained its central role in rhetorical education.
+  </Tabs.Item>
+  <Tabs.Item title="Contemporary Relevance">
+    Modern rhetorical theory and composition studies continue to engage **Author** as both a descriptive category and a normative framework. Its principles inform speechwriting, legal argument, and the analysis of persuasive texts across media.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="author" label="Author" />
+  The concept of **Author** has been subject to ongoing reinterpretation as rhetorical theory has engaged with neighboring disciplines. From its origins in classical pedagogy through its elaboration in medieval and Renaissance rhetoric, the term has accumulated layers of meaning that sometimes conflict and sometimes complement one another.
+</Accordion>
+
+<Callout variant="warning" title="Conceptual Scope">
+  The term **Author** has been used with varying degrees of specificity across rhetorical traditions. Consult primary sources and authoritative secondary literature to determine which definitional framework applies in a given context.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Barthes, Roland. "The Death of the Author."
+2. Image—Music—Text. Trans. Stephen
+3. Heath. New York: Hill and Wang, 1977.
+4. 142–48.
+5. Foucault, Michel. "What Is an Author?" The
+6. Foucault Reader. Ed. Paul Rabinow.
+7. New York: Pantheon, 1984. 101–20.
+8. Lunsford, Andrea, and Lisa Ede. Singular
+9. Texts, Plural Authors. Carbondale: Southern Illinois UP, 1990. See esp. Chapter 3,
+10. "The Concept of Authorship: Explorations
+11. and (Dis)Closures" (72–102).
+12. Porter, James E. "Intellectual Property and
+13. the Construction of Authorship."
+14. Cardozo Arts & Entertainment Law
+15. Journal 10.2 (1992).
+16. —. "Selected Bibliography: The Concept
+17. of 'Author' in Rhetoric and Literary
+18. Theory." Rhetoric Society Quarterly 23
+19. (1993): 71–75.
+20. Woodmansee, Martha. "The Genius and the
+21. Copyright: Economic and Legal Conditions of the Emergence of the Author."
+22. Eighteenth-Century Studies 17 (1984):
+23. 425–48.
+
+### Cross-Referenced Terms
+- <CrossRef id="author" label="Author" />
+- <CrossRef id="voice" label="Voice" />
+- <CrossRef id="persona" label="Persona" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="collaboration" label="Collaboration" />
+- <CrossRef id="communication" label="Communication" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="ethos" label="Ethos" />
+

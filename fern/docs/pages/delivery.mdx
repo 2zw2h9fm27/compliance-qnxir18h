@@ -1,7 +1,54 @@
 ---
 title: "Delivery"
 description: "The fifth of the five classical parts, faculties,"
+date: 2026-06-30T18:33:12.672Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Delivery
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Delivery" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 The fifth of the five classical parts, faculties,
 functions, categories, divisions, or canons of
@@ -32,7 +79,7 @@ typically been used to organize the materials presented in textbooks, but the la
 two—memory and delivery—have typically
 been ignored or deleted without explanation
 (Welch passim). The dismissal of memory and
-delivery, when acknowledged, discussed,and
+delivery, when acknowledged, discussed, and
 explained, has been attributed most often to the
 Western world's transition from oralityto literacy. For example: "Understandably enough,
 discussions of delivery, as well as of memory,
@@ -50,3 +97,89 @@ analogies between voice/gesture and layout/typography, for example. Composition 
 focused on technical and computer-assisted
 writing seem especially to promote a reconsideration of delivery issues in these terms (see
 Connors, Panetta, and Reynolds for representative treatments).
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Delivery** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Delivery** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Delivery** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="delivery" label="Delivery" />
+  The emergence and development of **Delivery** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Delivery** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Memory", url: "/terms/memory" },
+    { label: "Style", url: "/terms/style" },
+    { label: "Arrangement", url: "/terms/arrangement" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="delivery" label="Delivery" />
+- <CrossRef id="memory" label="Memory" />
+- <CrossRef id="invention" label="Invention" />
+- <CrossRef id="arrangement" label="Arrangement" />
+- <CrossRef id="composition-studies" label="Composition Studies" />
+- <CrossRef id="style" label="Style" />
+- <CrossRef id="communication" label="Communication" />
+

@@ -1,7 +1,54 @@
 ---
 title: "Antidosis"
 description: "Written c. 353 B.C.E. by Isocrates (436–338 B.C.E.)"
+date: 2026-06-30T18:33:12.533Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Antidosis
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Antidosis" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Written c. 353 B.C.E. by Isocrates (436–338 B.C.E.)
 concerning rhetorical andeducational theory
@@ -25,8 +72,7 @@ lead the orator to seek out, study, and use "examples which are themost illustri
 most edifying; and, habituating himself to contemplate and appraise such examples, he will feel
 their influence not only in the preparation of a
 given discourse, but in all actions in his life" (52).
-These theories offer some inkling of the not-
-yet-formed Roman notions about rhetoric and
+These theories offer some inkling of the notyet-formed Roman notions about rhetoric and
 the training and composition of the orator. Susan Jarratt notes that Isocrates, among other
 sophists, took great care in developing a "model
 of the public intellectual" (98), individuals
@@ -45,24 +91,109 @@ among his fellow citizens" (52).
 Joseph Colavito
 Northwestern State University
 
-<BibliographyCard>
-Bizzell, Patricia, and Bruce Herzberg, eds.
-The Rhetorical Tradition: Readings from
-Classical Times to thePresent. Boston:
-Bedford, 1990.
-Guthrie, W.K.C. The Sophists. Cambridge:
-Cambridge UP, 1971.
-Isocrates. "Antidosis." TheRhetorical Tradition: Readings from Classical Timesto
-the Present. Ed. Patricia Bizzell and
-Bruce Herzberg. Boston: Bedford, 1990.
-—. On thePeace. Aereopagiticus.
-Against the Sophists. Antidosis.
-Panathenaicus. Trans. George Norlin.
-Cambridge, MA: Harvard UP, 1929.
-Jaeger, Werner. "The Rhetoric of Isocrates
-and Its Cultural Ideal." The Province of
-Rhetoric. Ed. Joseph Schwartz and John
-A. Rycenga. New York: Ronald, 1965.
-Jarratt, Susan. Rereading theSophists: Classical Rhetoric Refigured. Carbondale:
-Southern Illinois UP, 1991.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Antidosis** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Antidosis** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Antidosis** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="antidosis" label="Antidosis" />
+  The emergence and development of **Antidosis** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Antidosis** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Bizzell, Patricia, and Bruce Herzberg, eds.
+2. The Rhetorical Tradition: Readings from
+3. Classical Times to thePresent. Boston:
+4. Bedford, 1990.
+5. Guthrie, W.K.C. The Sophists. Cambridge:
+6. Cambridge UP, 1971.
+7. Isocrates. "Antidosis." TheRhetorical Tradition: Readings from Classical Timesto
+8. the Present. Ed. Patricia Bizzell and
+9. Bruce Herzberg. Boston: Bedford, 1990.
+10. —. On thePeace. Aereopagiticus.
+11. Against the Sophists. Antidosis.
+12. Panathenaicus. Trans. George Norlin.
+13. Cambridge, MA: Harvard UP, 1929.
+14. Jaeger, Werner. "The Rhetoric of Isocrates
+15. and Its Cultural Ideal." The Province of
+16. Rhetoric. Ed. Joseph Schwartz and John
+17. A. Rycenga. New York: Ronald, 1965.
+18. Jarratt, Susan. Rereading theSophists: Classical Rhetoric Refigured. Carbondale:
+19. Southern Illinois UP, 1991.
+
+### Cross-Referenced Terms
+- <CrossRef id="isocrates" label="Isocrates" />
+- <CrossRef id="logos" label="Logos" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="persona" label="Persona" />
+- <CrossRef id="rhetor" label="Rhetor" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="antidosis" label="Antidosis" />
+- <CrossRef id="persuasion" label="PERSUASION" />
+

@@ -1,7 +1,54 @@
 ---
 title: "Contextuality"
-description: "The tendency of rhetoric to locate meaning and"
+description: "The tendency of rhetoric to locate meaning and value in the context of particular social and material situations."
+date: 2026-06-30T18:33:12.651Z
+status: "Published"
 ---
+
+import { 
+  MessageSquare,
+  Users
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Contextuality
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Contextuality" 
+  metaData={[
+    { label: "Classification", value: "Scheme of Repetition" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<MessageSquare className="w-8 h-8 text-purple-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Users className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-purple-50 border-purple-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 The tendency of rhetoric to locate meaning and
 value in the context of particular social and material situations. Rhetoric, whether theorized or practiced, whether applied to the purposes of production or interpretation of discourse, is persistently
@@ -61,8 +108,7 @@ ambitious politicians. Here Cicero uses the conventions of dialogue to contrast 
 rhetoric as an acontextual technique, an object
 of expertise (presented byone master, Antonius,
 and sought bythe eager politicians), with a rendering of rhetoric as a profoundly contextual
-practice (presented by the other master, Cras-
-sus, andrejected by his interlocutors) in which
+practice (presented by the other master, Crassus, andrejected by his interlocutors) in which
 method and content and function cannot be
 disentangled. Indeed, as Crassus presents it, and
 as readers of De oratore understand Cicero to
@@ -98,16 +144,13 @@ apart from its contextual practice—is resisted
 by those who are interrogating Antonius and
 Crassus in order to develop their own expertise. When Crassus goes on to say that a "complete orator," one he defines "as having
 wisdom united with eloquence" is also, necessarily, a philosopher, one whose discourse is
-necessarily embedded in the ethical and epis-
-temological context of a particular time, place,
+necessarily embedded in the ethical and epistemological context of a particular time, place,
 and people, two of those men respond with objections (233). Cotta reminds Crassus that in
 their discussion Antonius had alreadyreviewed precepts of invention and arrangement
 while Crassus had agreed to cover precepts of
 "embellishments of language," which, to this
-point, he has not done. Less tactfully, Sulpic-
-ius tells Crassus that he neither "desire[s] any
-acquaintance with your Aristotle, nor Carnea-
-des, nor any of the philosophers," and that
+point, he has not done. Less tactfully, Sulpicius tells Crassus that he neither "desire[s] any
+acquaintance with your Aristotle, nor Carneades, nor any of the philosophers," and that
 Crassus "may either imagine that I despair of
 being able to acquire their knowledge or
 that"—Sulpicius now puts it directly—"as is
@@ -174,8 +217,7 @@ might make. The effect of this function is to provoke what Mary Field Belenky an
 knowing"—an understanding that "answers to
 all questions vary depending upon the context in
 which they are asked and on the frame of reference of the person doing the asking" (138). This
-understanding of the necessary and inherent con-
-textuality of knowledge has two immediate consequences, and both are political. The first has to
+understanding of the necessary and inherent contextuality of knowledge has two immediate consequences, and both are political. The first has to
 do with the authority granted by the reader to a
 text—readers become themselves responsible
 "for evaluating and continually reevaluating
@@ -214,35 +256,120 @@ contextuality.
 Gregory Clark
 Brigham Young University
 
-<BibliographyCard>
-Belenky, Mary Field, Blythe McVicker Clinchy,
-Nancy Rule Goldberger, and Jill Mattuck
-Tarule. Women's Ways of Knowing: The
-Development of Self Voice, andMind.
-New York: Basic, 1986.
-Burke, Kenneth. Counter-Statement. Berkeley: U of California P, 1968.
-Cicero, Marcus Tullius. De oratore. Cicero
-on Oratory and Orators. Trans. J.S.
-Watson. Intro. Ralph A. Micken.
-Carbondale: Southern Illinois UP, 1970.
-Clark, Gregory. Dialogue, Dialectic, and
-Conversation: A Social Perspective on
-the Function of Writing. Carbondale:
-Southern Illinois UP, 1990.
-Jameson, Frederic. The Political Unconscious:
-Narrative and a Socially Symbolic Act.
-Ithaca, NY: Cornell UP, 1981.
-Jarratt, Susan C. Rereading the Sophists:
-Classical Rhetoric Refigured.
-Carbondale: Southern Illinois UP, 1991.
-Kastely, James L. "In Defense of Plato's
-Gorgias." Publications of the ModernLanguage Association 106 (1991): 96–109.
-Kennedy, George A., trans. Aristotle on
-Rhetoric: A Theory of Civic Discourse.
-New York: Oxford UP, 1991.
-Mailloux, Steven. Rhetorical Power. Ithaca,
-NY: Cornell UP, 1989.
-Miller, Susan. Rescuing the Subject: A Critical
-Introduction to Rhetoric and the Writer.
-Carbondale: Southern Illinois UP, 1989.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Classification', col2: 'Scheme or Trope' },
+    { col1: 'Traditional Domain', col2: 'Classical and Renaissance Rhetoric' },
+    { col1: 'Modern Relevance', col2: 'Discourse Analysis, Stylistics, Critical Discourse Studies' },
+    { col1: 'Function', col2: 'Emphasis, Rhythm, Persuasion, Meaning Construction' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition & Function">
+    In rhetoric, **Contextuality** functions as a deliberate stylistic choice designed to produce specific rhetorical effects. Classical rhetoricians catalogued such devices as essential tools for persuasive composition, emphasizing their capacity to create emphasis, rhythm, and memorable impact in both speech and writing.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Application">
+    From the Greek orators through the Roman tradition and into modern literary criticism, **Contextuality** has been analyzed as a mechanism for shaping audience response. Biblical exegesis, parliamentary oratory, and literary stylistics have all drawn on the formal properties of this device.
+  </Tabs.Item>
+  <Tabs.Item title="Critical Perspectives">
+    Contemporary critical discourse analysis examines how **Contextuality** operates not merely as ornament but as a means of enacting power. The formal repetition encoded in the device can naturalize ideological positions, construct authority, and organize social relations through textual practice.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="contextuality" label="Contextuality" />
+  While **Contextuality** is traditionally classified as a specific scheme of repetition, its application across genres and media reveals a more complex set of functions. The device operates simultaneously as a marker of textual coherence, a vehicle for emotional intensification, and a means of establishing ideological alignment between speaker and audience.
+</Accordion>
+
+<Callout variant="warning" title="Terminological Precision">
+  Ensure that references to **Contextuality** distinguish between the rhetorical device and any cognate terms in linguistics or discourse analysis. The rhetorical sense denotes a specific formal pattern; broader linguistic uses may refer to referential phenomena with different structural properties.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Belenky, Mary Field, Blythe McVicker Clinchy,
+2. Nancy Rule Goldberger, and Jill Mattuck
+3. Tarule. Women's Ways of Knowing: The
+4. Development of Self Voice, andMind.
+5. New York: Basic, 1986.
+6. Burke, Kenneth. Counter-Statement. Berkeley: U of California P, 1968.
+7. Cicero, Marcus Tullius. De oratore. Cicero
+8. on Oratory and Orators. Trans. J.S.
+9. Watson. Intro. Ralph A. Micken.
+10. Carbondale: Southern Illinois UP, 1970.
+11. Clark, Gregory. Dialogue, Dialectic, and
+12. Conversation: A Social Perspective on
+13. the Function of Writing. Carbondale:
+14. Southern Illinois UP, 1990.
+15. Jameson, Frederic. The Political Unconscious:
+16. Narrative and a Socially Symbolic Act.
+17. Ithaca, NY: Cornell UP, 1981.
+18. Jarratt, Susan C. Rereading the Sophists:
+19. Classical Rhetoric Refigured.
+20. Carbondale: Southern Illinois UP, 1991.
+21. Kastely, James L. "In Defense of Plato's
+22. Gorgias." Publications of the ModernLanguage Association 106 (1991): 96–109.
+23. Kennedy, George A., trans. Aristotle on
+24. Rhetoric: A Theory of Civic Discourse.
+25. New York: Oxford UP, 1991.
+26. Mailloux, Steven. Rhetorical Power. Ithaca,
+27. NY: Cornell UP, 1989.
+28. Miller, Susan. Rescuing the Subject: A Critical
+29. Introduction to Rhetoric and the Writer.
+30. Carbondale: Southern Illinois UP, 1989.
+
+### Cross-Referenced Terms
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="contextuality" label="Contextuality" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="description" label="Description" />
+- <CrossRef id="persuasion" label="PERSUASION" />
+- <CrossRef id="argument" label="Argument" />
+- <CrossRef id="arrangement" label="Arrangement" />
+

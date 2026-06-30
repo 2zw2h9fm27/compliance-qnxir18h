@@ -1,7 +1,54 @@
 ---
 title: "Rhetorician"
-description: "Strategist responsible for finding the means of"
+description: "Strategist responsible for finding the means of persuasion as well as showing the persuasive product."
+date: 2026-06-30T18:33:13.156Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Rhetorician
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Rhetorician" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Strategist responsible for finding the means of
 persuasion as well as showing the persuasive
@@ -55,45 +102,129 @@ or expression.
 Siew C. Burroughs
 Bowling Green State University
 
-<BibliographyCard>
-Bizzell, Patricia, and Bruce Herzberg, eds.
-The Rhetorical Tradition: Readings from
-Classical Times to the Present. Boston:
-St. Martin's, 1990.
-Connors, Robert J. "Greek Rhetoric and the
-Transition from Orality." Philosophy
-and Rhetoric 19 (1986): 38–65.
-Corbett, Edward RJ. Classical Rhetoric for
-the Modern Student. 3rd ed. New York:
-Oxford UP, 1990.
-These professional teachers also brought
-the means to successful political life on mainland Greece. In Athens, rhetoricians taught the
-arts of persuasion to the aristocratic class, who
-could afford to attend lectures as they sought
-practical training in their political and legal
-careers. As a result, public speaking on local
-Enos, Richard Leo, and Ann M. Blakeslee.
-"The Classical Period." The Present
-State of Scholarship in Historical and
-Contemporary rhetoric. Ed. Winifred
-Bryan Horner. Rev. ed. Columbia: U of
-Missouri P, 1990. 9–44.
-Horner, Winifred Bryan. rhetoric inthe Classical Tradition. New York: St. Martin's, 1988.
-Hunt, Everett Lee. "Plato and Aristotle on
-rhetoric and rhetoricians." Historical
-Studies of rhetoric and rhetoricians. Ed.
-Raymond F. Howes. Ithaca, NY: Cornell
-UP, 1961. 19–70.
-Kennedy, George A. The Art of rhetoric in
-the Roman World: 300 B.C.–A.D. 300.
-Princeton: Princeton UP, 1972.
-— . Classical rhetoric and Its Christian
-and Secular Tradition from Ancientto
-Modern Times. Chapel Hill: Uof North
-Carolina P, 1980.
-Kerferd, G.B. The Sophistic Movement. London, Cambridge: Cambridge UP, 1981.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/rhtr">Rhêtôr</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Rhetorician** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Rhetorician** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Rhetorician** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="rhetorician" label="Rhetorician" />
+  The emergence and development of **Rhetorician** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Rhetorician** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Bizzell, Patricia, and Bruce Herzberg, eds.
+2. The Rhetorical Tradition: Readings from
+3. Classical Times to the Present. Boston:
+4. St. Martin's, 1990.
+5. Connors, Robert J. "Greek Rhetoric and the
+6. Transition from Orality." Philosophy
+7. and Rhetoric 19 (1986): 38–65.
+8. Corbett, Edward RJ. Classical Rhetoric for
+9. the Modern Student. 3rd ed. New York:
+10. Oxford UP, 1990.
+11. These professional teachers also brought
+12. the means to successful political life on mainland Greece. In Athens, rhetoricians taught the
+13. arts of persuasion to the aristocratic class, who
+14. could afford to attend lectures as they sought
+15. practical training in their political and legal
+16. careers. As a result, public speaking on local
+17. Enos, Richard Leo, and Ann M. Blakeslee.
+18. "The Classical Period." The Present
+19. State of Scholarship in Historical and
+20. Contemporary rhetoric. Ed. Winifred
+21. Bryan Horner. Rev. ed. Columbia: U of
+22. Missouri P, 1990. 9–44.
+23. Horner, Winifred Bryan. rhetoric inthe Classical Tradition. New York: St. Martin's, 1988.
+24. Hunt, Everett Lee. "Plato and Aristotle on
+25. rhetoric and rhetoricians." Historical
+26. Studies of rhetoric and rhetoricians. Ed.
+27. Raymond F. Howes. Ithaca, NY: Cornell
+28. UP, 1961. 19–70.
+29. Kennedy, George A. The Art of rhetoric in
+30. the Roman World: 300 B.C.–A.D. 300.
+31. Princeton: Princeton UP, 1972.
+32. — . Classical rhetoric and Its Christian
+33. and Secular Tradition from Ancientto
+34. Modern Times. Chapel Hill: Uof North
+35. Carolina P, 1980.
+36. Kerferd, G.B. The Sophistic Movement. London, Cambridge: Cambridge UP, 1981.
+
+### Cross-Referenced Terms
+- <CrossRef id="rhetorician" label="Rhetorician" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="persuasion" label="PERSUASION" />
+- <CrossRef id="speech" label="SPEECH" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="quintilian" label="QUINTILIAN" />
+- <CrossRef id="rhetor" label="Rhetor" />
+

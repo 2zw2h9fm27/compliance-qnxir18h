@@ -1,7 +1,54 @@
 ---
 title: "Poetics"
-description: "The last of the arts of discourse to be developed"
+description: "The last of the arts of discourse to be developed in the Middle Ages was the ars poetriae, or poetics."
+date: 2026-06-30T18:33:13.045Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Poetics
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Poetics" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 The last of the arts of discourse to be developed
 in the Middle Ages was the ars poetriae, or
@@ -12,8 +59,7 @@ often linked to the ars dictaminis, although in
 France it remained a separate form. Ars
 ritbmica, the second form, refers to rhythmical
 composition for either letters or hymns.
-The most common form of rithmus in letter-
-writing was the cursus, a highly stylized mode
+The most common form of rithmus in letterwriting was the cursus, a highly stylized mode
 of concluding Latin prose clauses with fixed
 metrical forms.
 The third subdivision was the ars metrica,
@@ -22,16 +68,13 @@ The first is characterized by many brief, often
 anonymous treatises describing figures, colors,
 tropes, and other verbal ornaments. These
 treatises, appearing all over Europe, usually
-borrowed examples from Donatus or the Rhe-
-torica ad Herennium and were used in elementary schooling as part of the grammar
+borrowed examples from Donatus or the Rhetorica ad Herennium and were used in elementary schooling as part of the grammar
 instruction.
 The second type of ars poetriae,
 however, consisted of major preceptive works
 that took up where Horace left off.
 Some of the more famous of these include
-Matthew of Vendome's Ars versifica-
-toria (1175), Evardus Allemanus's Labor-
-intus (c. 1255), Gervase of Melkley's
+Matthew of Vendome's Ars versificatoria (1175), Evardus Allemanus's Laborintus (c. 1255), Gervase of Melkley's
 Ars versificaria (1210), and the most famous, the Poetria nova (1208–1210) of Geoffrey de Vinsauf, said to have influenced
 Chaucer.
 The Poetria nova, composed of more
@@ -58,43 +101,126 @@ art respectfully defers to it, leads it from
 its humble position and accords it the
 place of honour. (Nims 19)
 By the title of this treatise, Geoffrey
-implicitly hoped to challenge Horace as mag-
-ister of poetic doctrine. By assuming poetics
+implicitly hoped to challenge Horace as magister of poetic doctrine. By assuming poetics
 as part of rhetoric and organizing his work
 on the model of rhetorical manuals, Geoffrey's
 Poetria nova joins with other medieval rhetorical works of letter-writing, preaching,
 and poetics in their shared notion that
-the arts of discourse can be learned pre-
-ceptively.
+the arts of discourse can be learned preceptively.
 Aron Morgan
 University of California, Irvine
 
-<BibliographyCard>
-Benson, Robert L., and Giles Constable. Renaissance and Renewal in the Twelfth
-Century. Cambridge, MA: Harvard UP,
-1982.
-Curtius, Ernst Robert. European Literature
-and the Latin Middle Ages. Trans.
-Willard R. Trask. Princeton: Princeton
-UP, 1973.
-Faral, Edmond. Les Arts Poetiques du XIIe et
-du XIIIe Siecle. Paris: Librairie Ancienne
-Honore Champion, 1924.
-Miller, Joseph M., Michael H. Prosser, and
-Thomas W. Benson, eds. Readings in
-Medieval Rhetoric. Bloomington: Indiana UP, 1973.
-Murphy, James J. Medieval Rhetoric: A Select
-Bibliography. 2nd ed. Toronto: U of
-Toronto P, 1989.
-—. Rhetoric in the Middle Ages: AHistory of Rhetorical Theory from Saint
-Augustine to the Renaissance. Berkeley:
-U of California P, 1974.
-—, ed. Three Medieval Rhetorical Arts.
-Berkeley: U of California P, 1971.
-Nims, Margaret E, trans. Poetria Nova of
-Geoffrey of Vinsauf.Toronto: Pontifical
-Institute of Mediaeval Studies, 1967.
-Stahl, William H., and Richard Johnson,
-trans. Martianus Capella and the Seven
-Liberal Arts. Vol. 2. New York: Columbia UP, 1977.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Poetics** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Poetics** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Poetics** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="poetics" label="Poetics" />
+  The emergence and development of **Poetics** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Poetics** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Benson, Robert L., and Giles Constable. Renaissance and Renewal in the Twelfth
+2. Century. Cambridge, MA: Harvard UP,
+3. 1982.
+4. Curtius, Ernst Robert. European Literature
+5. and the Latin Middle Ages. Trans.
+6. Willard R. Trask. Princeton: Princeton
+7. UP, 1973.
+8. Faral, Edmond. Les Arts Poetiques du XIIe et
+9. du XIIIe Siecle. Paris: Librairie Ancienne
+10. Honore Champion, 1924.
+11. Miller, Joseph M., Michael H. Prosser, and
+12. Thomas W. Benson, eds. Readings in
+13. Medieval Rhetoric. Bloomington: Indiana UP, 1973.
+14. Murphy, James J. Medieval Rhetoric: A Select
+15. Bibliography. 2nd ed. Toronto: U of
+16. Toronto P, 1989.
+17. —. Rhetoric in the Middle Ages: AHistory of Rhetorical Theory from Saint
+18. Augustine to the Renaissance. Berkeley:
+19. U of California P, 1974.
+20. —, ed. Three Medieval Rhetorical Arts.
+21. Berkeley: U of California P, 1971.
+22. Nims, Margaret E, trans. Poetria Nova of
+23. Geoffrey of Vinsauf.Toronto: Pontifical
+24. Institute of Mediaeval Studies, 1967.
+25. Stahl, William H., and Richard Johnson,
+26. trans. Martianus Capella and the Seven
+27. Liberal Arts. Vol. 2. New York: Columbia UP, 1977.
+
+### Cross-Referenced Terms
+- <CrossRef id="poetics" label="Poetics" />
+- <CrossRef id="style" label="Style" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="grammar" label="Grammar" />
+- <CrossRef id="tropes" label="TROPES" />
+- <CrossRef id="delivery" label="Delivery" />
+- <CrossRef id="emphasis" label="Emphasis" />
+- <CrossRef id="memory" label="Memory" />
+

@@ -1,7 +1,54 @@
 ---
 title: "Illustration"
 description: "Making clear through the use of examples."
+date: 2026-06-30T18:33:12.877Z
+status: "Published"
 ---
+
+import { 
+  MessageSquare,
+  Users
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Illustration
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Illustration" 
+  metaData={[
+    { label: "Classification", value: "Scheme of Repetition" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<MessageSquare className="w-8 h-8 text-purple-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Users className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-purple-50 border-purple-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Making clear through the use of examples.
 Derived from the Latin lustrare, to make bright,
@@ -22,8 +69,7 @@ grouping of the facts" (6.1).
 The first cited use of illustration in English,
 in the sense usually associated with rhetoric, is
 in 1581, when John Marbeck wrote, "It is a figure called Illustration, by the which the forme
-of things is so set foorth in words, that it seem-
-eth rather to be seene with the eies, than heard
+of things is so set foorth in words, that it seemeth rather to be seene with the eies, than heard
 with the eares" (OED).
 The term illustration slowly worked its way
 into the major rhetorics of the eighteenth and
@@ -61,40 +107,125 @@ discipline of rhetoric.
 David Sabrio
 Texas A&M University, Kingsville
 
-<BibliographyCard>
-Aristotle. The Art of Rhetoric. Trans. John
-Henry Freese. Cambridge, MA: Harvard
-UP, 1926.
-Bain, Alexander. English Composition and
-Rhetoric. A Manual. 1866. New York:
-Appleton, 1876.
-Blair, Hugh. Lectures on Rhetoric and Belles
-Lettres. 1783. Ed. Harold F. Harding.
-Vol. 2. Carbondale: Southern Illinois UP,
-1965.
-Cicero. De oratore. Trans. E.W. Sutton. Cambridge, MA: Harvard UP, 1942.
-Connors, Robert. "The Rise and Fall of the
-Modes of Discourse." College Composition and Communication 32 (1981):
-444–63.
-Corbett, Edward P.J. Classical Rhetoric for
-the Modern Student. 3rd ed. New York:
-Oxford UP, 1990.
-D'Angelo, Frank. A Conceptual Theory of
-Rhetoric. Cambridge: Winthrop, 1975.
-—. "Paradigms as Structural Counterparts of Topoi." Linguistics, Stylistics,
-and the Teaching of Composition. Ed.
-Donald McQuade. Akron, OH: U of
-Akron Dept. of English, 1979.
-"Illustration." Oxford English Dictionary.
-1971 compact ed.
-Quintilian. Institutio Oratoria. Trans. H.E.
-Butler. Cambridge, MA: Harvard UP,
-1920.
-Whately, Richard. Elements of Rhetoric.
-1828. Ed. Douglas Ehninger.
-Carbondale: Southern Illinois UP, 1963.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/m-o-d-e-s-of-discourse">M O D E S Of Discourse</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Classification', col2: 'Scheme or Trope' },
+    { col1: 'Traditional Domain', col2: 'Classical and Renaissance Rhetoric' },
+    { col1: 'Modern Relevance', col2: 'Discourse Analysis, Stylistics, Critical Discourse Studies' },
+    { col1: 'Function', col2: 'Emphasis, Rhythm, Persuasion, Meaning Construction' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition & Function">
+    In rhetoric, **Illustration** functions as a deliberate stylistic choice designed to produce specific rhetorical effects. Classical rhetoricians catalogued such devices as essential tools for persuasive composition, emphasizing their capacity to create emphasis, rhythm, and memorable impact in both speech and writing.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Application">
+    From the Greek orators through the Roman tradition and into modern literary criticism, **Illustration** has been analyzed as a mechanism for shaping audience response. Biblical exegesis, parliamentary oratory, and literary stylistics have all drawn on the formal properties of this device.
+  </Tabs.Item>
+  <Tabs.Item title="Critical Perspectives">
+    Contemporary critical discourse analysis examines how **Illustration** operates not merely as ornament but as a means of enacting power. The formal repetition encoded in the device can naturalize ideological positions, construct authority, and organize social relations through textual practice.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="illustration" label="Illustration" />
+  While **Illustration** is traditionally classified as a specific scheme of repetition, its application across genres and media reveals a more complex set of functions. The device operates simultaneously as a marker of textual coherence, a vehicle for emotional intensification, and a means of establishing ideological alignment between speaker and audience.
+</Accordion>
+
+<Callout variant="warning" title="Terminological Precision">
+  Ensure that references to **Illustration** distinguish between the rhetorical device and any cognate terms in linguistics or discourse analysis. The rhetorical sense denotes a specific formal pattern; broader linguistic uses may refer to referential phenomena with different structural properties.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Aristotle. The Art of Rhetoric. Trans. John
+2. Henry Freese. Cambridge, MA: Harvard
+3. UP, 1926.
+4. Bain, Alexander. English Composition and
+5. Rhetoric. A Manual. 1866. New York:
+6. Appleton, 1876.
+7. Blair, Hugh. Lectures on Rhetoric and Belles
+8. Lettres. 1783. Ed. Harold F. Harding.
+9. Vol. 2. Carbondale: Southern Illinois UP,
+10. 1965.
+11. Cicero. De oratore. Trans. E.W. Sutton. Cambridge, MA: Harvard UP, 1942.
+12. Connors, Robert. "The Rise and Fall of the
+13. Modes of Discourse." College Composition and Communication 32 (1981):
+14. 444–63.
+15. Corbett, Edward P.J. Classical Rhetoric for
+16. the Modern Student. 3rd ed. New York:
+17. Oxford UP, 1990.
+18. D'Angelo, Frank. A Conceptual Theory of
+19. Rhetoric. Cambridge: Winthrop, 1975.
+20. —. "Paradigms as Structural Counterparts of Topoi." Linguistics, Stylistics,
+21. and the Teaching of Composition. Ed.
+22. Donald McQuade. Akron, OH: U of
+23. Akron Dept. of English, 1979.
+24. "Illustration." Oxford English Dictionary.
+25. 1971 compact ed.
+26. Quintilian. Institutio Oratoria. Trans. H.E.
+27. Butler. Cambridge, MA: Harvard UP,
+28. 1920.
+29. Whately, Richard. Elements of Rhetoric.
+30. 1828. Ed. Douglas Ehninger.
+31. Carbondale: Southern Illinois UP, 1963.
+
+### Cross-Referenced Terms
+- <CrossRef id="illustration" label="Illustration" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="arrangement" label="Arrangement" />
+- <CrossRef id="invention" label="Invention" />
+- <CrossRef id="quintilian" label="QUINTILIAN" />
+- <CrossRef id="topics" label="Topics" />
+

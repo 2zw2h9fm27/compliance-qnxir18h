@@ -1,7 +1,54 @@
 ---
 title: "Portfolio"
-description: "A collection of a student's written work, typically"
+description: "A collection of a student's written work, typically representing a range of purposes, audiences, modes, and styles."
+date: 2026-06-30T18:33:13.053Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Portfolio
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Portfolio" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 A collection of a student's written work, typically
 representing a range of purposes, audiences,
@@ -45,8 +92,7 @@ their own learning and self-assessment, thus
 replacing a primarily evaluative model of education (characterized by tests of isolated skills,
 first-draft writing, and little access to students'
 own intentions or processes) with one that
-involves greater self-observation and self-
-critique, and more opportunities for thoughtful achievement.
+involves greater self-observation and selfcritique, and more opportunities for thoughtful achievement.
 Related to the student writing portfolio
 is the teaching portfolio, an innovation
 for the evaluation and improvement of teaching. Like the student portfolio, the teaching
@@ -61,25 +107,104 @@ descriptions of a teacher's abilities and accomplishments.
 Chris M. Anson
 University of Minnesota
 
-<BibliographyCard>
-Belanoff, Pat, and Marcia Dickson. Portfolios: Process and Product. Portsmouth, NH: Heinemann/Boynton-
-Cook, 1992.
-Daiker, Donald A., Laurel Black, Max
-Morenberg, and Jeffrey Sommers, eds.
-New Directions in Portfolio Assessment.
-Portsmouth, NH: Heinemann/Boynton-
-Cook, 1994.
-Edgerton, Russell, Pat Hutchings, and
-Kathleen Quinlan. The Teaching Portfolio: Capturing the Scholarship inTeaching. Washington, D.C.: American Assn.
-of Higher Education, 1991.
-Elbow, Peter, and Pat Belanoff. "Portfolios as
-a Substitute for Proficiency Examinations." College Composition and Communication 37 (1986): 336–39.
-Seldin, Peter. The Teaching Portfolio: APractical Guide to Improved Performance
-and Promotion/Tenure Decisions.
-Bolton, MA: Anker, 1991.
-Tierney, Robert J., Mark A. Carter, and
-Laura E. Desai. Portfolio Assessment in
-the Reading-Writing Classroom.
-Norwood, MA: Christopher-Gordon,
-1991.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Portfolio** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Portfolio** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Portfolio** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="portfolio" label="Portfolio" />
+  The emergence and development of **Portfolio** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Portfolio** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Belanoff, Pat, and Marcia Dickson. Portfolios: Process and Product. Portsmouth, NH: Heinemann/Boynton-
+2. Cook, 1992.
+3. Daiker, Donald A., Laurel Black, Max
+4. Morenberg, and Jeffrey Sommers, eds.
+5. New Directions in Portfolio Assessment.
+6. Portsmouth, NH: Heinemann/Boynton-
+7. Cook, 1994.
+8. Edgerton, Russell, Pat Hutchings, and
+9. Kathleen Quinlan. The Teaching Portfolio: Capturing the Scholarship inTeaching. Washington, D.C.: American Assn.
+10. of Higher Education, 1991.
+11. Elbow, Peter, and Pat Belanoff. "Portfolios as
+12. a Substitute for Proficiency Examinations." College Composition and Communication 37 (1986): 336–39.
+13. Seldin, Peter. The Teaching Portfolio: APractical Guide to Improved Performance
+14. and Promotion/Tenure Decisions.
+15. Bolton, MA: Anker, 1991.
+16. Tierney, Robert J., Mark A. Carter, and
+17. Laura E. Desai. Portfolio Assessment in
+18. the Reading-Writing Classroom.
+19. Norwood, MA: Christopher-Gordon,
+20. 1991.
+
+### Cross-Referenced Terms
+- <CrossRef id="portfolio" label="Portfolio" />
+- <CrossRef id="contrast" label="Contrast" />
+

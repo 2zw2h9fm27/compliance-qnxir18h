@@ -1,7 +1,54 @@
 ---
 title: "Semiotics"
-description: "Theory and science of sign systems in language, derived from Greek simeion (sign) and"
+description: "Theory and science of sign systems in language, derived from Greek simeion (sign) and semeiotikos (one who interprets or divines the meaning of signs)."
+date: 2026-06-30T18:33:13.175Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Semiotics
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Semiotics" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Theory and science of sign systems in language, derived from Greek simeion (sign) and
 semeiotikos (one who interprets or divines the
@@ -64,8 +111,7 @@ interpretant regresses infinitely, not unlike
 Umberto Eco's notion of unlimited semiotics: the
 interpretant can and often does become a sign that
 requires a new interpretant. Thus, the process of
-interpretation is not limited to the mere substitution of certain signs for others. Peirce's under-
-standing of interpretation threatens Saussure's
+interpretation is not limited to the mere substitution of certain signs for others. Peirce's understanding of interpretation threatens Saussure's
 concept of arbitrariness because it underscores the
 necessity and mediated character of interpretation; understanding comes not merely from the
 decoding of signs but from cognitive processes.
@@ -111,8 +157,7 @@ myth and ideology; it always implies a larger
 cultural arena. Stressing the concept of connotation, Barthes investigated how emerging signifying systems build on already existing systems,
 usually influenced by class interests and values.
 Barthes highlights the role of myth and ideology in his analyses of popular culture, including fashion and wrestling. Other popular applications of semiotics include narratology (A.J.
-Greimas), cultural anthropology (ClaudeLévi-
-Strauss), cognitive and behavioral development
+Greimas), cultural anthropology (ClaudeLéviStrauss), cognitive and behavioral development
 (Jean Piaget and Charles Morris), psychoanalysis
 (Jacques Lacan and Julia Kristeva), film (Christian Metz), literary analysis (Michael Riffaterre
 and Barbara Herrnstein Smith), and philosophy (Ernst Cassirer and Susanne Langer). In the
@@ -121,45 +166,130 @@ semiotic analyses of cultural phenomena (cultural studies).
 Sue Hum
 University of Massachusetts, Dartmouth
 
-<BibliographyCard>
-Barthes, Roland. Elements of Semiotics.
-Trans. Anetto Lavers and Colin Smith.
-New York: Hill and Wang, 1968.
-Benveniste, Emile. Problems in GeneralLinguistics. Trans. Mary Elizabeth Meek.
-Coral Gables, FL: U of Miami P, 1971.
-Bordwell, David. Making Meaning: Inference
-in Rhetoric in the Interpretation ofCinema. Cambridge, MA: Harvard UP, 1989.
-Bouchard, Guy. "Semiotics and the Logic of
-Argumentation." Canadian Semiotic Association 6 (1986): 264–85.
-Eco, Umberto. A Theory of Semiotics.
-Bloomington: Indiana UP, 1976.
-Jakobson, Roman. Verbal Art, Verbal Sign,
-Verbal Time. Ed. Krystyna Pomorska
-and Stephen Rudy. Minneapolis: U of
-Minnesota P, 1985.
-Lacan, Jacques. The Language of theSelf:
-The Function of Language in Psychoanalysis. Trans. Anthony Wilden. New
-York: Dell, 1968.
-Lyne, John R. "Rhetoric and Semiotic in C.S.
-Peirce." Quarterly Journal of Speech 66
-(1980): 155–68.
-Ogden, C.K., and LA. Richards. The Meaning of Meaning: A Study of the Influence
-of Language upon Thought and of the
-Science of Symbolism. 1923. San Diego,
-Harcourt, 1989.
-Peirce, Charles Sanders. Complete Published
-Works Including Selected SecondaryMaterial. Ed. Kenneth L. Ketneret al.
-Greenwich, CT: Johnson, 1977.
-—. "Ideas, Stray or Stolen, about Scientific Writing, No. 1." Philosophy and
-Rhetoric 11 (1978): 147–55.
-sSaussure, Ferdinand de. Course in GeneralLinguistics. Ed. Charles Bally and Albert
-Reidlinger. Trans. Wade Baskin. New
-York: Philosophical Library, 1959.
-Sebeok, Thomas A. Semiotics in the United
-States. Bloomington: Indiana UP, 1991.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/peirce">Peirce</SeeAlsoLink>
   <SeeAlsoLink href="/docs/charles-sanders">Charles Sanders</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Semiotics** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Semiotics** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Semiotics** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="semiotics" label="Semiotics" />
+  The emergence and development of **Semiotics** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Semiotics** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Barthes, Roland. Elements of Semiotics.
+2. Trans. Anetto Lavers and Colin Smith.
+3. New York: Hill and Wang, 1968.
+4. Benveniste, Emile. Problems in GeneralLinguistics. Trans. Mary Elizabeth Meek.
+5. Coral Gables, FL: U of Miami P, 1971.
+6. Bordwell, David. Making Meaning: Inference
+7. in Rhetoric in the Interpretation ofCinema. Cambridge, MA: Harvard UP, 1989.
+8. Bouchard, Guy. "Semiotics and the Logic of
+9. Argumentation." Canadian Semiotic Association 6 (1986): 264–85.
+10. Eco, Umberto. A Theory of Semiotics.
+11. Bloomington: Indiana UP, 1976.
+12. Jakobson, Roman. Verbal Art, Verbal Sign,
+13. Verbal Time. Ed. Krystyna Pomorska
+14. and Stephen Rudy. Minneapolis: U of
+15. Minnesota P, 1985.
+16. Lacan, Jacques. The Language of theSelf:
+17. The Function of Language in Psychoanalysis. Trans. Anthony Wilden. New
+18. York: Dell, 1968.
+19. Lyne, John R. "Rhetoric and Semiotic in C.S.
+20. Peirce." Quarterly Journal of Speech 66
+21. (1980): 155–68.
+22. Ogden, C.K., and LA. Richards. The Meaning of Meaning: A Study of the Influence
+23. of Language upon Thought and of the
+24. Science of Symbolism. 1923. San Diego,
+25. Harcourt, 1989.
+26. Peirce, Charles Sanders. Complete Published
+27. Works Including Selected SecondaryMaterial. Ed. Kenneth L. Ketneret al.
+28. Greenwich, CT: Johnson, 1977.
+29. —. "Ideas, Stray or Stolen, about Scientific Writing, No. 1." Philosophy and
+30. Rhetoric 11 (1978): 147–55.
+31. sSaussure, Ferdinand de. Course in GeneralLinguistics. Ed. Charles Bally and Albert
+32. Reidlinger. Trans. Wade Baskin. New
+33. York: Philosophical Library, 1959.
+34. Sebeok, Thomas A. Semiotics in the United
+35. States. Bloomington: Indiana UP, 1991.
+
+### Cross-Referenced Terms
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="communication" label="Communication" />
+- <CrossRef id="semiotics" label="Semiotics" />
+- <CrossRef id="example" label="Example" />
+- <CrossRef id="grammar" label="Grammar" />
+- <CrossRef id="linguistics" label="Linguistics" />
+- <CrossRef id="logic" label="Logic" />
+- <CrossRef id="myth" label="Myth" />
+

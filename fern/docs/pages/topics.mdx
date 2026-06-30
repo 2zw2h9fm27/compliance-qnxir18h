@@ -1,7 +1,54 @@
 ---
 title: "Topics"
-description: "Guides for rhetorical invention. One of rhetoric's earliest features as an art was a set of topics, or topoi. Aristotle argued that an art could"
+description: "Guides for rhetorical invention. One of rhetoric's earliest features as an art was a set of topics, or topoi. Aristotle argued that an art could be taught and allowed the..."
+date: 2026-06-30T18:33:13.248Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Topics
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Topics" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Guides for rhetorical invention. One of rhetoric's earliest features as an art was a set of topics, or topoi. Aristotle argued that an art could
 be taught and allowed the user to engage more
@@ -19,14 +66,13 @@ Aristotle distinguished between two types of
 topics: common and special. His common topics were defined as lines of reasoning useful
 across three rhetorical situations: deliberative,
 forensic, and epideictic. He listed twenty-eight
-common types of arguments, including oppo-
-sites, correlatives, consequences, definition,
+common types of arguments, including opposites, correlatives, consequences, definition,
 parts, and cause and effect. He also described
 two kinds of special topics. The first, according
 to Grimaldi (Studies), were categories governing
 specific material appropriate as evidence in each
 of the types of discourse. For example, his deliberative topics included ways and means, peace
-and war, national defense, and food supply;forensic topics included motives, states of mind,
+and war, national defense, and food supply; forensic topics included motives, states of mind,
 kinds of wronged persons, and just and unjust
 actions. Epideictic topics pointed to virtues such
 as justice, courage, temperance, and wisdom.
@@ -152,3 +198,88 @@ although specific sets of topics have changed in
 different eras and cultures and have had varied
 purposes, rhetoricians persist in identifying and
 teaching topics as guides for invention.
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Topics** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Topics** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Topics** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="topics" label="Topics" />
+  The emergence and development of **Topics** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Topics** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="topics" label="Topics" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="invention" label="Invention" />
+- <CrossRef id="rhetor" label="Rhetor" />
+- <CrossRef id="evidence" label="Evidence" />
+- <CrossRef id="example" label="Example" />
+

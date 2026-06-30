@@ -1,7 +1,54 @@
 ---
 title: "Ethnography"
-description: "A branch of anthropology, along with archaeology and linguistics, that tells stories of the experiences of living human beings. Its sites are as"
+description: "A branch of anthropology, along with archaeology and linguistics, that tells stories of the experiences of living human beings."
+date: 2026-06-30T18:33:12.799Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Ethnography
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Ethnography" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 A branch of anthropology, along with archaeology and linguistics, that tells stories of the experiences of living human beings. Its sites are as
 profane and sacred as culture, as varied as classrooms and the workplace, prisons and parishes,
@@ -78,8 +125,7 @@ is one in which textual space is given to the
 voices of informants. In terms of cultural critique, a dialogic text is one in which the experiences of the culture being studied are used to
 reflect on one's own culture, in the hope ofreshaping some previously held concept of reality (Marcus and Fischer 69).
 Besides staging dialogues, a contemporary
-ethnographer narrates interpersonal confronta-
-tions. The process of filtering what the ethnographer sees through the eyes of another has
+ethnographer narrates interpersonal confrontations. The process of filtering what the ethnographer sees through the eyes of another has
 become part of the story. In other words, ethnographers must be aware of both the position
 from which they write and the position they
 describe. The struggle now becomes how to represent differences, how to make the process of
@@ -129,9 +175,7 @@ See Sondra Perl and Nancy Wilson, Through
 Teachers' Eyes: Portraits of Writing Teachers at
 Work, 1986, for an example of "narrative ethnography."
 (3) Personal bias. Another characteristic of
-contemporary ethnographic texts is their self-
-consciousness, particularly about epistemolog-
-ical concerns upon which they are constructed
+contemporary ethnographic texts is their selfconsciousness, particularly about epistemological concerns upon which they are constructed
 (Marcus and Cushman 25). Tedlock points out
 that in "ordinary 'reflectiveness,' one is conscious
 of oneself as an other, but in 'reflexivity,' one is
@@ -160,8 +204,7 @@ one should always ask of ethnographies are
 With or to whom? Under what institutional and
 historical constraints?" (13).
 Ethnographers strive to be believed and to
-be interesting; consequently, they find themselves influenced by more than one epistemol-
-ogy, caught in the middle of the classic debate
+be interesting; consequently, they find themselves influenced by more than one epistemology, caught in the middle of the classic debate
 of hermeneutics: questioning the nature of interpretation (how do I know what I know?)
 while striving for scientific methods that are
 systematic and empirical. Empirical evidence
@@ -175,32 +218,117 @@ knowledge and ideology, poetics and politics
 Annie-Marie Hall
 University of Arizona
 
-<BibliographyCard>
-Clifford, J. "Introduction: Partial Truths."
-Writing Culture: The Poetics and Politics
-of Ethnography. Ed. James Clifford and
-George E. Marcus. Berkeley: U of California P, 1986. 1–26.
-—. The Predicament of Culture: Twentieth-Century Ethnography, Literature, and
-Art. Cambridge, MA: Harvard UP, 1988.
-Geertz, Clifford. "Thick Description toward
-an Interpretative Theory of Culture."
-The Interpretation of Cultures. New
-York: Basic, 1973. 3–30.
-—. Works and Lives: The Anthropologist
-as Author. Stanford: Stanford UP, 1988.
-Marcus, George E., and Dick Cushman.
-"Ethnographies as Texts." Annual Review of Anthropology 11 (1982): 25–69.
-Marcus, George E., and Michael M.J. Fischer.
-Anthropology as Cultural Critique: An
-Experimental Moment in the Human
-Sciences. Chicago: U of Chicago P, 1986.
-Rosaldo, Renato. Culture and Truth: The
-Remaking of Social Analysis. Boston:
-Beacon, 1989.
-Tedlock, Barbara. "From Participant-Observer to the Observation of Participation: The Emergence of Narrative Ethnography." Journal of Anthropological
-Research 47 (1991): 69–94.
-Tylor, E.B. Primitive Culture: Researches into
-the Development of Mythology,Philosophy, Religion, Language, Art, andCustom. Vol. 1. London: John Murray, 1871.
-Van Maanen, J. Tales of the Field: On Writing Ethnography. Chicago: U of Chicago
-P, 1988.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Ethnography** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Ethnography** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Ethnography** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="ethnography" label="Ethnography" />
+  The emergence and development of **Ethnography** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Ethnography** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Clifford, J. "Introduction: Partial Truths."
+2. Writing Culture: The Poetics and Politics
+3. of Ethnography. Ed. James Clifford and
+4. George E. Marcus. Berkeley: U of California P, 1986. 1–26.
+5. —. The Predicament of Culture: Twentieth-Century Ethnography, Literature, and
+6. Art. Cambridge, MA: Harvard UP, 1988.
+7. Geertz, Clifford. "Thick Description toward
+8. an Interpretative Theory of Culture."
+9. The Interpretation of Cultures. New
+10. York: Basic, 1973. 3–30.
+11. —. Works and Lives: The Anthropologist
+12. as Author. Stanford: Stanford UP, 1988.
+13. Marcus, George E., and Dick Cushman.
+14. "Ethnographies as Texts." Annual Review of Anthropology 11 (1982): 25–69.
+15. Marcus, George E., and Michael M.J. Fischer.
+16. Anthropology as Cultural Critique: An
+17. Experimental Moment in the Human
+18. Sciences. Chicago: U of Chicago P, 1986.
+19. Rosaldo, Renato. Culture and Truth: The
+20. Remaking of Social Analysis. Boston:
+21. Beacon, 1989.
+22. Tedlock, Barbara. "From Participant-Observer to the Observation of Participation: The Emergence of Narrative Ethnography." Journal of Anthropological
+23. Research 47 (1991): 69–94.
+24. Tylor, E.B. Primitive Culture: Researches into
+25. the Development of Mythology,Philosophy, Religion, Language, Art, andCustom. Vol. 1. London: John Murray, 1871.
+26. Van Maanen, J. Tales of the Field: On Writing Ethnography. Chicago: U of Chicago
+27. P, 1988.
+
+### Cross-Referenced Terms
+- <CrossRef id="ethnography" label="Ethnography" />
+- <CrossRef id="example" label="Example" />
+- <CrossRef id="metaphor" label="Metaphor" />
+- <CrossRef id="definition" label="Definition" />
+- <CrossRef id="hermeneutics" label="Hermeneutics" />
+- <CrossRef id="voice" label="Voice" />
+- <CrossRef id="contrast" label="Contrast" />
+- <CrossRef id="description" label="Description" />
+

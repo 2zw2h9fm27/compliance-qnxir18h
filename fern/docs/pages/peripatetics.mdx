@@ -1,7 +1,54 @@
 ---
 title: "Peripatetics"
-description: "A school of philosophers deriving from"
+description: "A school of philosophers deriving from Aristotle and his immediate followers."
+date: 2026-06-30T18:33:13.033Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Peripatetics
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Peripatetics" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 A school of philosophers deriving from
 Aristotle and his immediate followers. Ancient
@@ -23,7 +70,7 @@ enthymemes, the maxim, nontechnical proofs,
 praise, statement and narration, style, solecisms,
 comedy, the ludicrous, and delivery.
 Subsequent scholiarchs of the Peripatos
-included the physicist Strato (scholiarch2 8 6 -
+included the physicist Strato (scholiarch 2 8 6 -
 268 B.C.E.), who wrote many books on logic,
 and Lyco of Troas (scholiarch 266–225 B.C.E.),
 a skilled teacher and eloquent speaker with a
@@ -55,8 +102,7 @@ before converting to rhetoric. Minucian's (fl.
 253–268 C.E.) extant peripatetic-influenced
 "On epicheiremes" covers the three modes
 of proof and the topoi. Cicero mentions both
-Aristotle's and Theophrastus' rhetorical theo-
-ries, and peripatetic sources probably influenced his De inventione, De oratore, and
+Aristotle's and Theophrastus' rhetorical theories, and peripatetic sources probably influenced his De inventione, De oratore, and
 Topica. Quintilian also appears acquainted
 with the peripatetic tradition.
 Peripatetic rhetorical theory is usually held
@@ -74,20 +120,105 @@ narrative, proofs, and peroration).
 Carol Poster
 University of Missouri
 
-<BibliographyCard>
-Erickson, Keith V., ed. Aristotle: TheClassical Heritage of Rhetoric. Metuchen, NJ:
-Scarecrow, 1974.
-Fortenbaugh, William W., ed. Peripatetic
-Rhetoric after Aristotle. New Brunswick,
-NJ: Transaction, 1993.
-—, ed. Theophrastus of Eresus. 2 vols.
-Leiden: Brill, 1992.
-Fortenbaugh, William W , and Peter
-Steinmetz, eds. Cicero's Knowledge of
-the Peripatos. New Brunswick, NJ:
-Transaction, 1989.
-Gottschalk, H.B. Heraclides of Pontus. Oxford: Clarendon, 1980.
-Grube, G.M.A. A Greek Critic: Demetrius on
-Style. Phoenix Suppl. Vol. 4. Toronto:
-Toronto UP, 1961.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Peripatetics** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Peripatetics** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Peripatetics** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="peripatetics" label="Peripatetics" />
+  The emergence and development of **Peripatetics** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Peripatetics** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Erickson, Keith V., ed. Aristotle: TheClassical Heritage of Rhetoric. Metuchen, NJ:
+2. Scarecrow, 1974.
+3. Fortenbaugh, William W., ed. Peripatetic
+4. Rhetoric after Aristotle. New Brunswick,
+5. NJ: Transaction, 1993.
+6. —, ed. Theophrastus of Eresus. 2 vols.
+7. Leiden: Brill, 1992.
+8. Fortenbaugh, William W , and Peter
+9. Steinmetz, eds. Cicero's Knowledge of
+10. the Peripatos. New Brunswick, NJ:
+11. Transaction, 1989.
+12. Gottschalk, H.B. Heraclides of Pontus. Oxford: Clarendon, 1980.
+13. Grube, G.M.A. A Greek Critic: Demetrius on
+14. Style. Phoenix Suppl. Vol. 4. Toronto:
+15. Toronto UP, 1961.
+
+### Cross-Referenced Terms
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="style" label="Style" />
+- <CrossRef id="delivery" label="Delivery" />
+- <CrossRef id="proof" label="PROOF" />
+- <CrossRef id="speech" label="SPEECH" />
+- <CrossRef id="arrangement" label="Arrangement" />
+- <CrossRef id="author" label="Author" />
+

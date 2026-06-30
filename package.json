@@ -26,5 +26,8 @@
     "typescript": "^5.2.2",
     "write-good": "^1.0.0",
     "yaml": "^2.9.0"
+  },
+  "dependencies": {
+    "lucide-react": "^1.22.0"
   }
 }

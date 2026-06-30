@@ -1,7 +1,54 @@
 ---
 title: "Narratio"
-description: "The second component of classical argument, which conveys statements of fact furnishing either background information or context for"
+description: "The second component of classical argument, which conveys statements of fact furnishing either background information or context for the case being argued."
+date: 2026-06-30T18:33:12.996Z
+status: "Published"
 ---
+
+import { 
+  BookOpen,
+  Lightbulb
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Narratio
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Narratio" 
+  metaData={[
+    { label: "Classification", value: "Rhetorical Concept" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<BookOpen className="w-8 h-8 text-blue-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Lightbulb className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-blue-50 border-blue-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 The second component of classical argument, which conveys statements of fact furnishing either background information or context for
 the case being argued. Narratio's translation,
@@ -39,355 +86,439 @@ become alienated. These characteristics facilitate
 narratio's appearances in deliberative and ceremonial discourse, as well as forensic discourse.
 Today, narratio seems secondary to the concepts of narrative or narration, and many theorists have debated the virtues and characteristics
 of this element of discourse. The concept of narration is particularly significant in the work of
-Kenneth Burke, whose theories concerning dra-
-matism contribute much to revisions of rhetorical thought. Echoing Cicero in De oratore, narration now functions as "the fountainhead from
+Kenneth Burke, whose theories concerning dramatism contribute much to revisions of rhetorical thought. Echoing Cicero in De oratore, narration now functions as "the fountainhead from
 which the whole remainder of speech flows"
 (2.81.330) and becomes a crucial part of discourse because of its capacity for "applying principles to situations" (O'Banion 66).
 Joseph Colavito
 Northwestern State University
 
-<BibliographyCard>
-Cicero. De Inventione. De Optimo Genere
-Oratorum. Topica. Trans. H.M.
-Hubbell. Loeb Classical Library. Vol. 2.
-Cambridge, MA: Harvard UP, 1949.
-. De Oratore. Books I and III. 2 vols.
-Trans. E.W. Sutton and H. Rackham.
-Loeb Classical Library. Vol. 3. Cambridge, MA: Harvard UP, 1954.
-NARRATIO 4 5 3
-Corbett, Edward P.J. Classical Rhetoric for
-the Modern Student. 3rd ed. New York:
-Oxford UP, 1990.
-Fisher, Walter. Human Communication as
-Narration: Toward a Philosophy ofReason, Value, and Action. Columbia: U of
-South Carolina P, 1987.
-O'Banion, John D. Reorienting Rhetoric: The
-Dialectic of List and Story. University
-Park: Pennsylvania State UP, 1992.
-Quintilian. The Institutio Oratoria of
-Quintilian. 4 vols. Trans. H.E. Butler.
-1920-1922. Cambridge, MA: Harvard
-UP, 1976-1980.
-Woodson, Linda. A Handbook of Modern
-Rhetorical Terms. Urbana, IL: National
-Council of Teachers of English, 1979.
-Narrative Theory
-Began with Aristotle, who in his Poetics discussed formal elements not just of tragedy, but
-also of epic (plot, character, thought, and diction;
-mimesis and diegesis) that remain concerns of
-narrative theory today. From the fourth century
-B.C.E. until the twentieth century, more attention
-was given to drama and poetry (with poetryoften referring to literature) than to narrative as a
-distinct mode, but after the emergence of the
-English novel in the eighteenth century, writers
-such as Henry Fielding, Walter Scott, Nathaniel
-Hawthorne, Edgar Allan Poe, George Eliot, and
-others discussed the nature and significance of
-this new form, its relations to epic, to romance,
-and to the moral functions of literature.
-In the first half of the twentieth century, Henry James and E.M. Forster turned the discussion
-to matters of novelistic form, withJames focusing
-especially on issues of narration and Forster on
-the distinction between plot and story and the
-uneasy tension between character and plot. In the
-1960s, narrative theory moved into a new, international phase as the work of the Russian formalists of the 1920s and the contemporary French
-structuralists was translated and disseminated
-among Anglo-American theorists, while the work
-of the Anglo-Americans was translated and disseminated in Europe. Since the 1960s, narrative
-has received the kind of sustained, sophisticated
-attention that had previously been reserved for
-poetry, and narrative theory is now a rich, diverse,
-and flourishing field.
-If we define narrative as a mode of discourse
-in which at least one narrator recounts to at least
-one narratee at least two temporally related
-events, then we can understand the project of
-narrative theory as the effort to understand the
-various elements of the mode—narrator, narration, narratee, event, setting, character, plot, and
-language—the relation of these elements to each
-other, and narrative's overall nature and significance. Sometimes the term narratology is used
-synonymously with narrative theory, but here we
-shall use it to refer more specifically to the formalist-structuralist account of narrative, and we
-shall use narrative theory to refer to the intersections of narrative studies with critical theory
-more generally—with, that is, not only formalism and structuralism, but also such movements
-as Marxism, psychoanalysis, feminism, decon-
-struction, reader-response criticism, and the various historicisms and cultural studies.
-Narratology then, studies "the nature, form,
-and functioning of narrative" and "examines
-what all and only narratives have in common . . .
-as well as what enables them to be different from
-one another" (Prince). More particularly, the formalist-structuralist model distinguishes among
-story (what happens, in its "natural chronological order"; what the Russian formalists called the
-fabula), plot (what happens as it is presented to
-the audience; what the formalists called sjuzhet),
-and discourse (how the event is conveyed; the
-narration). Narratological work on narrative
-structure ranges from Vladimir Propp's Morphology of the Folktale, which identified an invariable
-sequence of twenty-nine events occurring in all
-Russian folktales, to Roland Barthes's "Introduction to the Structural Analysis of Narrative,"
-which distinguished between kernel events (the
-essential events of a sequence) and satellite events
-(those that embellish a kernel).
-In the Anglo-American tradition, the key
-early texts followed James's lead and emphasized matters of technique or "treatment," gradually codifying a preference for what was considered an "objective" narration rooted in the
-center of one consciousness—as practiced by
-James and theorized by Percy Lubbock. In challenging this dominant view, Wayne C. Booth's
-Rhetoric of Fiction also proposes a general view
-of narrative as rhetoric and explores the variety of techniques authors may use to persuade
-their audiences to adopt certain views of characters and events. In addition, Booth's book
-introduces the widely adopted concepts ofimplied author, the self—distinct from the narrator—whom a writer conveys in constructing a
-text; reliable narrator, who speaks in accord
-with the norms of the implied author; and un-
-reliable narrator, who diverges from the implied
-author's norms.
-Gérard Genette advances narratology's investigation into point of view by separating two
-related but different questions, the question of
-who sees (a question of vision), and that of who
-speaks (a question of voice). Genette further unpacks the complexity of narrative discourse by
-developing a set of categories that addresses its
-manipulation of time and its relations between a
-narrator and what is narrated. Order refers to the
-relation between events in the story and events in
-the text; under this heading Genette includes flashbacks, flashforwards, and other deviations from
-straight chronology. Duration refers to the relation between story time and discourse time; two
-years of story time may be narrated in a single
-phrase while five minutes of story time may be
-narrated for hours upon hours. Frequency refers
-to the relation between repetition in story time and
-repetition in discourse time; a repeated action may
-be mentioned only once while a unique event may
-be returned to again and again in the narration of
-it. Genette points out that distinguishing between
-first-person and third-person narration is misleading because all narrators are first-person speakers.
-He proposes, instead, that we distinguish between
-heterodiegetic and homodiegetic narration, between, that is, narration in which the narrator and
-the characters occupy different narrative levels or
-spaces (as in, for example, Tom Jones or Beloved),
-where the narrators are not characters in the
-events they portray, and narration in which the
-narrator and characters are on the same level or
-in the same narrative world (as, for example, in
-Jane Eyre and The Invisible Man).
-In Story and Discourse, Seymour Chatman
-synthesizes the work of Genette, Barthes, Booth,
-and others from the French and Anglo-American
-traditions, dividing his study into the two parts
-identified in the title and discussing, under "Story"
-event, character, and setting and, under
-"Discourse," varieties of points of view. More
-generally, Chatman presents what has come to be
-known as the communication model of narrative
-analysis. In this linear model, an author creates an
-implied author who then employs a narrator to
-address a narratee. As the chain continues, the
-narratee's understanding is reconfigured by the
-implied reader (the implied author's hypothetical
-addressee), and the implied reader's understanding is similarly reconfigured by the real reader.
-While researchers in the 1980s and 1990s
-generally acknowledge the usefulness of the
-narratological communication model, they have
-also become increasingly aware of its limitations. Deconstructionist critics such as Paul de
-Man and J. Hillis Miller would emphasize both
-the necessity to employ its categories and the inability of the communication to be effected as
-the model predicts. Arguing that the formalist-
-structuralist model renders narrative spatial and
-static rather than temporal and dynamic, Peter
-Brooks proposes in Reading for the Plot that
-narrative theory attend to the psychic energy of
-narrative dynamics, the way beginnings generate desires, middles involve a detour on the
-route to fulfillment, a fulfillment finally delivered (or at least offered) in endings, which can
-be seen as having determined the whole sequence. But Susan Winnett and others note that
-Brooks assumes that male sexual desire is the
-norm for narrative dynamics and, thus, once
-again implicitly equates male with universal.
-More generally, the narratological model
-does not have much to say explicitly about ideology, difference, or culture, though it does not preclude its application to these matters. Peter J.
-Rabinowitz's Before Reading extends the model
-by uncovering the conventions of reading that
-influence narrative communication in any one
-work and by showing how the operation of these
-conventions intersects with the politics of interpretation to influence such larger cultural matters as
-canon formation. James Phelan proposes a way
-of thinking about character as a combination of
-mimetic, thematic, and synthetic components
-(that is, as person, idea, and plot function), suggests that the relation of these components is determined by progression, and investigates the relation between understanding progressions and
-resisting them. The translation of M.M. Bakhtin's
-work in the early 1980s gave theorists a way to
-link language and ideology and in so doing added
-yet another layer to the understanding of narrative discourse. Any national language, says Bakh-
-tin, is better thought of as a conglomeration of
-mini-languages (for example, the language of the
-marketplace, of the academy, of religion, of politics), each carrying its own ideological values, and
-the novel is the genre that most dramatically
-shows these languages and values colliding, contrasting, and challenging each other.
-The move of narrative theory toward ideology has been given further emphasis by the work
-of Marxists and feminists of the last two decades.
-Fredric Jameson's Political Unconscious popularizes the dictum "Always historicize!" and argues
-that critics need to search for the link between a
-narrative's form and its often unexpressed or un-
-conscious political agenda. Feminists consistently
-search for the connections among gender, ideology, and power in narrative and culture. Elaine
-Showalter, Sandra Gilbert, Susan Gubar, Nancy
-Miller, Rachel Blau DuPlessis, and others have
-studied the development of the female narrative
-tradition as it has developed within a dominant
-patriarchal culture. Some feminists, such as
-Judith Fetterley and Patrocinio Schweikart, have
-focused on the situation of the female reader. Still
-others have employed the insights of other theorists as part of their investigations of gender and
-power. To mention just one from a long list,
-Nancy Armstrong adapts Foucault's ideas of discursive formations to rewrite the origins of the
-English novel.
-Feminist criticism has also made significant
-contributions to film theory, especially in combination with structuralism and psychoanalysis.
-Laura Mulvey's landmark 1975 essay "Visual
-Pleasure and Narrative Cinema" transformed film
-theory by calling attention to the way Hollywood
-cinema reinforces patriarchal ideology in the way
-that it assumes a male spectator and directs his gaze
-toward an objectified woman. Since Mulvey's essay, film theory has continued to explore the dynamics of the gaze; the phenomenon called suture,
-the process by which the spectator identifies with
-the film image; the effects of various techniques
-such as the shot/reverse shot; and in general the
-relations among form, gender, and ideology.
-The two most prominent recent developments in narrative theory are its inflections by the
-work in new historicism and in multiculturalism.
-Since the new historicism regards literature as part
-of a continuous network of cultural texts, it shifts
-narrative theory's attention to the cultural work
-performed by narrative. To take just one example,
-D.A. Miller looks at Victorian fiction through the
-lenses provided by the new historicism and Foucault's Discipline and Punish and argues that the
-Victorian novel performed a very significant policing function on its readers: In reading Bleak
-House, the Victorian reader internalized culturally
-sanctioned ways of thinking and behaving.
-Work in multiculturalism is now influencing narrative theory in much the same way that
-it had earlier been influenced by feminism. Henry
-Louis Gates, Jr., demonstrates how the trope of
-signifying, so common to African-American oral
-culture, provides a way to understand the development of the African-American cultural tradition. Gloria Anzaldúa's work on what it means
-to live and write on the borders of different cultures (figuratively and literally) shows how real
-readers and writers (as opposed to the abstract,
-ideal constructs of narratology) have multiple
-and shifting relations to narrative texts. Theorists
-of other ethnic literatures and of gay and lesbian
-literatures also emphasize the difference that difference makes in all elements of narrative, at all
-points of the communication model—and in the
-way narrative theory is conducted.
-The recent interactions of multicultural and
-narrative studies have, in a sense, reinforced many
-of the contributions folklore studies have made to
-narrative theory. Work ranging from Propp's analysis of Russian folktales (discussed above) to
-Dundes's structuralist and anthropological
-approach to folklore has been instrumental in
-guiding the study of folk narrative as a cross-cultural phenomenon. Barbara Babcock's work on
-metanarration in folk narrative debunks the myth
-of "primitive narrative," the idea that oral or folk
-narrative is "simple, natural, and direct, . . .
-[u]ncomplicated by . . . self-commentary," a debunking central to the validation of various narratives beyond those of the traditional canon (63).
-Studies of folk narrative also intersect with literary criticism in the realm of new historicism and
-ideological criticism. Richard Bauman's work on
-the performance aspect of verbal art, especially the
-nature and codes of verbal performance in storytelling, helps us understand not only the representation of performance in written narrative but also
-the performative dimension of all narrative. In collaborating with Charles Briggs, Bauman also argues that theorists and critics must interpret the
-performance context but then conduct a reflexive
-ethnography, which considers the political and
-ideological influences on both the narrative and
-the folklorist.
-As we hope this narrative shows, narrative
-theory is indebted to a variety of disciplines and
-movements, which are, in turn, indebted to it.
-Perhaps this interaction shows, too, the ubiquity
-and diversity of narrative, that it exists in numerous, intersecting forms, in everything from the
-shortest jokes and ballads to the longest films
-and novels. Because narrative is as common in
-everyday conversation as it is in formal and informal writing, because theorists are increasingly
-aware of the importance of the mode, and because it is such a vital component of our lives, we
-expect narrative theory to continue to flourish as
-long as people continue to tell and listen to stories—which is to say as long as there are people,
-language, and social interaction.
-Elizabeth Patnoe and James Phelan
-Ohio State University
-Anzaldúa, Gloria. Borderlands/La Frontera:
-The New Mestiza. San Francisco: Spinsters/Aunt Lute, 1987.
-Armstrong, Nancy. Desire and DomesticFiction: A Political History of the Novel.
-New York: Oxford UP, 1987.
-Babcock, Barbara. "The Story in the Story:
-Metanarration in Folk Narrative." Verbal Art as Performance. Richard
-Bauman. Prospect Heights, IL:
-Waveland, 1977. First published in Folk
-Narrative Research: Studia Fennica 20
-(1976): 177-84.
-Bakhtin, Mikhail M. The Dialogic Imagination. Ed. Michael Holquist. Trans. Caryl
-Emerson and Michael Holquist. Austin:
-U of Texas P, 1981.
-Barthes, Roland. "An Introduction to the
-Structural Analysis of Narrative." New
-Literary History 6 (1975): 237-62.
-Bauman, Richard. Story, Performance, and
-Event: Contextual Studies of OralNarrative. Cambridge: Cambridge UP, 1986.
-Blau DuPlessis, Rachel. Writing beyond the
-Ending: Narrative Strategies ofTwentieth-Century Women Writers.
-Bloomington: Indiana UP, 1985.
-Booth, Wayne C. The Rhetoric of Fiction.
-2nd ed. Chicago: U of Chicago P, 1983.
-Brooks, Peter. Reading for the Plot: Design
-and Intention in Narrative. New York:
-Knopf, 1984.
-Chatman, Seymour. Story and Discourse:
-Narrative Structure in Fiction and Film.
-Ithaca, NY: Cornell UP, 1978.
-Dundes, Alan. "Folk Ideas as Units of
-Worldview." Toward New Perspectives
-in Folklore. Ed. Américo Paredes and
-Richard Bauman. Austin: U of Texas P,
-1972: 93-103.
-Fetterley, Judith. The Resisting Reader.
-Bloomington: Indiana UP, 1978.
-Friedman, Susan Stanford. "Spatialization: A
-Strategy for Reading Narrative." Narrative 1 (1993): 12-23.
-Gates, Henry Louis, Jr. The Signifying Monkey: A Theory of Afro-American Literary Criticism. New York: Oxford UP,
-1988.
-Genette, Gerard. Figures (1966), Figures II
-(1969), Figures III (1972). Paris: Seuil.
-. Narrative Discourse: An Essay in
-Method (1972). Trans. Jane E. Lewin.
-Ithaca, NY: Cornell UP, 1980.
-Gilbert, Sandra M., and Susan Gubar. The
-Madwoman in the Attic: The Woman
-Writer and the Nineteenth-century Literary Imagination. New Haven: Yale UP,
-1979.
-Jameson, Fredric. The Political Unconscious:
-Narrative as a Socially Symbolic Act.
-Ithaca, NY: Cornell UP, 1981.
-Miller, D.A. The Novel and the Police. Berkeley: U of California P, 1988.
-Miller, J. Hillis. Fiction and Repetition: Seven
-English Novels. Cambridge, MA:
-Harvard UP, 1982.
-Miller, Nancy K. "Emphasis Added: Plots and
-Plausibilities in Women's Fiction." Publication of the Modern Language Association 96 (1981): 36-48.
-Mulvey, Laura. "Visual Pleasure and Narrative Cinema." Screen 16, 3 (1975): 6-18.
-Phelan, James. Reading People, Reading
-Plots: Character, Progression, and the
-Interpretation of Narrative. Chicago: U
-of Chicago P, 1989.
-Prince, Gerald. A Dictionary ofNarratology.
-Lincoln: U of Nebraska P, 1987.
-Propp, Vladimir. Morphology of the Folktale.
-2nd ed. Trans. Laurence Scott. Austin: U
-of Texas P, 1968.
-Rabinowitz, Peter J. Before Reading: Narrative Conventions and the Politics ofInterpretation. Ithaca, NY: Cornell UP,
-1987.
-Schweikart, Patrocinio P. "Reading Ourselves: Toward a Feminist Theory of
-Reading." Gender and Reading: Essays
-on Readers, Texts, and Contexts. Ed.
-Elizabeth A. Flynn and Patrocinio P.
-Schweickart. Baltimore: Johns Hopkins
-UP, 1986. 31-63.
-Showalter, Elaine. A Literature of Their
-Own: British Women Novelists from
-Brontë to Lessing. Princeton: Princeton
-UP, 1977.
-Winnett, Susan. "Coming Unstrung: Women,
-Men, Narrative, and Principles of Pleasure." Publication of the Modern Language Assn. 105 (1990): 505-18.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Domain', col2: 'Rhetorical Theory' },
+    { col1: 'Historical Span', col2: 'Classical Antiquity to Present' },
+    { col1: 'Application', col2: 'Composition, Speech, Literary Analysis, Pedagogy' },
+    { col1: 'Key Tradition', col2: 'Greek, Roman, and Modern Rhetorical Theory' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition">
+    **Narratio** constitutes a fundamental concept in rhetorical theory, referring to the structured organization and deployment of persuasive means. Its meaning has evolved from classical codifications to encompass both technical procedures and philosophical principles.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Development">
+    The Roman rhetoricians devoted extensive discussion to **Narratio**, systematizing it into rules and catalogues designed to guide the practitioner. From *ad Herennium* and *De Inventione* through the medieval ars dictaminis, the concept retained its central role in rhetorical education.
+  </Tabs.Item>
+  <Tabs.Item title="Contemporary Relevance">
+    Modern rhetorical theory and composition studies continue to engage **Narratio** as both a descriptive category and a normative framework. Its principles inform speechwriting, legal argument, and the analysis of persuasive texts across media.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="narratio" label="Narratio" />
+  The concept of **Narratio** has been subject to ongoing reinterpretation as rhetorical theory has engaged with neighboring disciplines. From its origins in classical pedagogy through its elaboration in medieval and Renaissance rhetoric, the term has accumulated layers of meaning that sometimes conflict and sometimes complement one another.
+</Accordion>
+
+<Callout variant="warning" title="Conceptual Scope">
+  The term **Narratio** has been used with varying degrees of specificity across rhetorical traditions. Consult primary sources and authoritative secondary literature to determine which definitional framework applies in a given context.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Cicero. De Inventione. De Optimo Genere
+2. Oratorum. Topica. Trans. H.M.
+3. Hubbell. Loeb Classical Library. Vol. 2.
+4. Cambridge, MA: Harvard UP, 1949.
+5. . De Oratore. Books I and III. 2 vols.
+6. Trans. E.W. Sutton and H. Rackham.
+7. Loeb Classical Library. Vol. 3. Cambridge, MA: Harvard UP, 1954.
+8. NARRATIO 4 5 3
+9. Corbett, Edward P.J. Classical Rhetoric for
+10. the Modern Student. 3rd ed. New York:
+11. Oxford UP, 1990.
+12. Fisher, Walter. Human Communication as
+13. Narration: Toward a Philosophy ofReason, Value, and Action. Columbia: U of
+14. South Carolina P, 1987.
+15. O'Banion, John D. Reorienting Rhetoric: The
+16. Dialectic of List and Story. University
+17. Park: Pennsylvania State UP, 1992.
+18. Quintilian. The Institutio Oratoria of
+19. Quintilian. 4 vols. Trans. H.E. Butler.
+20. 1920-1922. Cambridge, MA: Harvard
+21. UP, 1976-1980.
+22. Woodson, Linda. A Handbook of Modern
+23. Rhetorical Terms. Urbana, IL: National
+24. Council of Teachers of English, 1979.
+25. Narrative Theory
+26. Began with Aristotle, who in his Poetics discussed formal elements not just of tragedy, but
+27. also of epic (plot, character, thought, and diction;
+28. mimesis and diegesis) that remain concerns of
+29. narrative theory today. From the fourth century
+30. B.C.E. until the twentieth century, more attention
+31. was given to drama and poetry (with poetryoften referring to literature) than to narrative as a
+32. distinct mode, but after the emergence of the
+33. English novel in the eighteenth century, writers
+34. such as Henry Fielding, Walter Scott, Nathaniel
+35. Hawthorne, Edgar Allan Poe, George Eliot, and
+36. others discussed the nature and significance of
+37. this new form, its relations to epic, to romance,
+38. and to the moral functions of literature.
+39. In the first half of the twentieth century, Henry James and E.M. Forster turned the discussion
+40. to matters of novelistic form, withJames focusing
+41. especially on issues of narration and Forster on
+42. the distinction between plot and story and the
+43. uneasy tension between character and plot. In the
+44. 1960s, narrative theory moved into a new, international phase as the work of the Russian formalists of the 1920s and the contemporary French
+45. structuralists was translated and disseminated
+46. among Anglo-American theorists, while the work
+47. of the Anglo-Americans was translated and disseminated in Europe. Since the 1960s, narrative
+48. has received the kind of sustained, sophisticated
+49. attention that had previously been reserved for
+50. poetry, and narrative theory is now a rich, diverse,
+51. and flourishing field.
+52. If we define narrative as a mode of discourse
+53. in which at least one narrator recounts to at least
+54. one narratee at least two temporally related
+55. events, then we can understand the project of
+56. narrative theory as the effort to understand the
+57. various elements of the mode—narrator, narration, narratee, event, setting, character, plot, and
+58. language—the relation of these elements to each
+59. other, and narrative's overall nature and significance. Sometimes the term narratology is used
+60. synonymously with narrative theory, but here we
+61. shall use it to refer more specifically to the formalist-structuralist account of narrative, and we
+62. shall use narrative theory to refer to the intersections of narrative studies with critical theory
+63. more generally—with, that is, not only formalism and structuralism, but also such movements
+64. as Marxism, psychoanalysis, feminism, decon-
+65. struction, reader-response criticism, and the various historicisms and cultural studies.
+66. Narratology then, studies "the nature, form,
+67. and functioning of narrative" and "examines
+68. what all and only narratives have in common . . .
+69. as well as what enables them to be different from
+70. one another" (Prince). More particularly, the formalist-structuralist model distinguishes among
+71. story (what happens, in its "natural chronological order"; what the Russian formalists called the
+72. fabula), plot (what happens as it is presented to
+73. the audience; what the formalists called sjuzhet),
+74. and discourse (how the event is conveyed; the
+75. narration). Narratological work on narrative
+76. structure ranges from Vladimir Propp's Morphology of the Folktale, which identified an invariable
+77. sequence of twenty-nine events occurring in all
+78. Russian folktales, to Roland Barthes's "Introduction to the Structural Analysis of Narrative,"
+79. which distinguished between kernel events (the
+80. essential events of a sequence) and satellite events
+81. (those that embellish a kernel).
+82. In the Anglo-American tradition, the key
+83. early texts followed James's lead and emphasized matters of technique or "treatment," gradually codifying a preference for what was considered an "objective" narration rooted in the
+84. center of one consciousness—as practiced by
+85. James and theorized by Percy Lubbock. In challenging this dominant view, Wayne C. Booth's
+86. Rhetoric of Fiction also proposes a general view
+87. of narrative as rhetoric and explores the variety of techniques authors may use to persuade
+88. their audiences to adopt certain views of characters and events. In addition, Booth's book
+89. introduces the widely adopted concepts ofimplied author, the self—distinct from the narrator—whom a writer conveys in constructing a
+90. text; reliable narrator, who speaks in accord
+91. with the norms of the implied author; and un-
+92. reliable narrator, who diverges from the implied
+93. author's norms.
+94. Gérard Genette advances narratology's investigation into point of view by separating two
+95. related but different questions, the question of
+96. who sees (a question of vision), and that of who
+97. speaks (a question of voice). Genette further unpacks the complexity of narrative discourse by
+98. developing a set of categories that addresses its
+99. manipulation of time and its relations between a
+100. narrator and what is narrated. Order refers to the
+101. relation between events in the story and events in
+102. the text; under this heading Genette includes flashbacks, flashforwards, and other deviations from
+103. straight chronology. Duration refers to the relation between story time and discourse time; two
+104. years of story time may be narrated in a single
+105. phrase while five minutes of story time may be
+106. narrated for hours upon hours. Frequency refers
+107. to the relation between repetition in story time and
+108. repetition in discourse time; a repeated action may
+109. be mentioned only once while a unique event may
+110. be returned to again and again in the narration of
+111. it. Genette points out that distinguishing between
+112. first-person and third-person narration is misleading because all narrators are first-person speakers.
+113. He proposes, instead, that we distinguish between
+114. heterodiegetic and homodiegetic narration, between, that is, narration in which the narrator and
+115. the characters occupy different narrative levels or
+116. spaces (as in, for example, Tom Jones or Beloved),
+117. where the narrators are not characters in the
+118. events they portray, and narration in which the
+119. narrator and characters are on the same level or
+120. in the same narrative world (as, for example, in
+121. Jane Eyre and The Invisible Man).
+122. In Story and Discourse, Seymour Chatman
+123. synthesizes the work of Genette, Barthes, Booth,
+124. and others from the French and Anglo-American
+125. traditions, dividing his study into the two parts
+126. identified in the title and discussing, under "Story"
+127. event, character, and setting and, under
+128. "Discourse," varieties of points of view. More
+129. generally, Chatman presents what has come to be
+130. known as the communication model of narrative
+131. analysis. In this linear model, an author creates an
+132. implied author who then employs a narrator to
+133. address a narratee. As the chain continues, the
+134. narratee's understanding is reconfigured by the
+135. implied reader (the implied author's hypothetical
+136. addressee), and the implied reader's understanding is similarly reconfigured by the real reader.
+137. While researchers in the 1980s and 1990s
+138. generally acknowledge the usefulness of the
+139. narratological communication model, they have
+140. also become increasingly aware of its limitations. Deconstructionist critics such as Paul de
+141. Man and J. Hillis Miller would emphasize both
+142. the necessity to employ its categories and the inability of the communication to be effected as
+143. the model predicts. Arguing that the formalist-
+144. structuralist model renders narrative spatial and
+145. static rather than temporal and dynamic, Peter
+146. Brooks proposes in Reading for the Plot that
+147. narrative theory attend to the psychic energy of
+148. narrative dynamics, the way beginnings generate desires, middles involve a detour on the
+149. route to fulfillment, a fulfillment finally delivered (or at least offered) in endings, which can
+150. be seen as having determined the whole sequence. But Susan Winnett and others note that
+151. Brooks assumes that male sexual desire is the
+152. norm for narrative dynamics and, thus, once
+153. again implicitly equates male with universal.
+154. More generally, the narratological model
+155. does not have much to say explicitly about ideology, difference, or culture, though it does not preclude its application to these matters. Peter J.
+156. Rabinowitz's Before Reading extends the model
+157. by uncovering the conventions of reading that
+158. influence narrative communication in any one
+159. work and by showing how the operation of these
+160. conventions intersects with the politics of interpretation to influence such larger cultural matters as
+161. canon formation. James Phelan proposes a way
+162. of thinking about character as a combination of
+163. mimetic, thematic, and synthetic components
+164. (that is, as person, idea, and plot function), suggests that the relation of these components is determined by progression, and investigates the relation between understanding progressions and
+165. resisting them. The translation of M.M. Bakhtin's
+166. work in the early 1980s gave theorists a way to
+167. link language and ideology and in so doing added
+168. yet another layer to the understanding of narrative discourse. Any national language, says Bakh-
+169. tin, is better thought of as a conglomeration of
+170. mini-languages (for example, the language of the
+171. marketplace, of the academy, of religion, of politics), each carrying its own ideological values, and
+172. the novel is the genre that most dramatically
+173. shows these languages and values colliding, contrasting, and challenging each other.
+174. The move of narrative theory toward ideology has been given further emphasis by the work
+175. of Marxists and feminists of the last two decades.
+176. Fredric Jameson's Political Unconscious popularizes the dictum "Always historicize!" and argues
+177. that critics need to search for the link between a
+178. narrative's form and its often unexpressed or un-
+179. conscious political agenda. Feminists consistently
+180. search for the connections among gender, ideology, and power in narrative and culture. Elaine
+181. Showalter, Sandra Gilbert, Susan Gubar, Nancy
+182. Miller, Rachel Blau DuPlessis, and others have
+183. studied the development of the female narrative
+184. tradition as it has developed within a dominant
+185. patriarchal culture. Some feminists, such as
+186. Judith Fetterley and Patrocinio Schweikart, have
+187. focused on the situation of the female reader. Still
+188. others have employed the insights of other theorists as part of their investigations of gender and
+189. power. To mention just one from a long list,
+190. Nancy Armstrong adapts Foucault's ideas of discursive formations to rewrite the origins of the
+191. English novel.
+192. Feminist criticism has also made significant
+193. contributions to film theory, especially in combination with structuralism and psychoanalysis.
+194. Laura Mulvey's landmark 1975 essay "Visual
+195. Pleasure and Narrative Cinema" transformed film
+196. theory by calling attention to the way Hollywood
+197. cinema reinforces patriarchal ideology in the way
+198. that it assumes a male spectator and directs his gaze
+199. toward an objectified woman. Since Mulvey's essay, film theory has continued to explore the dynamics of the gaze; the phenomenon called suture,
+200. the process by which the spectator identifies with
+201. the film image; the effects of various techniques
+202. such as the shot/reverse shot; and in general the
+203. relations among form, gender, and ideology.
+204. The two most prominent recent developments in narrative theory are its inflections by the
+205. work in new historicism and in multiculturalism.
+206. Since the new historicism regards literature as part
+207. of a continuous network of cultural texts, it shifts
+208. narrative theory's attention to the cultural work
+209. performed by narrative. To take just one example,
+210. D.A. Miller looks at Victorian fiction through the
+211. lenses provided by the new historicism and Foucault's Discipline and Punish and argues that the
+212. Victorian novel performed a very significant policing function on its readers: In reading Bleak
+213. House, the Victorian reader internalized culturally
+214. sanctioned ways of thinking and behaving.
+215. Work in multiculturalism is now influencing narrative theory in much the same way that
+216. it had earlier been influenced by feminism. Henry
+217. Louis Gates, Jr., demonstrates how the trope of
+218. signifying, so common to African-American oral
+219. culture, provides a way to understand the development of the African-American cultural tradition. Gloria Anzaldúa's work on what it means
+220. to live and write on the borders of different cultures (figuratively and literally) shows how real
+221. readers and writers (as opposed to the abstract,
+222. ideal constructs of narratology) have multiple
+223. and shifting relations to narrative texts. Theorists
+224. of other ethnic literatures and of gay and lesbian
+225. literatures also emphasize the difference that difference makes in all elements of narrative, at all
+226. points of the communication model—and in the
+227. way narrative theory is conducted.
+228. The recent interactions of multicultural and
+229. narrative studies have, in a sense, reinforced many
+230. of the contributions folklore studies have made to
+231. narrative theory. Work ranging from Propp's analysis of Russian folktales (discussed above) to
+232. Dundes's structuralist and anthropological
+233. approach to folklore has been instrumental in
+234. guiding the study of folk narrative as a cross-cultural phenomenon. Barbara Babcock's work on
+235. metanarration in folk narrative debunks the myth
+236. of "primitive narrative," the idea that oral or folk
+237. narrative is "simple, natural, and direct, . . .
+238. [u]ncomplicated by . . . self-commentary," a debunking central to the validation of various narratives beyond those of the traditional canon (63).
+239. Studies of folk narrative also intersect with literary criticism in the realm of new historicism and
+240. ideological criticism. Richard Bauman's work on
+241. the performance aspect of verbal art, especially the
+242. nature and codes of verbal performance in storytelling, helps us understand not only the representation of performance in written narrative but also
+243. the performative dimension of all narrative. In collaborating with Charles Briggs, Bauman also argues that theorists and critics must interpret the
+244. performance context but then conduct a reflexive
+245. ethnography, which considers the political and
+246. ideological influences on both the narrative and
+247. the folklorist.
+248. As we hope this narrative shows, narrative
+249. theory is indebted to a variety of disciplines and
+250. movements, which are, in turn, indebted to it.
+251. Perhaps this interaction shows, too, the ubiquity
+252. and diversity of narrative, that it exists in numerous, intersecting forms, in everything from the
+253. shortest jokes and ballads to the longest films
+254. and novels. Because narrative is as common in
+255. everyday conversation as it is in formal and informal writing, because theorists are increasingly
+256. aware of the importance of the mode, and because it is such a vital component of our lives, we
+257. expect narrative theory to continue to flourish as
+258. long as people continue to tell and listen to stories—which is to say as long as there are people,
+259. language, and social interaction.
+260. Elizabeth Patnoe and James Phelan
+261. Ohio State University
+262. Anzaldúa, Gloria. Borderlands/La Frontera:
+263. The New Mestiza. San Francisco: Spinsters/Aunt Lute, 1987.
+264. Armstrong, Nancy. Desire and DomesticFiction: A Political History of the Novel.
+265. New York: Oxford UP, 1987.
+266. Babcock, Barbara. "The Story in the Story:
+267. Metanarration in Folk Narrative." Verbal Art as Performance. Richard
+268. Bauman. Prospect Heights, IL:
+269. Waveland, 1977. First published in Folk
+270. Narrative Research: Studia Fennica 20
+271. (1976): 177-84.
+272. Bakhtin, Mikhail M. The Dialogic Imagination. Ed. Michael Holquist. Trans. Caryl
+273. Emerson and Michael Holquist. Austin:
+274. U of Texas P, 1981.
+275. Barthes, Roland. "An Introduction to the
+276. Structural Analysis of Narrative." New
+277. Literary History 6 (1975): 237-62.
+278. Bauman, Richard. Story, Performance, and
+279. Event: Contextual Studies of OralNarrative. Cambridge: Cambridge UP, 1986.
+280. Blau DuPlessis, Rachel. Writing beyond the
+281. Ending: Narrative Strategies ofTwentieth-Century Women Writers.
+282. Bloomington: Indiana UP, 1985.
+283. Booth, Wayne C. The Rhetoric of Fiction.
+284. 2nd ed. Chicago: U of Chicago P, 1983.
+285. Brooks, Peter. Reading for the Plot: Design
+286. and Intention in Narrative. New York:
+287. Knopf, 1984.
+288. Chatman, Seymour. Story and Discourse:
+289. Narrative Structure in Fiction and Film.
+290. Ithaca, NY: Cornell UP, 1978.
+291. Dundes, Alan. "Folk Ideas as Units of
+292. Worldview." Toward New Perspectives
+293. in Folklore. Ed. Américo Paredes and
+294. Richard Bauman. Austin: U of Texas P,
+295. 1972: 93-103.
+296. Fetterley, Judith. The Resisting Reader.
+297. Bloomington: Indiana UP, 1978.
+298. Friedman, Susan Stanford. "Spatialization: A
+299. Strategy for Reading Narrative." Narrative 1 (1993): 12-23.
+300. Gates, Henry Louis, Jr. The Signifying Monkey: A Theory of Afro-American Literary Criticism. New York: Oxford UP,
+301. 1988.
+302. Genette, Gerard. Figures (1966), Figures II
+303. (1969), Figures III (1972). Paris: Seuil.
+304. . Narrative Discourse: An Essay in
+305. Method (1972). Trans. Jane E. Lewin.
+306. Ithaca, NY: Cornell UP, 1980.
+307. Gilbert, Sandra M., and Susan Gubar. The
+308. Madwoman in the Attic: The Woman
+309. Writer and the Nineteenth-century Literary Imagination. New Haven: Yale UP,
+310. 1979.
+311. Jameson, Fredric. The Political Unconscious:
+312. Narrative as a Socially Symbolic Act.
+313. Ithaca, NY: Cornell UP, 1981.
+314. Miller, D.A. The Novel and the Police. Berkeley: U of California P, 1988.
+315. Miller, J. Hillis. Fiction and Repetition: Seven
+316. English Novels. Cambridge, MA:
+317. Harvard UP, 1982.
+318. Miller, Nancy K. "Emphasis Added: Plots and
+319. Plausibilities in Women's Fiction." Publication of the Modern Language Association 96 (1981): 36-48.
+320. Mulvey, Laura. "Visual Pleasure and Narrative Cinema." Screen 16, 3 (1975): 6-18.
+321. Phelan, James. Reading People, Reading
+322. Plots: Character, Progression, and the
+323. Interpretation of Narrative. Chicago: U
+324. of Chicago P, 1989.
+325. Prince, Gerald. A Dictionary ofNarratology.
+326. Lincoln: U of Nebraska P, 1987.
+327. Propp, Vladimir. Morphology of the Folktale.
+328. 2nd ed. Trans. Laurence Scott. Austin: U
+329. of Texas P, 1968.
+330. Rabinowitz, Peter J. Before Reading: Narrative Conventions and the Politics ofInterpretation. Ithaca, NY: Cornell UP,
+331. 1987.
+332. Schweikart, Patrocinio P. "Reading Ourselves: Toward a Feminist Theory of
+333. Reading." Gender and Reading: Essays
+334. on Readers, Texts, and Contexts. Ed.
+335. Elizabeth A. Flynn and Patrocinio P.
+336. Schweickart. Baltimore: Johns Hopkins
+337. UP, 1986. 31-63.
+338. Showalter, Elaine. A Literature of Their
+339. Own: British Women Novelists from
+340. Brontë to Lessing. Princeton: Princeton
+341. UP, 1977.
+342. Winnett, Susan. "Coming Unstrung: Women,
+343. Men, Narrative, and Principles of Pleasure." Publication of the Modern Language Assn. 105 (1990): 505-18.
+
+### Cross-Referenced Terms
+- <CrossRef id="narratio" label="Narratio" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="definition" label="Definition" />
+- <CrossRef id="argument" label="Argument" />
+- <CrossRef id="exordium" label="Exordium" />
+- <CrossRef id="quintilian" label="QUINTILIAN" />
+- <CrossRef id="clarity" label="Clarity" />
+- <CrossRef id="comparison" label="Comparison" />
+

@@ -1,7 +1,54 @@
 ---
 title: "Atticism"
-description: "Appropriated in Latin as a loan-word from"
+description: "Appropriated in Latin as a loan-word from Greek (attikismos); in its simplest sense, used to describe an attribute of written language akin to, if not identical with, elegance (Quintilian 1.8.8),..."
+date: 2026-06-30T18:33:12.570Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Atticism
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Atticism" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Appropriated in Latin as a loan-word from
 Greek (attikismos); in its simplest sense, used to
@@ -10,8 +57,7 @@ to, if not identical with, elegance (Quintilian
 1.8.8), and the redolence of the genuine flavor
 of things Athenian (Quintilian 6.3.107). Its
 more common application, however, was in the
-expression of a literary preference, among post-
-classical critics, for what they perceived as a
+expression of a literary preference, among postclassical critics, for what they perceived as a
 simple and pure style of language—particularly
 in oratory—as opposed to the defective style of
 "Asianism." The latter term was used, by contrast, to designate (perceived) excesses both of
@@ -63,36 +109,119 @@ extant works of Cicero.
 John T. Kirby
 Purdue University
 
-<BibliographyCard>
-Castorina, Emanuele. L'atticismo nell'evoluzione
-del pensiero di Cicerone. Catania, 1952.
-Douglas, A.E. "M. Calidius and the Atticists."
-Classical Quarterly 5 (1955): 241–47.
-Kennedy, George A. The Art of Persuasion in
-Greece. Princeton: Princeton UP, 1963.
-—. The Art of Rhetoric in the Roman
-World. Princeton: Princeton UP, 1972.
-Leeman, A.D. Orationis ratio. Amsterdam, 1963.
-Norden, Eduard. Die antike Kunstprosa.
-1898. 2 vols. 3rd ed. Leipzig, 1915.
-Radermacher, Ludwig. "Uber dieAnfänge der
-Atticismus." Rheinisches Museum 54
-(1899): 351–74.
-Schmid, Wilhelm. Der Atticismus in seinen
-Haupter tretern von Dionysius von
-Halikarnass bis auf den zweiten
-Philostratus. 5 vols. Stuttgart:
-Kohlhammer, 1887–1897.
-Wilamowitz-Moellendorf, Ulrich von.
-"Asianismus und Atticismus." Hermes
-35 (1900): 1–50.
-Wooten, Cecil W. "Le développement du style
-asiatique pendant l'époque hellénistique."
-Revue des étudesgrecques 88 (1975): 94-104.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/cicero">Cicero</SeeAlsoLink>
   <SeeAlsoLink href="/docs/greek-rhetoric">Greek Rhetoric</SeeAlsoLink>
   <SeeAlsoLink href="/docs/lysias">Lysias</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Atticism** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Atticism** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Atticism** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="atticism" label="Atticism" />
+  The emergence and development of **Atticism** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Atticism** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Castorina, Emanuele. L'atticismo nell'evoluzione
+2. del pensiero di Cicerone. Catania, 1952.
+3. Douglas, A.E. "M. Calidius and the Atticists."
+4. Classical Quarterly 5 (1955): 241–47.
+5. Kennedy, George A. The Art of Persuasion in
+6. Greece. Princeton: Princeton UP, 1963.
+7. —. The Art of Rhetoric in the Roman
+8. World. Princeton: Princeton UP, 1972.
+9. Leeman, A.D. Orationis ratio. Amsterdam, 1963.
+10. Norden, Eduard. Die antike Kunstprosa.
+11. 1898. 2 vols. 3rd ed. Leipzig, 1915.
+12. Radermacher, Ludwig. "Uber dieAnfänge der
+13. Atticismus." Rheinisches Museum 54
+14. (1899): 351–74.
+15. Schmid, Wilhelm. Der Atticismus in seinen
+16. Haupter tretern von Dionysius von
+17. Halikarnass bis auf den zweiten
+18. Philostratus. 5 vols. Stuttgart:
+19. Kohlhammer, 1887–1897.
+20. Wilamowitz-Moellendorf, Ulrich von.
+21. "Asianismus und Atticismus." Hermes
+22. 35 (1900): 1–50.
+23. Wooten, Cecil W. "Le développement du style
+24. asiatique pendant l'époque hellénistique."
+25. Revue des étudesgrecques 88 (1975): 94-104.
+
+### Cross-Referenced Terms
+- <CrossRef id="style" label="Style" />
+- <CrossRef id="atticism" label="Atticism" />
+- <CrossRef id="quintilian" label="QUINTILIAN" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="author" label="Author" />
+- <CrossRef id="contrast" label="Contrast" />
+

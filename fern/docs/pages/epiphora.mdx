@@ -1,7 +1,54 @@
 ---
 title: "Epiphora"
-description: "The placement of the same word or words"
+description: "The placement of the same word or words at the end of two or more clauses."
+date: 2026-06-30T18:33:12.787Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Epiphora
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Epiphora" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 The placement of the same word or words
 at the end of two or more clauses. The Psalmist was using epiphora in writing, "O Israel,
@@ -40,9 +87,7 @@ art that would be practical in a world in
 which diversity is a challenge—that is, the circumstances in which humans are caught
 and must cope if decent lives are to be possible.
 Those who adhere to the claim may well
-be indebted to the existentialism of the post-
-World War II era and tend to strike a her-
-meneutic pose. If so, the word epistemic
+be indebted to the existentialism of the postWorld War II era and tend to strike a hermeneutic pose. If so, the word epistemic
 may be noisy in that the idea traditionally closely associated with it, "knowledge,"
 might better be replaced with "understanding," "interpretation," or both. "Knowledge"
 suggests certainty, and the claim seems
@@ -69,16 +114,84 @@ its purposes or at least shifted focus to the
 be consistent with their claims, will have to
 agree that if those have any degree of validity,
 they should be expected to be absorbed as
-the conversation about the concept of rhetoric evolves.
-In 1990 Barry Brummett wrote "A
-Eulogy for Epistemic Rhetoric," suggesting that those interested in the phrase had
-erred in failing to take seriously enough
-the task of turning their abstractions to hard
-criticism of current discourse. An early landmark in the debate, even though the phrase
-was not prominent in the essay, is Brummett's
-1976 essay in Philosophy and Rhetoric. That
-essay featured the intersubjectivism that has
-become rather generally accepted by most participants now and tends to mark current
-rethinking of rhetorical history and efforts to
-keep the conversation about rhetoric and
-truth going.
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Epiphora** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Epiphora** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Epiphora** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="epiphora" label="Epiphora" />
+  The emergence and development of **Epiphora** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Epiphora** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="epiphora" label="Epiphora" />
+- <CrossRef id="anaphora" label="Anaphora" />
+

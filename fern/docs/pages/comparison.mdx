@@ -1,7 +1,54 @@
 ---
 title: "Comparison"
-description: "Used to show the similarities between things"
+description: "Used to show the similarities between things that belong to the same category."
+date: 2026-06-30T18:33:12.623Z
+status: "Published"
 ---
+
+import { 
+  BookOpen,
+  Lightbulb
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Comparison
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Comparison" 
+  metaData={[
+    { label: "Classification", value: "Rhetorical Concept" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<BookOpen className="w-8 h-8 text-blue-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Lightbulb className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-blue-50 border-blue-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Used to show the similarities between things
 that belong to the same category. Comparison
@@ -13,58 +60,84 @@ points of an argument. Comparison can also be
 used to restate a position in order to highlight
 the weakness of an opposing position in an
 argument or to develop a refutation of opposing
-arguments.
-The historical point of departure forusing comparison in teaching is the Progymnas-
-mata, the ancient Greek sequence of assignments that remained influential throughout
-the Renaissance. Such modes as narration,
-comparison, and contrast were assigned as
-strategies for developing compositions. Students were told to compose narration, description, comparison, and contrast essays or
-orations as they moved toward composing
-arguments. This sequence of assignments contributed to the formation of the modern
-"modes of discourse," which Alexander Bain
-established as central to teaching writing. He
-believed that all writing could be classified
-into four modes: description, narration, argumentation, and exposition (with exposition
-often including classification, comparison and
-contrast). His emphasis on the modes of discourse maintained the classical hierarchy with
-argumentation at the top. Teachers and scholars began with lesser forms such as narration,
-description, and so forth until the students
-reached argumentative discourse. Since a
-method or mode is not generally the starting
-point for composing, many contemporary
-teachers find mode-oriented approaches to
-writing invalid representations of actual communication situations where more than one
-writing strategy is used to create an effective
-piece of written or oral discourse.
-Comparison, as a mode of discourse, is
-used in various writing assignments, including
-evaluations of people, places, problems, or
-things, as well as the traditional refutation of
-opposing positions in an argument. Furthermore, comparison gives us methods for presenting those findings in our written discourse.
-Formats for comparison vary. Two approaches
-for presenting comparisons are the block structure and the alternate structure. In a block format, one presents elements for each person or
-item to be compared separately. One can also
-make comparisons, however, by alternating
-the points of comparison. In the alternate format of comparison of two cities, one could
-move back and forth between elements for
-comparison of the two cities. In order to avoid
-taxing the readers' or listeners' attention, one
-can successfully combine block and alternating comparison structures. Analogy, metaphor,
-and similes are other rhetorical strategies for
-making comparison. Analogies, the comparisons of things that are unlike one another,
-make the unfamiliar understandable by comparing it to something that is familiar.
-Current rhetorical theories treat comparison as a mode of development that can be a
-useful aid in invention or arrangement.
-Comparison helps us to develop areas for
-discussion during the invention process,
-where contrasting the features of a topic or
-object can serve an exploratory function.
-Young, Becker, and Pike's Rhetoric: Discovery and Change relies on comparison to develop a "tagememic" heuristic for exploring
-the features of a topic. Another influential
-modern theory that draws on classical modes
-of development isJames Kinneavy's Theory
-of Discourse, which treats comparison as part
-of the mode of classification. These works
-present comparison as a useful aid, or mode,
-in the composing process rather than an aim
-of composition.
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Domain', col2: 'Rhetorical Theory' },
+    { col1: 'Historical Span', col2: 'Classical Antiquity to Present' },
+    { col1: 'Application', col2: 'Composition, Speech, Literary Analysis, Pedagogy' },
+    { col1: 'Key Tradition', col2: 'Greek, Roman, and Modern Rhetorical Theory' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition">
+    **Comparison** constitutes a fundamental concept in rhetorical theory, referring to the structured organization and deployment of persuasive means. Its meaning has evolved from classical codifications to encompass both technical procedures and philosophical principles.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Development">
+    The Roman rhetoricians devoted extensive discussion to **Comparison**, systematizing it into rules and catalogues designed to guide the practitioner. From *ad Herennium* and *De Inventione* through the medieval ars dictaminis, the concept retained its central role in rhetorical education.
+  </Tabs.Item>
+  <Tabs.Item title="Contemporary Relevance">
+    Modern rhetorical theory and composition studies continue to engage **Comparison** as both a descriptive category and a normative framework. Its principles inform speechwriting, legal argument, and the analysis of persuasive texts across media.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="comparison" label="Comparison" />
+  The concept of **Comparison** has been subject to ongoing reinterpretation as rhetorical theory has engaged with neighboring disciplines. From its origins in classical pedagogy through its elaboration in medieval and Renaissance rhetoric, the term has accumulated layers of meaning that sometimes conflict and sometimes complement one another.
+</Accordion>
+
+<Callout variant="warning" title="Conceptual Scope">
+  The term **Comparison** has been used with varying degrees of specificity across rhetorical traditions. Consult primary sources and authoritative secondary literature to determine which definitional framework applies in a given context.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="comparison" label="Comparison" />
+- <CrossRef id="argument" label="Argument" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+

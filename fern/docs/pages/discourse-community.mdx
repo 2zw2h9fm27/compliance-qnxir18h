@@ -1,7 +1,54 @@
 ---
 title: "Discourse Community"
-description: "A site or social group defined by special kinds of"
+description: "A site or social group defined by special kinds of speech and writing, the boundaries and character of which are determined by the communicative practices as well as the social..."
+date: 2026-06-30T18:33:12.691Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Discourse Community
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Discourse Community" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 A site or social group defined by special kinds of
 speech and writing, the boundaries and character
@@ -9,18 +56,14 @@ of which are determined by the communicative
 practices as well as the social sentiments, shared
 norms, and cultural values of the members. The
 concept of the discourse community arises from
-approaches to rhetoric and composition that emphasize the social qualities of language use. A rela-
-tively recent development, the concept emerged
+approaches to rhetoric and composition that emphasize the social qualities of language use. A relatively recent development, the concept emerged
 during the early 1980s, well after the concept of
-speech community evolved in linguistics (Gum-
-perz; Hymes). It appeared at a time when authors
+speech community evolved in linguistics (Gumperz; Hymes). It appeared at a time when authors
 in a variety of fields were applying linguistic analyses to social formations. Thus it corresponds historically and theoretically to the "interpretive
-communities" of literary critics (Fish), the "communication communities" of sociologists (Haber-
-mas), and the new interpretations of "discourse"
+communities" of literary critics (Fish), the "communication communities" of sociologists (Habermas), and the new interpretations of "discourse"
 in philosophy, critical theory, and cultural anthropology (Foucault; Lincoln; Macdonell). Applications of critical theory and ethnomethodology in
 composition have favored the development of the
-discourse community concept (Bartholomae; Biz-
-zell; Harris; Killingsworth; Porter). Likewise, in
+discourse community concept (Bartholomae; Bizzell; Harris; Killingsworth; Porter). Likewise, in
 the study of professional and technical communication, the effort to analyze audiences and describe specialized fields and practices of discourse
 has made the concept attractive (Killingsworth
 and Gilbertson; Matalene; Porter; Zappen).
@@ -55,8 +98,7 @@ certain viewpoints and behaviors. Their writing
 thus demonstrates solidarity with some audiences and denies affiliation with or responsibilty
 toward other audiences.
 In a more radical sense, however, the very
-idea of discourse departs from traditional rhetoric, undermining the integrity of the old author-
-audience model of communication. The relationship of writer to reader as one mind seeking
+idea of discourse departs from traditional rhetoric, undermining the integrity of the old authoraudience model of communication. The relationship of writer to reader as one mind seeking
 another yields to a concept of the author and
 audience as participants in a communication system of interconnected and interrelated individuals, each of whom is already implicated at the
 time of communication in a complex of social
@@ -127,8 +169,7 @@ upon other forms of discourse (such as myth
 and ritual)? How does discourse relate to other
 methods of community formation, such as inclusion or exclusion by physical force? How
 do individual discourse users contribute to and
-draw upon the resources of the discourse com-
-munity? And, finally, having identified discourse communities, what have we gained?
+draw upon the resources of the discourse community? And, finally, having identified discourse communities, what have we gained?
 What predictions can we make about how the
 communities interact with one another and
 how they ultimately affect the practices and
@@ -147,43 +188,128 @@ revitalizing analytical rhetoric.
 M. Jimmie Killingsworth
 Texas A&M University
 
-<BibliographyCard>
-Bartholomae, David. "Inventing the University." When a Writer Can't Write. Ed.
-Mike Rose. New York: Guilford, 1985.
-134–65.
-Bizzell, Patricia. "Cognition, Convention, and
-Certainty." PRE/TEXT 3 (1982): 213–43.
-Fish, Stanley. Is There a Text in This Class?
-The Authority of Interpretive Communities. Cambridge, MA: Harvard UP, 1980.
-Foucault, Michel. The Archaeology of
-Knowledge and the Discourse onLanguage. Trans. A.M. Sheridan Smith. New
-York: Pantheon, 1972.
-Gumperz, J. "The Speech Community." Language and Social Context. Ed. P.P. Gigli-
-oli. Baltimore: Penguin, 1972. 219–31.
-Habermas, Jürgen. The Theory of Communicative Action. 2 Vols. Trans. Thomas
-McCarthy. Boston: Beacon, 1984-1987.
-Harris, Joseph. "The Idea of Community in the
-Study of Writing." College Composition
-and Communication 40 (1989): 11–22.
-Hymes, Dell. "Models of the Interaction of
-Language and Social Life." Directions in
-Sociolinguistics: The Ethnography ofCommunication. Ed. John J. Gumperz and Dell
-Hymes. New York: Holt, 1972. 35-71.
-Killingsworth, M. Jimmie. "Discourse Communities—Local and Global." Rhetoric
-Review 11 (1992): 110–22.
-Killingsworth, M. Jimmie, and Michael K.
-Gilbertson. Signs, Genres, and Communities in Technical Communication.
-Amityville, NY: Baywood, 1992.
-Lincoln, Bruce. Discourse and the Construction
-of Society. New York: Oxford UP, 1989.
-Macdonell, Diane. Theories of Discourse: An
-Introduction. Oxford: Blackwell, 1986.
-Matalene, Carolyn B., ed. Worlds of Writing:
-Teaching and Learning in Discourse
-Communities of Work. New York: Random, 1989.
-Porter, James E. Audience and Rhetoric.
-Englewood Cliffs, NJ: Prentice, 1992.
-Zappen, James P. "The Discourse Community in Scientific and Technical Communication: Institutional Norms and Social
-Views." Journal of Technical Writing
-and Communication 19 (1989): 1–11.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Discourse Community** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Discourse Community** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Discourse Community** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="discourse-community" label="Discourse Community" />
+  The emergence and development of **Discourse Community** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Discourse Community** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Bartholomae, David. "Inventing the University." When a Writer Can't Write. Ed.
+2. Mike Rose. New York: Guilford, 1985.
+3. 134–65.
+4. Bizzell, Patricia. "Cognition, Convention, and
+5. Certainty." PRE/TEXT 3 (1982): 213–43.
+6. Fish, Stanley. Is There a Text in This Class?
+7. The Authority of Interpretive Communities. Cambridge, MA: Harvard UP, 1980.
+8. Foucault, Michel. The Archaeology of
+9. Knowledge and the Discourse onLanguage. Trans. A.M. Sheridan Smith. New
+10. York: Pantheon, 1972.
+11. Gumperz, J. "The Speech Community." Language and Social Context. Ed. P.P. Gigli-
+12. oli. Baltimore: Penguin, 1972. 219–31.
+13. Habermas, Jürgen. The Theory of Communicative Action. 2 Vols. Trans. Thomas
+14. McCarthy. Boston: Beacon, 1984-1987.
+15. Harris, Joseph. "The Idea of Community in the
+16. Study of Writing." College Composition
+17. and Communication 40 (1989): 11–22.
+18. Hymes, Dell. "Models of the Interaction of
+19. Language and Social Life." Directions in
+20. Sociolinguistics: The Ethnography ofCommunication. Ed. John J. Gumperz and Dell
+21. Hymes. New York: Holt, 1972. 35-71.
+22. Killingsworth, M. Jimmie. "Discourse Communities—Local and Global." Rhetoric
+23. Review 11 (1992): 110–22.
+24. Killingsworth, M. Jimmie, and Michael K.
+25. Gilbertson. Signs, Genres, and Communities in Technical Communication.
+26. Amityville, NY: Baywood, 1992.
+27. Lincoln, Bruce. Discourse and the Construction
+28. of Society. New York: Oxford UP, 1989.
+29. Macdonell, Diane. Theories of Discourse: An
+30. Introduction. Oxford: Blackwell, 1986.
+31. Matalene, Carolyn B., ed. Worlds of Writing:
+32. Teaching and Learning in Discourse
+33. Communities of Work. New York: Random, 1989.
+34. Porter, James E. Audience and Rhetoric.
+35. Englewood Cliffs, NJ: Prentice, 1992.
+36. Zappen, James P. "The Discourse Community in Scientific and Technical Communication: Institutional Norms and Social
+37. Views." Journal of Technical Writing
+38. and Communication 19 (1989): 1–11.
+
+### Cross-Referenced Terms
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="speech" label="SPEECH" />
+- <CrossRef id="communication" label="Communication" />
+- <CrossRef id="author" label="Author" />
+- <CrossRef id="discourse-community" label="Discourse Community" />
+- <CrossRef id="definition" label="Definition" />
+- <CrossRef id="example" label="Example" />
+

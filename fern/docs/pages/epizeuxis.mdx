@@ -1,7 +1,54 @@
 ---
 title: "Epizeuxis"
-description: "The emphatic repetition of a word with"
+description: "The emphatic repetition of a word with no other words between."
+date: 2026-06-30T18:33:12.789Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Epizeuxis
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Epizeuxis" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 The emphatic repetition of a word with
 no other words between. "My God, my God,
@@ -48,8 +95,7 @@ that Erasmus, through the persona of Folly,
 identifies himself with the Greek sophists and
 their method of exploring arguments through
 contraries, or dissoi logoi, as well as their belief
-that human knowledge is uncertain and inevi-
-tably subject to dispute. Erasmus would, in
+that human knowledge is uncertain and inevitably subject to dispute. Erasmus would, in
 1524, attack Martin Luther for claiming that
 human reason could achieve certaintyin religious matters, such as whether or not there was
 free will.
@@ -61,8 +107,7 @@ dominated rhetoric instruction throughout
 northern Europe formost of the sixteenth
 century. On Copia is divided into two books,
 the first on "abundance of expression"or "of
-words" and the second "abundance of subject-
-matter" or "of ideas." Book I is divided into
+words" and the second "abundance of subjectmatter" or "of ideas." Book I is divided into
 206 chapters that catalog a wide variety of
 figures, tropes, and other methods of amplification. In addition to discussing stylistic
 devices such asmetalepsis, metonymy, and
@@ -94,21 +139,106 @@ their plainer style.
 Bruce Herzberg
 Bentley College
 
-<BibliographyCard>
-Bainton, Roland. Erasmus of Christendom.
-New York: Scribner's, 1969.
-Kahn, Victoria. Rhetoric, Prudence andScepticism in the Renaissance. Ithaca, NY:
-Cornell UP, 1985.
-Kaiser, Walter. Praisers of Folly. Cambridge,
-MA: Harvard UP, 1963.
-Sloane, Thomas O. Donne, Milton, and the
-End ofHumanistic Rhetoric. Berkeley:U
-of California P, 1985: 72–84.
-Thompson, Sister Geraldine. Under Pretext
-of Praise. Toronto: U of Toronto P,
-1973.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/copia">Copia</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Epizeuxis** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Epizeuxis** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Epizeuxis** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="epizeuxis" label="Epizeuxis" />
+  The emergence and development of **Epizeuxis** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Epizeuxis** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Bainton, Roland. Erasmus of Christendom.
+2. New York: Scribner's, 1969.
+3. Kahn, Victoria. Rhetoric, Prudence andScepticism in the Renaissance. Ithaca, NY:
+4. Cornell UP, 1985.
+5. Kaiser, Walter. Praisers of Folly. Cambridge,
+6. MA: Harvard UP, 1963.
+7. Sloane, Thomas O. Donne, Milton, and the
+8. End ofHumanistic Rhetoric. Berkeley:U
+9. of California P, 1985: 72–84.
+10. Thompson, Sister Geraldine. Under Pretext
+11. of Praise. Toronto: U of Toronto P,
+12. 1973.
+
+### Cross-Referenced Terms
+- <CrossRef id="copia" label="Copia" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="style" label="Style" />
+- <CrossRef id="epizeuxis" label="Epizeuxis" />
+- <CrossRef id="contrast" label="Contrast" />
+- <CrossRef id="definition" label="Definition" />
+- <CrossRef id="example" label="Example" />
+- <CrossRef id="persona" label="Persona" />
+

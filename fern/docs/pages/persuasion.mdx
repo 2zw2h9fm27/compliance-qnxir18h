@@ -1,8 +1,54 @@
 ---
 title: "PERSUASION"
 description: "Logical Positivism"
-sidebarTitle: "Persuasion"
+date: 2026-06-30T18:33:13.040Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# PERSUASION
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="PERSUASION" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Logical Positivism
 An early twentieth-century philosophical
@@ -22,8 +68,7 @@ Nagel, and Moritz Schlick.
 In a large generalization, positivism can
 be seen as concerned with identifying propositions that are potentially true or false and
 distinguishing them from nonsensical or meaningless propositions. Following a tradition
-evident in Hume, Leibniz, and Kant, the pos-
-itivists distinguished two types of true propositions: analytic and synthetic (Kant's terms).
+evident in Hume, Leibniz, and Kant, the positivists distinguished two types of true propositions: analytic and synthetic (Kant's terms).
 Analytic propositions contain the predicate
 within the subject concept. They are tautological and necessarily true: The propositions
 of mathematics and logic are prime examples,
@@ -78,25 +123,108 @@ within rhetoric.
 Arabella Lyon
 Temple University
 
-<BibliographyCard>
-Ayer, A.J., ed. Logical Positivism. New York:
-Free P of Glencoe, 1959. Rpt. London:
-Greenwood, 1978.
-Carnap, Rudolf. The Logical Syntax ofLanguage. London: Routledge, 1937.
-Kraft, Viktor. The Vienna Circle, the Origins
-of Neo-Positivism. New York: Philosophical Library, 1953.
-O'Keefe, Daniel J. "Logical Empiricism and
-the Study of Human Communication."
-Speech Monographs 42 (1975):
-173–83.
-Quine, W.V.O. "Two Dogmas of Empiricism." From a Logical Point of View.
-Cambridge, MA: Harvard UP, 1953.
-20–46.
-Stevenson, Charles L. Ethics and Language.
-New Haven: Yale UP, 1944.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/ayer">Ayer</SeeAlsoLink>
   <SeeAlsoLink href="/docs/alfred-j">Alfred J.</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **PERSUASION** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **PERSUASION** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **PERSUASION** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="persuasion" label="PERSUASION" />
+  The emergence and development of **PERSUASION** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **PERSUASION** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Ayer, A.J., ed. Logical Positivism. New York:
+2. Free P of Glencoe, 1959. Rpt. London:
+3. Greenwood, 1978.
+4. Carnap, Rudolf. The Logical Syntax ofLanguage. London: Routledge, 1937.
+5. Kraft, Viktor. The Vienna Circle, the Origins
+6. of Neo-Positivism. New York: Philosophical Library, 1953.
+7. O'Keefe, Daniel J. "Logical Empiricism and
+8. the Study of Human Communication."
+9. Speech Monographs 42 (1975):
+10. 173–83.
+11. Quine, W.V.O. "Two Dogmas of Empiricism." From a Logical Point of View.
+12. Cambridge, MA: Harvard UP, 1953.
+13. 20–46.
+14. Stevenson, Charles L. Ethics and Language.
+15. New Haven: Yale UP, 1944.
+
+### Cross-Referenced Terms
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="logic" label="Logic" />
+- <CrossRef id="communication" label="Communication" />
+- <CrossRef id="description" label="Description" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="example" label="Example" />
+

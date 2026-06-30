@@ -1,7 +1,161 @@
 ---
-title: Home
+title: "Encyclopedia of Rhetoric"
+description: "Comprehensive reference for rhetorical terms, figures of speech, historical figures, and movements in rhetorical studies."
+date: 2026-06-30T18:33:12.461Z
+status: "Published"
 ---
+
+import { 
+  BookOpen,
+  Sparkles,
+  Users,
+  GitBranch,
+  MessageSquare,
+  Lightbulb,
+  User
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
 
 # Encyclopedia of Rhetoric
 
-Welcome to the documentation.
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Encyclopedia of Rhetoric" 
+  metaData={[
+    { label: "Entries", value: "277" },
+    { label: "Classification", value: "Reference Work" },
+    { label: "Scope", value: "Rhetorical Theory, Practice, and History" }
+  ]} 
+  icon={<BookOpen className="w-8 h-8 text-blue-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+<div className="flex items-center mb-8">
+  <Sparkles className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+Welcome to the Encyclopedia of Rhetoric, a comprehensive reference work covering rhetorical terms, figures of speech, historical rhetoricians, and intellectual movements from classical antiquity to the present.
+
+## Browse by Category
+
+<DataGrid 
+  columns={['Category', 'Entries', 'Description']}
+  data={[
+    { col1: 'Figures of Speech', col2: '27 entries', col3: 'Schemes and tropes for rhetorical effect' },
+    { col1: 'Rhetorical Concepts', col2: '70 entries', col3: 'Fundamental principles and theories' },
+    { col1: 'Historical Figures', col2: '24 entries', col3: 'Rhetoricians, theorists, and practitioners' },
+    { col1: 'Movements & Fields', col2: '156 entries', col3: 'Schools, movements, and disciplines' }
+  ]}
+/>
+
+## Figures of Speech
+
+<div className="flex items-center mb-6">
+  <MessageSquare className="w-5 h-5 text-purple-600 mr-2" />
+</div>
+
+<SeeAlso 
+  items={[
+    { label: "Accumulatio", url: "/terms/accumulatio" },
+    { label: "Anadiplosis", url: "/terms/anadiplosis" },
+    { label: "Anaphora", url: "/terms/anaphora" },
+    { label: "Antanaclasis", url: "/terms/antanaclasis" },
+    { label: "Antithesis", url: "/terms/antithesis" },
+    { label: "Cohesion", url: "/terms/cohesion" },
+    { label: "Contextuality", url: "/terms/contextuality" },
+    { label: "Diaphora", url: "/terms/diaphora" },
+    { label: "Doublespeak", url: "/terms/doublespeak" },
+    { label: "Emphasis", url: "/terms/emphasis" },
+  ]} 
+/>
+
+## Rhetorical Concepts
+
+<div className="flex items-center mb-6">
+  <Lightbulb className="w-5 h-5 text-blue-600 mr-2" />
+</div>
+
+<SeeAlso 
+  items={[
+    { label: "Anacoluthon", url: "/terms/anacoluthon" },
+    { label: "Anapodoton", url: "/terms/anapodoton" },
+    { label: "Anastrophe", url: "/terms/anastrophe" },
+    { label: "Anthimeria", url: "/terms/anthimeria" },
+    { label: "Antimetabole", url: "/terms/antimetabole" },
+    { label: "Antiptosis", url: "/terms/antiptosis" },
+    { label: "Aposiopesis", url: "/terms/aposiopesis" },
+    { label: "Asterismos", url: "/terms/asterismos" },
+    { label: "Asyndeton", url: "/terms/asyndeton" },
+    { label: "Basic Concepts (Operant Conditioning)", url: "/terms/basic-concepts-operant" },
+  ]} 
+/>
+
+## Historical Figures
+
+<div className="flex items-center mb-6">
+  <User className="w-5 h-5 text-amber-600 mr-2" />
+</div>
+
+<SeeAlso 
+  items={[
+    { label: "Aristotle", url: "/terms/aristotle" },
+    { label: "Berthoff, Ann E. (b. 1924)", url: "/terms/berthoff-ann-e-b-1924" },
+    { label: "Chomsky, Noam (b. 1928)", url: "/terms/chomsky-noam-b-1928" },
+    { label: "Cixous, Hélène (b. 1937)", url: "/terms/cixous-hlne-b-1937" },
+    { label: "Demetrius of Phalerum (c. 350 –283 B.C.E.)", url: "/terms/demetrius-of-phalerum-c-350-283-bce" },
+    { label: "DuBois, W.E.B. (1868–1963)", url: "/terms/dubois-web-18681963" },
+    { label: "Fell, Margaret (1614–1702)", url: "/terms/fell-margaret-16141702" },
+    { label: "Howell, Wilbur Samuel (1904–1992)", url: "/terms/howell-wilbur-samuel-1904-1992" },
+    { label: "Kairos", url: "/terms/kairos" },
+    { label: "KENNETH L.: YOUNG, RICHARD Talon, Omer (1515?–1562)", url: "/terms/kenneth-l-young-richard-talon-omer-1515-1562" },
+  ]} 
+/>
+
+## Movements & Fields
+
+<div className="flex items-center mb-6">
+  <Users className="w-5 h-5 text-emerald-600 mr-2" />
+</div>
+
+<SeeAlso 
+  items={[
+    { label: "Actio", url: "/terms/actio" },
+    { label: "Advertising, Rhetoric of", url: "/terms/advertising-rhetoric-of" },
+    { label: "African-American Rhetoric", url: "/terms/african-american-rhetoric" },
+    { label: "Antidosis", url: "/terms/antidosis" },
+    { label: "Apostrophe", url: "/terms/apostrophe" },
+    { label: "Argument", url: "/terms/argument" },
+    { label: "Arrangement", url: "/terms/arrangement" },
+    { label: "Ars praedicandi", url: "/terms/ars-praedicandi" },
+    { label: "Atticism", url: "/terms/atticism" },
+    { label: "Austin, J.L. (1911–1960)", url: "/terms/austin-jl-19111960" },
+  ]} 
+/>
+
+</div>
+
+---
+
+<Callout variant="info" title="Using This Encyclopedia">
+  Each entry includes definitions, historical context, functional analysis, and cross-references to related terms. Use the search function or browse by category to explore the encyclopedia.
+</Callout>
+
+</div>
+

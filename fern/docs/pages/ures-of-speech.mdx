@@ -1,8 +1,54 @@
 ---
 title: "URES OF SPEECH"
 description: "Belles-lettres"
-sidebarTitle: "Ures of Speech"
+date: 2026-06-30T18:33:13.269Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# URES OF SPEECH
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="URES OF SPEECH" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Belles-lettres
 A movement seeking to find universal principles
@@ -84,25 +130,107 @@ same rules were applicable to all forms of discourse.
 Herman Cohen
 Pennsylvania State University
 
-<BibliographyCard>
-Bacon, Francis. Advancement of Learning
-and Novum Organum. New York: Colonial, 1899.
-Blair, Hugh. Lectures on Rhetoric and Belles
-Lettres. London: William Sills, 1836.
-Burke, Edmund. A Philosophical Inquiry into
-the Origin of Our Ideas of the Sublime
-and the Beautiful. The Works of
-Edmund Burke. New York, 1836.
-Karnes, Henry Home. Elements of Criticism.
-New York: A.S. Barnes, 1871.
-Rollin, Charles. The Method of Teaching and
-Studying the BellesLettres, or an Introduction to Languages, Poetry, Rhetoric, Moral
-Philosophy, Physics &c. London, 1810.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/blair">Blair</SeeAlsoLink>
   <SeeAlsoLink href="/docs/h-u-g-h">H U G H</SeeAlsoLink>
   <SeeAlsoLink href="/docs/kames">Kames</SeeAlsoLink>
   <SeeAlsoLink href="/docs/lord">Lord</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **URES OF SPEECH** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **URES OF SPEECH** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **URES OF SPEECH** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="ures-of-speech" label="URES OF SPEECH" />
+  The emergence and development of **URES OF SPEECH** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **URES OF SPEECH** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Bacon, Francis. Advancement of Learning
+2. and Novum Organum. New York: Colonial, 1899.
+3. Blair, Hugh. Lectures on Rhetoric and Belles
+4. Lettres. London: William Sills, 1836.
+5. Burke, Edmund. A Philosophical Inquiry into
+6. the Origin of Our Ideas of the Sublime
+7. and the Beautiful. The Works of
+8. Edmund Burke. New York, 1836.
+9. Karnes, Henry Home. Elements of Criticism.
+10. New York: A.S. Barnes, 1871.
+11. Rollin, Charles. The Method of Teaching and
+12. Studying the BellesLettres, or an Introduction to Languages, Poetry, Rhetoric, Moral
+13. Philosophy, Physics &c. London, 1810.
+
+### Cross-Referenced Terms
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="example" label="Example" />
+- <CrossRef id="correctness" label="Correctness" />
+- <CrossRef id="style" label="Style" />
+

@@ -1,7 +1,54 @@
 ---
 title: "Antanaclasis"
-description: "'Reflection, bending back'; repetition of the"
+description: "Reflection, bending back\"; repetition of the same word in two contrasting senses to create a pun: \"Your argument is sound, nothing but sound\" (Benjamin Franklin); \"The long cigarette that's long..."
+date: 2026-06-30T18:33:12.509Z
+status: "Published"
 ---
+
+import { 
+  MessageSquare,
+  Users
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Antanaclasis
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Antanaclasis" 
+  metaData={[
+    { label: "Classification", value: "Scheme of Repetition" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<MessageSquare className="w-8 h-8 text-purple-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Users className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-purple-50 border-purple-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 "Reflection, bending back"; repetition of the
 same word in two contrasting senses to create
@@ -20,3 +67,82 @@ do it by thesword" (Love's Labor's Lost
 5.2.699).
 Arthur Quinn and Lyon Rathbun
 University of California, Berkeley
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Classification', col2: 'Scheme or Trope' },
+    { col1: 'Traditional Domain', col2: 'Classical and Renaissance Rhetoric' },
+    { col1: 'Modern Relevance', col2: 'Discourse Analysis, Stylistics, Critical Discourse Studies' },
+    { col1: 'Function', col2: 'Emphasis, Rhythm, Persuasion, Meaning Construction' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition & Function">
+    In rhetoric, **Antanaclasis** functions as a deliberate stylistic choice designed to produce specific rhetorical effects. Classical rhetoricians catalogued such devices as essential tools for persuasive composition, emphasizing their capacity to create emphasis, rhythm, and memorable impact in both speech and writing.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Application">
+    From the Greek orators through the Roman tradition and into modern literary criticism, **Antanaclasis** has been analyzed as a mechanism for shaping audience response. Biblical exegesis, parliamentary oratory, and literary stylistics have all drawn on the formal properties of this device.
+  </Tabs.Item>
+  <Tabs.Item title="Critical Perspectives">
+    Contemporary critical discourse analysis examines how **Antanaclasis** operates not merely as ornament but as a means of enacting power. The formal repetition encoded in the device can naturalize ideological positions, construct authority, and organize social relations through textual practice.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="antanaclasis" label="Antanaclasis" />
+  While **Antanaclasis** is traditionally classified as a specific scheme of repetition, its application across genres and media reveals a more complex set of functions. The device operates simultaneously as a marker of textual coherence, a vehicle for emotional intensification, and a means of establishing ideological alignment between speaker and audience.
+</Accordion>
+
+<Callout variant="warning" title="Terminological Precision">
+  Ensure that references to **Antanaclasis** distinguish between the rhetorical device and any cognate terms in linguistics or discourse analysis. The rhetorical sense denotes a specific formal pattern; broader linguistic uses may refer to referential phenomena with different structural properties.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="antanaclasis" label="Antanaclasis" />
+- <CrossRef id="argument" label="Argument" />
+

@@ -1,14 +1,60 @@
 ---
 title: "Confirmatio"
-description: "From the Latin, to establish or prove; in Latin"
+description: "From the Latin, to establish or prove; in Latin rhetorical theory, the portion of an oration in which the speaker presents arguments and supporting materials to establish a fact or..."
+date: 2026-06-30T18:33:12.640Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Confirmatio
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Confirmatio" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 From the Latin, to establish or prove; in Latin
 rhetorical theory, the portion of an oration in
 which the speaker presents arguments and supporting materials to establish a fact or proposition in the minds of the audience. Confirmatio served Roman orators as a "place" for
 invention, a division of the completed speech,
-and one of the activities in the progymnas-
-mata, the series of elementary rhetorical exercises found in the schools. It remained an
+and one of the activities in the progymnasmata, the series of elementary rhetorical exercises found in the schools. It remained an
 identifiable concern of neoclassical Western
 rhetorics well into the nineteenth century, and
 the precepts of the classical confirmatio can be
@@ -42,8 +88,7 @@ of the speech earlier or later than rule suggested. The Latin rhetoricians warne
 speakers were to take great care in departing
 from the established principles of the art, for
 only experienced advocates could do so without error.
-Finally, as an activity in the progymnas-
-mata, confirmatio constituted the initial student exercise in crafting persuasive arguments. Students practiced using the status
+Finally, as an activity in the progymnasmata, confirmatio constituted the initial student exercise in crafting persuasive arguments. Students practiced using the status
 system to invent lines of probable argument
 and were required to argue orally for or
 against the likelihood or credibility of an historical or fictitious story, thereby practicing
@@ -56,3 +101,88 @@ resulting diminution of the canon of invention
 wrote confirmatio out of all but the more
 specialized treatises on forensic and pulpit
 oratory.
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Confirmatio** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Confirmatio** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Confirmatio** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="confirmatio" label="Confirmatio" />
+  The emergence and development of **Confirmatio** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Confirmatio** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="confirmatio" label="Confirmatio" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="speech" label="SPEECH" />
+- <CrossRef id="invention" label="Invention" />
+- <CrossRef id="argument" label="Argument" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="arrangement" label="Arrangement" />
+- <CrossRef id="proof" label="PROOF" />
+

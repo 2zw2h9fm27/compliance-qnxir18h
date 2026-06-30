@@ -1,7 +1,54 @@
 ---
 title: "Inclusio"
-description: "Using the same word to begin and end a passage, poem, story, or play. J.L. Borges used"
+description: "Using the same word to begin and end a passage, poem, story, or play."
+date: 2026-06-30T18:33:12.882Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Inclusio
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Inclusio" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Using the same word to begin and end a passage, poem, story, or play. J.L. Borges used
 inclusio in "TheFearful Sphere of Pascal,"
@@ -19,12 +66,9 @@ Indian Rhetoric (Sanskrit)
 In India, the systematic study of language, tracing its history back to the fifth century B.C.E.
 Systematic, inthis context, refers to traditional
 sastraic exposition, involving (1) a study of
-what constitutes "knowledge" within the context of the specific investigation (padartha-
-mimamsa); (2) astudy of the language (sabda-
-mimamsa) involved in the exposition of the
+what constitutes "knowledge" within the context of the specific investigation (padarthamimamsa); (2) astudy of the language (sabdamimamsa) involved in the exposition of the
 knowledge specified in (1); and (3) a study of
-the validity of critical statements (pramanya-
-mimamsa) made in (1) and (2). The first and
+the validity of critical statements (pramanyamimamsa) made in (1) and (2). The first and
 third aspects of sastraic exposition fall under
 the aegis of logic or nyaya, thesecond under
 grammar (vyakarana) andexegetical science
@@ -34,8 +78,7 @@ Sanskrit scholars, however, invariably treat
 rhetoric as the study of figuration (alamkara).
 In fact, the term alamkara isused to denote a
 school of Sanskrit critics and scholars whose
-approach to language was essentially formalis-
-tic, inasmuch as they believed that formal structure distinguished poetic and rhetorical expression from ordinary utterances.The distinction between primary (abhidha) and secondary
+approach to language was essentially formalistic, inasmuch as they believed that formal structure distinguished poetic and rhetorical expression from ordinary utterances.The distinction between primary (abhidha) and secondary
 meaning (lakshana) runs throughout Indian thought. What distinguishes the Alamkara
 School and marks its particular contribution to
 Indian thought are the principles of "crooked
@@ -60,8 +103,7 @@ fusion of form and content was called simply
 "togetherness" (sahitya). That "fusion," however, should not be confused with what those of
 the Alamkara School thought to be the relation
 of word and sense necessary for intelligible
-speech. In this context, relating form and content embodies a particular tension (paraspara-
-spardha) between sound and sense—a tension
+speech. In this context, relating form and content embodies a particular tension (parasparaspardha) between sound and sense—a tension
 that serves as the ground for one's awareness of
 the artifice in "crooked speech."
 Style is the specific manner by which one
@@ -77,27 +119,112 @@ and serves as a starting point for the investigation of Indian rhetorical theori
 David Metzger
 Old Dominion University
 
-<BibliographyCard>
-Bhamaha. Kavylankara of Bhama. Ed. with
-an English translation and notes by P.V.
-Naganatha Sastri. Delhi: Motilal
-Banarsidass, 1970.
-Chari, V.K. Sanskrit Criticism. Honolulu: U
-of Hawaii P, 1990.
-Coward, Harold G., and K. Kunjunni Raja.
-Encyclopedia of Indian Philosophies.
-Vol. 5. The Philosophy of The Grammarians. Delhi: Motilal Banarsidass,
-1990.
-De, Sushil Kumar. History of Sanskri Poetics.
-2 vols. 2nd ed. Calcutta: K.L.
-Mukhopadhyay, 1960.
-Deshpande, Madhav H., trans, and ed. The
-Meaning of Nouns: The Namartha-
-nirnaya of Kaundabhatta. Dordrecht:
-Kluwer Academic, 1992.
-Devasthali, G.V. Mimamsa: The AncientIndian Science of Sentence Interpretation.
-2nd ed. Delhi: Sri Satguru, 1991.
-Sastri, S. Kuppuswami. A Primer of Indian
-Logic. 3rd ed. Madras: Kuppuswami
-Sastri Research Institute, 1951.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Inclusio** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Inclusio** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Inclusio** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="inclusio" label="Inclusio" />
+  The emergence and development of **Inclusio** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Inclusio** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Bhamaha. Kavylankara of Bhama. Ed. with
+2. an English translation and notes by P.V.
+3. Naganatha Sastri. Delhi: Motilal
+4. Banarsidass, 1970.
+5. Chari, V.K. Sanskrit Criticism. Honolulu: U
+6. of Hawaii P, 1990.
+7. Coward, Harold G., and K. Kunjunni Raja.
+8. Encyclopedia of Indian Philosophies.
+9. Vol. 5. The Philosophy of The Grammarians. Delhi: Motilal Banarsidass,
+10. 1990.
+11. De, Sushil Kumar. History of Sanskri Poetics.
+12. 2 vols. 2nd ed. Calcutta: K.L.
+13. Mukhopadhyay, 1960.
+14. Deshpande, Madhav H., trans, and ed. The
+15. Meaning of Nouns: The Namartha-
+16. nirnaya of Kaundabhatta. Dordrecht:
+17. Kluwer Academic, 1992.
+18. Devasthali, G.V. Mimamsa: The AncientIndian Science of Sentence Interpretation.
+19. 2nd ed. Delhi: Sri Satguru, 1991.
+20. Sastri, S. Kuppuswami. A Primer of Indian
+21. Logic. 3rd ed. Madras: Kuppuswami
+22. Sastri Research Institute, 1951.
+
+### Cross-Referenced Terms
+- <CrossRef id="speech" label="SPEECH" />
+- <CrossRef id="exposition" label="Exposition" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="style" label="Style" />
+- <CrossRef id="description" label="Description" />
+- <CrossRef id="inclusio" label="Inclusio" />
+- <CrossRef id="clarity" label="Clarity" />
+- <CrossRef id="classification" label="Classification" />
+

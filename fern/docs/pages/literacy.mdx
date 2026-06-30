@@ -1,7 +1,54 @@
 ---
 title: "Literacy"
-description: "In composition and rhetoric, illuminates the"
+description: "In composition and rhetoric, illuminates the ways that individual acts of writing are connected to larger cultural, historical, social, and political systems."
+date: 2026-06-30T18:33:12.935Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Literacy
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Literacy" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 In composition and rhetoric, illuminates the
 ways that individual acts of writing are connected to larger cultural, historical, social, and
@@ -24,7 +71,7 @@ key debates among scholars of literacy in anthropology and psychology. In 1968 a
 Watt published the influential essay "The Consequences of Literacy." The essay argues that
 when the Greeks invented a phonetic alphabet,
 they underwent a transformation from mythical to logical thinking. According to Goody and
-Watt, thinking in oral societies is concrete,associative, formulaic, synthetic, and conformist,
+Watt, thinking in oral societies is concrete, associative, formulaic, synthetic, and conformist,
 tied always to the present tense. But because
 the technology of writing allows language and
 thought to be represented and preserved separately from lived experience, literate thinking
@@ -80,8 +127,7 @@ as well as the roots of economic and social injustice that continue to promote i
 limited literacy. Historians tend to examine the
 motivations that people had at various times for
 acquiring reading and writing; the institutions
-that were available to them for literacy educa-
-tion; the material avenues that existed for the
+that were available to them for literacy education; the material avenues that existed for the
 dissemination of print; the unequal distribution
 of literacy by gender, race, class, and region; and
 the cultural ideologies of literacy that operate
@@ -113,7 +159,7 @@ puzzle out the written language system in order
 to differentiate it from other meaning systems
 such as drawing or speaking. Traditional methods of reading instruction in school, which
 emphasize correct decoding and often divorce
-texts and reading from functional contexts,often fail to provide the rich pragmatic clues that
+texts and reading from functional contexts, often fail to provide the rich pragmatic clues that
 children are able to draw upon in nonschool
 settings.
 Perhaps the most important twentieth-century figure in literacy is the Brazilian educator
@@ -130,8 +176,7 @@ investigated critically for the ideological interests they represent. In Freire'
 word" cannot be separated from "reading the
 world." Decoding written language without
 taking it through one's own critical consciousness is equivalent to illiteracy. He developed a
-student-centered pedagogy based on nonau-
-thoritarian, dialogic relationships among student and teacher. Curriculum is local and collectively constructed out of "key words" from
+student-centered pedagogy based on nonauthoritarian, dialogic relationships among student and teacher. Curriculum is local and collectively constructed out of "key words" from
 students' daily lives and concerns. Under
 the general rubric of critical literacy or critical
 teaching, some educators have adapted Freire's
@@ -148,45 +193,130 @@ more typically characterize literate experience.
 Deborah Brandt
 University of Wisconsin, Madison
 
-<BibliographyCard>
-Bolter, Jay David. Writing Space: The
-Computer, Hypertext, and the History
-of Writing. Hillsdale, NJ: Erlbaum,
-1991.
-Cornelius, Janet Duitsman. " When I Can
-Ready My Title Clear:" Literacy, Slavery,
-and Religion in the Antebellum South.
-Columbia: U of South Carolina P, 1991.
-Freire, Paulo. Pedagogy of the Oppressed.
-Trans. Myra Bergman Ramos. New
-York: Seabury, 1970.
-Goody, Jack, and Ian Watt. "The Consequences of Literacy." Literacy inTraditional Societies. Ed. Jack Goody. Cambridge: Cambridge UP, 1968. 27–68.
-Graff, Harvey. The Legacies of Literacy:
-Continuities and Contradictions in Western Culture and Society. Bloomington:
-Indiana UP, 1986.
-Graubard, Stephen R., ed. Literacy: An Overview by 14 Experts. New York: Noonday, 1991.
-Harste, Jerome, Virginia A. Woodward, and
-Carolyn L. Burke. Language Stories and
-Literacy Lessons. Portsmouth, NH:
-Heinemann, 1984.
-Heath, Shirley Brice. Ways with Words: Language,
-Life, and Work in Communities andClassrooms. New York: Cambridge UP, 1984.
-Kaestle, Carl. Literacy in the United States:
-Readers and Reading since 1880. New
-Haven: Yale UP, 1991.
-Kintgen, Eugene, Barry M. Kroll, and Mike
-Rose, eds. Perspectives on Literacy.
-Carbondale: Southern Illinois UP, 1988.
-Lunsford, Andrea, Helene Moglen, and James
-Slevin, eds. The Right to Literacy. New
-York: Modern Language Assn., 1990.
-Ong, Walter. Orality and Literacy: The
-Technologizing of the Word. New York:
-Methuen, 1982.
-Scribner, Sylvia, and Michael Cole. ThePsychology of Literacy. Cambridge, MA:
-Harvard UP, 1981.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/orality">Orality</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Literacy** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Literacy** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Literacy** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="literacy" label="Literacy" />
+  The emergence and development of **Literacy** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Literacy** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Bolter, Jay David. Writing Space: The
+2. Computer, Hypertext, and the History
+3. of Writing. Hillsdale, NJ: Erlbaum,
+4. 1991.
+5. Cornelius, Janet Duitsman. " When I Can
+6. Ready My Title Clear:" Literacy, Slavery,
+7. and Religion in the Antebellum South.
+8. Columbia: U of South Carolina P, 1991.
+9. Freire, Paulo. Pedagogy of the Oppressed.
+10. Trans. Myra Bergman Ramos. New
+11. York: Seabury, 1970.
+12. Goody, Jack, and Ian Watt. "The Consequences of Literacy." Literacy inTraditional Societies. Ed. Jack Goody. Cambridge: Cambridge UP, 1968. 27–68.
+13. Graff, Harvey. The Legacies of Literacy:
+14. Continuities and Contradictions in Western Culture and Society. Bloomington:
+15. Indiana UP, 1986.
+16. Graubard, Stephen R., ed. Literacy: An Overview by 14 Experts. New York: Noonday, 1991.
+17. Harste, Jerome, Virginia A. Woodward, and
+18. Carolyn L. Burke. Language Stories and
+19. Literacy Lessons. Portsmouth, NH:
+20. Heinemann, 1984.
+21. Heath, Shirley Brice. Ways with Words: Language,
+22. Life, and Work in Communities andClassrooms. New York: Cambridge UP, 1984.
+23. Kaestle, Carl. Literacy in the United States:
+24. Readers and Reading since 1880. New
+25. Haven: Yale UP, 1991.
+26. Kintgen, Eugene, Barry M. Kroll, and Mike
+27. Rose, eds. Perspectives on Literacy.
+28. Carbondale: Southern Illinois UP, 1988.
+29. Lunsford, Andrea, Helene Moglen, and James
+30. Slevin, eds. The Right to Literacy. New
+31. York: Modern Language Assn., 1990.
+32. Ong, Walter. Orality and Literacy: The
+33. Technologizing of the Word. New York:
+34. Methuen, 1982.
+35. Scribner, Sylvia, and Michael Cole. ThePsychology of Literacy. Cambridge, MA:
+36. Harvard UP, 1981.
+
+### Cross-Referenced Terms
+- <CrossRef id="literacy" label="Literacy" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="communication" label="Communication" />
+- <CrossRef id="comparison" label="Comparison" />
+- <CrossRef id="contrast" label="Contrast" />
+- <CrossRef id="logos" label="Logos" />
+- <CrossRef id="syllogism" label="Syllogism" />
+- <CrossRef id="voice" label="Voice" />
+

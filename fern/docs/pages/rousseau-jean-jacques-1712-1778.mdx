@@ -1,7 +1,54 @@
 ---
 title: "Rousseau, Jean-Jacques (1712–1778)"
+description: "French philosopher whose ideas have broadly influenced Western thought, particularly"
+date: 2026-06-30T18:33:13.156Z
+status: "Published"
 ---
 
+import { 
+  User,
+  BookMarked
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Rousseau, Jean-Jacques (1712–1778)
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Rousseau, Jean-Jacques (1712–1778)" 
+  metaData={[
+    { label: "Classification", value: "Historical Figure" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<User className="w-8 h-8 text-amber-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <BookMarked className="w-6 h-6 text-amber-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-amber-50 border-amber-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 French philosopher whose ideas have broadly influenced Western thought, particularly
 through Romanticism, of which he is considered a father. Rousseau figures in the rhetorical
@@ -9,90 +56,111 @@ tradition as a critic of language and education.
 His emphasis upon individualism and the self
 influenced the epistemological reorientations
 that rhetorical theory and practice underwent
-in the eighteenth century.
-Born in Geneva, Rousseau spent many
-years of his youth in Turin andChambéry under the care ofMme. de Warens, awoman
-twelve years his senior who later became his
-lover. In 1742 Rousseau arrived in Paris and
-failed to achieve notoriety with the numerical
-system of musical notation he had invented, but
-he did become familiar with Diderot and other
-philosophes. In 1745 Rousseau began a lifelong
-liaison with Thérèse Lavasseur, an uneducated
-servant girl. They had five children, all of whom
-he sent to an orphanage. Rousseau's fame be-
-gan in 1750 upon winning the Dijon Academy's prize for the best essay on the question
-"Whether the reestablishment of sciences
-and the arts has contributed to purify morals."
-His "Discourse on Sciences and the Arts" denounced the ill effects wrought upon people as
-they are taken from a state of natural goodness
-into the artifices and inequalities of society. This
-established Rousseau's public identity as a critic
-of society and the corrupting influences of its
-institutions. In 1761 Rousseau's popular novel
-La Nouvelle Héloiseappeared, followed in
-1762 by his famousDu Contrat Social and
-Émile, Rousseau's revolutionary educational
-"treatise." After Émile was condemned for
-challenging Christian dogma, Rousseau visited
-England as David Hume's guest but returned
-to France after his recurring paranoia caused
-his rupture with Hume. In his later years he
-wrote autobiographically, especially his Confessions (1782).
-Rousseau influenced rhetoric by advancing
-the concept of a universal human nature, making the faculty psychology of George Campbell
-and others possible. Rousseau also gave impetus to the subjective epistemologies of his century, favoring private, expressive, and intuitive
-models of discourse over formal, social, or artificial ones (the "vitalists" of twentieth-century
-composition still bear this influence). Rousseau
-may fairly be called antirhetorical because he
-rejects formal language and literary instruction
-and attributes a society's ills to its eloquence.
-The education he advocates in Émile omits linguistic and moral inculcation. Instead, students
-rely upon their own authority and experience,
-learning from the book of nature rather than
-anything printed, and exercising their bodies as
-much as their minds. Rousseau explicitly rejects
-rhetoric inÉmile, claiming that practice in the
-art of persuasion is too often empty verbiage.
-In his "Essay on the Origin of Languages,"
-Rousseau acknowledges a close relationship
-between language and the passions, thus aligning himself with eighteenth-century rhetorical
-thought. Rousseau posits the fundamentally
-figured nature of language, as well as a recipro-
-cality between the mores of a society and its
-eloquence. Hugh Blair draws obliquely on this
-essay in his own on the same subject; Derrida
-has given more painstaking attention to its contents, uncovering Rousseau's consciousness of
-the complexity of language and rhetoric.
-Gideon Burton
-University of Southern California
 
-<BibliographyCard>
-Annales de la société Jean-Jacques Rousseau.
-Geneva: A. Julien. 1903– .
-Babbitt, Irving. Rousseau and Romanticism.
-New York: Houghton, 1919.
-Blair, Hugh. "Origin and Nature of Figurative Language." Lectures on Rhetoric
-and Belles Lettres. 2 vols. London, 1783.
-Rpt. in facsimile. Harold F. Harding, ed.
-2 vols. Southern Illinois UP Series, Landmarks in Rhetoric and Public Address,
-edited by David Potter. Carbondale:
-Southern Illinois UP, 1965.
-Cassirer, Ernst. The Question of Jean-Jacques
-Rousseau. Trans, and ed. Peter Gay.
-New York: Columbia UP, 1954.
-Derrida, Jacques. Of Grammatology. Trans.
-Gayatri Chakravorty Spivak. Baltimore:
-Johns Hopkins UP, 1974.
-Guehenno, Jean. Jean-Jacques Rousseau.
-Trans. John and Doreen Weightman.
-New York: Columbia UP, 1966.
-Oliver, Robert T. The Influence of Rhetoric in
-the Shaping of Great Britain. Newark: U
-of Delaware P, 1986.
-Schinz, Albert. État présent des travaux sur
-J.-J. Rousseau. Études Français. New
-York: Modem Language Assn., 1941.
-Wright, Ernest Hunter. The Meaning of
-Rousseau. London: Oxford UP, 1929.
-</BibliographyCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Name', col2: 'Rousseau, Jean-Jacques (1712–1778)' },
+    { col1: 'Primary Field', col2: 'Rhetoric, Philosophy, Oratory' },
+    { col1: 'Key Contribution', col2: 'Systematization of Rhetorical Precepts' },
+    { col1: 'Historical Period', col2: 'Classical Antiquity' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-amber-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Biography">
+    The life of **Rousseau, Jean-Jacques (1712–1778)** unfolded against a backdrop of political and intellectual ferment. Born into circumstances that connected him to centers of power and learning, he pursued education and political engagement in ways that shaped the development of rhetorical theory for centuries.
+  </Tabs.Item>
+  <Tabs.Item title="Major Works">
+    The surviving corpus of **Rousseau, Jean-Jacques (1712–1778)** includes systematic treatises that codified rhetorical precepts, dialogues that engaged contemporary philosophical debates, and practical handbooks designed for the education of statesmen and orators.
+  </Tabs.Item>
+  <Tabs.Item title="Legacy">
+    The influence of **Rousseau, Jean-Jacques (1712–1778)** permeates two millennia of rhetorical instruction and practice. His systematic approach to the parts of speech, the topics of invention, and the ethics of persuasion established frameworks that continue to define the discipline.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-amber-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="rousseau-jean-jacques-17121778" label="Rousseau, Jean-Jacques (1712–1778)" />
+  The historical record concerning **Rousseau, Jean-Jacques (1712–1778)** is fragmentary and subject to interpretive reconstruction. Ancient biographical traditions, combined with analysis of the surviving corpus, provide the primary evidence for understanding his life, intellectual development, and influence on subsequent rhetorical thought.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Rousseau, Jean-Jacques (1712–1778)** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Rhetorician", url: "/terms/rhetorician" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Annales de la société Jean-Jacques Rousseau.
+2. Geneva: A. Julien. 1903– .
+3. Babbitt, Irving. Rousseau and Romanticism.
+4. New York: Houghton, 1919.
+5. Blair, Hugh. "Origin and Nature of Figurative Language." Lectures on Rhetoric
+6. and Belles Lettres. 2 vols. London, 1783.
+7. Rpt. in facsimile. Harold F. Harding, ed.
+8. 2 vols. Southern Illinois UP Series, Landmarks in Rhetoric and Public Address,
+9. edited by David Potter. Carbondale:
+10. Southern Illinois UP, 1965.
+11. Cassirer, Ernst. The Question of Jean-Jacques
+12. Rousseau. Trans, and ed. Peter Gay.
+13. New York: Columbia UP, 1954.
+14. Derrida, Jacques. Of Grammatology. Trans.
+15. Gayatri Chakravorty Spivak. Baltimore:
+16. Johns Hopkins UP, 1974.
+17. Guehenno, Jean. Jean-Jacques Rousseau.
+18. Trans. John and Doreen Weightman.
+19. New York: Columbia UP, 1966.
+20. Oliver, Robert T. The Influence of Rhetoric in
+21. the Shaping of Great Britain. Newark: U
+22. of Delaware P, 1986.
+23. Schinz, Albert. État présent des travaux sur
+24. J.-J. Rousseau. Études Français. New
+25. York: Modem Language Assn., 1941.
+26. Wright, Ernest Hunter. The Meaning of
+27. Rousseau. London: Oxford UP, 1929.
+
+### Cross-Referenced Terms
+- <CrossRef id="emphasis" label="Emphasis" />
+

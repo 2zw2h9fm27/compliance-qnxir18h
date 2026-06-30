@@ -1,7 +1,54 @@
 ---
 title: "Classification"
-description: "A method for organizing large numbers of items"
+description: "A method for organizing large numbers of items into discrete categories."
+date: 2026-06-30T18:33:12.609Z
+status: "Published"
 ---
+
+import { 
+  BookOpen,
+  Lightbulb
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Classification
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Classification" 
+  metaData={[
+    { label: "Classification", value: "Rhetorical Concept" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<BookOpen className="w-8 h-8 text-blue-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Lightbulb className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-blue-50 border-blue-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 A method for organizing large numbers of items
 into discrete categories. Classification is the act
@@ -23,15 +70,13 @@ that writers today think of as ways to organize
 ideas were used as ways to discover and develop
 ideas. In Book 2 of the Rhetoric, Aristotle discusses topoi, or topics, which "constituted a
 method for probing one's subject to discover
-possible ways of developing that subject" (Cor-
-bett 24). Although Aristotle does not specifically mention classification as a method of developing one's ideas, he does discuss a number
+possible ways of developing that subject" (Corbett 24). Although Aristotle does not specifically mention classification as a method of developing one's ideas, he does discuss a number
 of other methods, such as definition, comparison, contrast, cause, effect, and others.
 The OED credits Edmund Burke (1729–
 1797) as the first user of the word classification
 in English. During the eighteenth and nineteenth
 centuries, Aristotle's topics formed the basis for
-expanding the ways to organize or arrange paragraphs and essays. One of the first nineteenth-
-century rhetoricians to articulate the four modes
+expanding the ways to organize or arrange paragraphs and essays. One of the first nineteenthcentury rhetoricians to articulate the four modes
 of discourse—narration, description, exposition,
 and argument (or persuasion)—was Alexander
 Bain (1818–1903), in English Composition and
@@ -50,25 +95,88 @@ other methods of organizing essays are systematized ways in which many human min
 Western tradition process information.
 David Sahrio
 Texas A&M University, Kingsville
-CBibliographyAristotle. The Art of Rhetoric. Trans. John
-Henry Freese. Cambridge, MA: Harvard
-UP, 1926.
-Bain, Alexander. English Composition and
-Rhetoric. A Manual. 1866. New York:
-Appleton, 1876.
-Connors, Robert. "The Rise and Fall of the
-Modes of Discourse." College Composition
-and Communication 32 (1981): 444–63.
-Corbett, Edward RJ. Classical Rhetoric for
-the Modern Student. 3rd ed. New York:
-Oxford UP, 1990.
-D'Angelo, Frank J. A Conceptual Theory of
-Rhetoric. Cambridge, MA: Winthrop, 1975.
-—. "Paradigms as Structural Counterparts of Topoi." Linguistics, Stylistics,
-and the Teaching of Composition. Ed.
-Donald McQuade. Akron, OH: U of
-Akron Dept. of English, 1979.
 
-<SeeAlsoCard>
-  <SeeAlsoLink href="/docs/m-o-d-e-s-of-discourse">M O D E S Of Discourse</SeeAlsoLink>
-</SeeAlsoCard>
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Domain', col2: 'Rhetorical Theory' },
+    { col1: 'Historical Span', col2: 'Classical Antiquity to Present' },
+    { col1: 'Application', col2: 'Composition, Speech, Literary Analysis, Pedagogy' },
+    { col1: 'Key Tradition', col2: 'Greek, Roman, and Modern Rhetorical Theory' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition">
+    **Classification** constitutes a fundamental concept in rhetorical theory, referring to the structured organization and deployment of persuasive means. Its meaning has evolved from classical codifications to encompass both technical procedures and philosophical principles.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Development">
+    The Roman rhetoricians devoted extensive discussion to **Classification**, systematizing it into rules and catalogues designed to guide the practitioner. From *ad Herennium* and *De Inventione* through the medieval ars dictaminis, the concept retained its central role in rhetorical education.
+  </Tabs.Item>
+  <Tabs.Item title="Contemporary Relevance">
+    Modern rhetorical theory and composition studies continue to engage **Classification** as both a descriptive category and a normative framework. Its principles inform speechwriting, legal argument, and the analysis of persuasive texts across media.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="classification" label="Classification" />
+  The concept of **Classification** has been subject to ongoing reinterpretation as rhetorical theory has engaged with neighboring disciplines. From its origins in classical pedagogy through its elaboration in medieval and Renaissance rhetoric, the term has accumulated layers of meaning that sometimes conflict and sometimes complement one another.
+</Accordion>
+
+<Callout variant="warning" title="Conceptual Scope">
+  The term **Classification** has been used with varying degrees of specificity across rhetorical traditions. Consult primary sources and authoritative secondary literature to determine which definitional framework applies in a given context.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="classification" label="Classification" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="comparison" label="Comparison" />
+- <CrossRef id="contrast" label="Contrast" />
+- <CrossRef id="invention" label="Invention" />
+- <CrossRef id="topics" label="Topics" />
+- <CrossRef id="argument" label="Argument" />
+

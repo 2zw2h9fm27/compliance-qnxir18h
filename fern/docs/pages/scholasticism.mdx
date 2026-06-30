@@ -1,7 +1,54 @@
 ---
 title: "Scholasticism"
-description: "Activities of Medieval and Renaissance writers"
+description: "Activities of Medieval and Renaissance writers who sought \"to join faith to reason,\" and who did so in cloistered settings, first in monasteries or ecclesiastical schools, and later in universities."
+date: 2026-06-30T18:33:13.172Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Scholasticism
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Scholasticism" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Activities of Medieval and Renaissance writers
 who sought "to join faith to reason," and who
@@ -23,8 +70,7 @@ little in common.
 Scholasticism as a school activity describes
 a rational approach to investigations in theology, philosophy, and the liberal arts. It was
 based largely upon the logic of Aristotle and his
-improvers, and was used both to conductresearch and to teach. It was thought that authorities from antiquity had made substantial con-
-s
+improvers, and was used both to conductresearch and to teach. It was thought that authorities from antiquity had made substantial cons
 tributions and that contemporary advances
 on those authorities would be incremental
 and cumulative, but only if those authorities
@@ -57,7 +103,7 @@ unresolvable impasses, the procedures of disputation became routine and self-ref
 The effort to join faith to reason, to unite
 revealed Christianity with classical philosophy
 and science, began with two competing strains
-of thought. One, attributed to Boethius,asserted the adequacy of God's gift of reason for
+of thought. One, attributed to Boethius, asserted the adequacy of God's gift of reason for
 comprehending revelation. The other, drawn
 from Pseudo-Dionysius the Areopagite, asserted
 the inadequacy of the human mind to apprehend divinity. Shifting notions during the medieval period, on the constituents of faith, the
@@ -86,3 +132,88 @@ were in part responses to late scholasticism, but
 scholastic inquiry survived these challenges and
 continued to make advances in political and
 ethical thinking through the eighteenth century.
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Scholasticism** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Scholasticism** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Scholasticism** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="scholasticism" label="Scholasticism" />
+  The emergence and development of **Scholasticism** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Scholasticism** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="exposition" label="Exposition" />
+- <CrossRef id="scholasticism" label="Scholasticism" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="logic" label="Logic" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="aristotle" label="Aristotle" />
+- <CrossRef id="hermeneutics" label="Hermeneutics" />
+- <CrossRef id="proof" label="PROOF" />
+

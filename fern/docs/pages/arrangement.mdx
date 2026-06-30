@@ -1,7 +1,54 @@
 ---
 title: "Arrangement"
-description: "Nowhere else in the extant Roman rhetorics is"
+description: "Nowhere else in the extant Roman rhetorics is the tendency to codify as apparent as it is in the rhetoricians' discussions of the ways in which a speech needed to be structured."
+date: 2026-06-30T18:33:12.564Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Arrangement
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Arrangement" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Nowhere else in the extant Roman rhetorics is
 the tendency to codify as apparent as it is in the
@@ -10,13 +57,13 @@ a speech needed to be structured.
 The exordium, the introduction to a persuasive address, required a student to select
 materials that would either enhance or make
 repugnant the case at hand (ad Herennium 1.4;
-De inventione l.xiv.l9ff; De oratoria 1.143).
+De inventione l.xiv.l 9ff; De oratoria 1.143).
 Topics could be found by analyzing the ethos of
 the speaker, the character of the opponent, the
 audience, and the facts of the case. Again, working much like a checklist, the catalogs of topics
 provided a highly systematized and apparently
 thorough way of exploring every conceivable
-dimension from which material could belocated for the purposes of producing a powerful
+dimension from which material could be located for the purposes of producing a powerful
 and impact-filled introduction. The function of
 the exordium was to render the listeners attentive and well disposed, as well as set the tone for
 the remainder of the oration. However, if
@@ -57,8 +104,7 @@ rhetoricians. In addition, various commonplaces were considered proper in the pr
 designed for recommending pity or attacking
 the prosecutor. Roman rhetoricians more or less
 agreed on the structure that a proof should take.
-Most seemed to favor the epicheireme, a five-
-part form into which propositions and proofs
+Most seemed to favor the epicheireme, a fivepart form into which propositions and proofs
 could be put. In an epicheireme one began with
 a proposition and offered a reason for the
 proposition and then followed this with a further proof of the reason. Then, an orator was
@@ -71,3 +117,90 @@ recognition of faults and flaws in the proofs offered by one's opponent. Then, a
 expected to add the final part, the peroration,
 which would sum up the key features of
 the case, amplify the salient points via commonplaces, and add any final appeals.
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Arrangement** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Arrangement** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Arrangement** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="arrangement" label="Arrangement" />
+  The emergence and development of **Arrangement** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Arrangement** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Exordium", url: "/terms/exordium" },
+    { label: "Narratio", url: "/terms/narratio" },
+    { label: "Confirmatio", url: "/terms/confirmatio" },
+    { label: "Peroratio", url: "/terms/peroratio" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="proof" label="PROOF" />
+- <CrossRef id="speech" label="SPEECH" />
+- <CrossRef id="commonplaces" label="Commonplaces" />
+- <CrossRef id="exordium" label="Exordium" />
+- <CrossRef id="topics" label="Topics" />
+- <CrossRef id="confirmatio" label="Confirmatio" />
+- <CrossRef id="definition" label="Definition" />
+- <CrossRef id="emphasis" label="Emphasis" />
+

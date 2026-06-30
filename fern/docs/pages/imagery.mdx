@@ -1,7 +1,54 @@
 ---
 title: "Imagery"
-description: "In literary usage, images produced in the mind"
+description: "In literary usage, images produced in the mind by language (effect) or to the imagery-bearing language itself and its signification (cause)."
+date: 2026-06-30T18:33:12.879Z
+status: "Published"
 ---
+
+import { 
+  MessageSquare,
+  Users
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Imagery
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Imagery" 
+  metaData={[
+    { label: "Classification", value: "Scheme of Repetition" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<MessageSquare className="w-8 h-8 text-purple-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Users className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-purple-50 border-purple-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 In literary usage, images produced in the mind
 by language (effect) or to the imagery-bearing
@@ -10,13 +57,12 @@ former is mental imagery; the latter is verbal
 imagery.
 A verbal image is often called a "picture"
 made out of words, but it can appeal to senses
-other than sight (hearing, smell, taste,and
+other than sight (hearing, smell, taste, and
 touch), and to internal feelings. The language
 used to evoke imagery can be figurative or literal or both, as these lines from Elinor Wylie's
 Puritan Sonnet demonstrate:
 I love those skies, thin blue or snowy gray,
-Those fields sparse-planed, rendering meager sheaves; That spring, briefer than apple-
-blossom's breath, summer, so much too
+Those fields sparse-planed, rendering meager sheaves; That spring, briefer than appleblossom's breath, summer, so much too
 beautiful to stay, Swift autumn, like a bonfire of leaves, And sleepy winter, likethe
 sleep of death.
 Figurative imagery involves metaphor, simile,
@@ -37,8 +83,7 @@ in a radically different way. In such a sense, figurative images are not simply 
 but serve to reveal aspects of experience in a
 new light.
 Images that suggest further meaningsand
-associations in ways that go beyond the vehicle-
-tenor relationship found in metaphor and other
+associations in ways that go beyond the vehicletenor relationship found in metaphor and other
 figures of speech are called symbols. The symbolic significance is often achieved through
 patterning: When images in a literary work are
 patterned in a special way, they may be invested
@@ -62,26 +107,109 @@ elements of a poem" (Preminger et al. 369).
 Ning Yu
 University of Arizona
 
-<BibliographyCard>
-Baldick, Chris. The Concise Oxford Dictionary of Literary Terms. Oxford: Oxford
-UP, 1990.
-Cuddon, J.A. A Dictionary of Literary Terms
-and Literary Theory. Oxford: Blackwell,
-1977.
-Dupriez, Bernard. A Dictionary of Literary
-Devices. Toronto: U of Toronto P, 1991.
-Morner, Kathleen, and Ralph Rausch. NTC's
-Dictionary ofLiterary Terms.
-Lincolnwood, IL: National Textbook,
-1991.
-Packard, William. The Poet's Dictionary.
-New York: Harper, 1989.
-Preminger, Alex, et al., eds. Princeton Encyclopedia of Poetry and Poetics.
-Princeton: Princeton UP, 1974.
-Wales, Katie. A Dictionary ofStylistics. London: Longmans, 1989.
-</BibliographyCard>
-
 <SeeAlsoCard>
   <SeeAlsoLink href="/docs/figures-of-speech">Figures Of Speech</SeeAlsoLink>
   <SeeAlsoLink href="/docs/metonymy">Metonymy</SeeAlsoLink>
 </SeeAlsoCard>
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Classification', col2: 'Scheme or Trope' },
+    { col1: 'Traditional Domain', col2: 'Classical and Renaissance Rhetoric' },
+    { col1: 'Modern Relevance', col2: 'Discourse Analysis, Stylistics, Critical Discourse Studies' },
+    { col1: 'Function', col2: 'Emphasis, Rhythm, Persuasion, Meaning Construction' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition & Function">
+    In rhetoric, **Imagery** functions as a deliberate stylistic choice designed to produce specific rhetorical effects. Classical rhetoricians catalogued such devices as essential tools for persuasive composition, emphasizing their capacity to create emphasis, rhythm, and memorable impact in both speech and writing.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Application">
+    From the Greek orators through the Roman tradition and into modern literary criticism, **Imagery** has been analyzed as a mechanism for shaping audience response. Biblical exegesis, parliamentary oratory, and literary stylistics have all drawn on the formal properties of this device.
+  </Tabs.Item>
+  <Tabs.Item title="Critical Perspectives">
+    Contemporary critical discourse analysis examines how **Imagery** operates not merely as ornament but as a means of enacting power. The formal repetition encoded in the device can naturalize ideological positions, construct authority, and organize social relations through textual practice.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-purple-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="imagery" label="Imagery" />
+  While **Imagery** is traditionally classified as a specific scheme of repetition, its application across genres and media reveals a more complex set of functions. The device operates simultaneously as a marker of textual coherence, a vehicle for emotional intensification, and a means of establishing ideological alignment between speaker and audience.
+</Accordion>
+
+<Callout variant="warning" title="Terminological Precision">
+  Ensure that references to **Imagery** distinguish between the rhetorical device and any cognate terms in linguistics or discourse analysis. The rhetorical sense denotes a specific formal pattern; broader linguistic uses may refer to referential phenomena with different structural properties.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### References
+
+1. Baldick, Chris. The Concise Oxford Dictionary of Literary Terms. Oxford: Oxford
+2. UP, 1990.
+3. Cuddon, J.A. A Dictionary of Literary Terms
+4. and Literary Theory. Oxford: Blackwell,
+5. 1977.
+6. Dupriez, Bernard. A Dictionary of Literary
+7. Devices. Toronto: U of Toronto P, 1991.
+8. Morner, Kathleen, and Ralph Rausch. NTC's
+9. Dictionary ofLiterary Terms.
+10. Lincolnwood, IL: National Textbook,
+11. 1991.
+12. Packard, William. The Poet's Dictionary.
+13. New York: Harper, 1989.
+14. Preminger, Alex, et al., eds. Princeton Encyclopedia of Poetry and Poetics.
+15. Princeton: Princeton UP, 1974.
+16. Wales, Katie. A Dictionary ofStylistics. London: Longmans, 1989.
+
+### Cross-Referenced Terms
+- <CrossRef id="imagery" label="Imagery" />
+- <CrossRef id="speech" label="SPEECH" />
+- <CrossRef id="metaphor" label="Metaphor" />
+- <CrossRef id="argument" label="Argument" />
+- <CrossRef id="example" label="Example" />
+- <CrossRef id="synecdoche" label="SYNECDOCHE" />
+

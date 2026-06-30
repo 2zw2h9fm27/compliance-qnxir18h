@@ -1,8 +1,54 @@
 ---
 title: "PROPAGANDA"
 description: "Phenomenology"
-sidebarTitle: "Propaganda"
+date: 2026-06-30T18:33:13.070Z
+status: "Published"
 ---
+
+import { 
+  BookOpen,
+  Lightbulb
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# PROPAGANDA
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="PROPAGANDA" 
+  metaData={[
+    { label: "Classification", value: "Rhetorical Concept" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<BookOpen className="w-8 h-8 text-blue-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <Lightbulb className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-blue-50 border-blue-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 Phenomenology
 A philosophy associated with the human science approach to the study of human conscious
@@ -26,40 +72,85 @@ signifies (the signifier expression) while "manifestation" refers (the signified
 "intuitive meanings" in expression. Fourth, all
 "acts of meaning" have a common "ideal meaning." Thus, a phenomenon is the object-referent (noema) of the constituting act directed toward it (noesis). The whole process is called
 "intentionality," whereby a person is "conscious of . . .[experience]."
-Among the Husserl interpreters are the
-French philosopher Maurice Merleau-Ponty
-(1908–1961) and his student MichelFoucault
-(1926–1984). Merleau-Ponty suggests there are
-two levels of rhetoric: (1) existential discourse
-in which a person expresses his speaking in an
-original and perceptive speech, that is, a
-"speech speaking"; and (2) empirical discourse
-that merely expresses what has already been
-said by others—that is, a "speech spoken."
-Foucault argues that the empirical level of discourse hides the existential level. This contested
-process of discourse forms a "rupture" or ongoing discontinuity of levels. He engages his
-third level, "critical methodology," by using the
-methods of "archaeology" ("knowledge" as the
-experience of consciousness) and "genealogy"
-("understanding" as the consciousness of experience). That is, the conjunctions of both consciousness and experience in discourse arereversible, reflexive, and reflective in judgment.
-While Merleau-Ponty examines the place
-of personal perception in public expression, Foucault critically studies the reverse—
-that is, the place of public expression in
-personal perception.
-The central personality in American phenomenology is Charles Sanders Peirce
-(1839–1914), also known for his combination
-of semiotics and phenomenology. For Peirce,
-philosophy is a subclass of the science of discovery. Discovery is a logic in which the relation
-of signs to their objects (that is, consciousness) combines with phenomenology, which for
-Peirce is the experience of the objective actual
-world. In this Peircian context, logic is the science of symbols and has three parts: (1) "formal grammar," which concerns the reference of
-symbols in general; (2) "formal logic," which
-concerns the truth conditions of symbols; and
-(3) "formal rhetoric," which studies the force
-of symbols in appealing to the mind including all general conditions under which a
-problem presents itself for solution. For Peirce,
-signs consist of (1) an initial consciousness or
-"firstness" called a representamen, (2) an "object" in experience or "secondness" and (3) the
-resulting relationship or "thirdness" constituted
-between them that is an "interpretant," or the
-meaning of a phenomenon.
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Domain', col2: 'Rhetorical Theory' },
+    { col1: 'Historical Span', col2: 'Classical Antiquity to Present' },
+    { col1: 'Application', col2: 'Composition, Speech, Literary Analysis, Pedagogy' },
+    { col1: 'Key Tradition', col2: 'Greek, Roman, and Modern Rhetorical Theory' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Definition">
+    **PROPAGANDA** constitutes a fundamental concept in rhetorical theory, referring to the structured organization and deployment of persuasive means. Its meaning has evolved from classical codifications to encompass both technical procedures and philosophical principles.
+  </Tabs.Item>
+  <Tabs.Item title="Historical Development">
+    The Roman rhetoricians devoted extensive discussion to **PROPAGANDA**, systematizing it into rules and catalogues designed to guide the practitioner. From *ad Herennium* and *De Inventione* through the medieval ars dictaminis, the concept retained its central role in rhetorical education.
+  </Tabs.Item>
+  <Tabs.Item title="Contemporary Relevance">
+    Modern rhetorical theory and composition studies continue to engage **PROPAGANDA** as both a descriptive category and a normative framework. Its principles inform speechwriting, legal argument, and the analysis of persuasive texts across media.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-blue-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="propaganda" label="PROPAGANDA" />
+  The concept of **PROPAGANDA** has been subject to ongoing reinterpretation as rhetorical theory has engaged with neighboring disciplines. From its origins in classical pedagogy through its elaboration in medieval and Renaissance rhetoric, the term has accumulated layers of meaning that sometimes conflict and sometimes complement one another.
+</Accordion>
+
+<Callout variant="warning" title="Conceptual Scope">
+  The term **PROPAGANDA** has been used with varying degrees of specificity across rhetorical traditions. Consult primary sources and authoritative secondary literature to determine which definitional framework applies in a given context.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="contrast" label="Contrast" />
+- <CrossRef id="description" label="Description" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="logic" label="Logic" />
+- <CrossRef id="rhetoric" label="RHETORIC" />
+

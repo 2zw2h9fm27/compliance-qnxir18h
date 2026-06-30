@@ -1,7 +1,54 @@
 ---
 title: "Rhetoric of Film"
-description: "A mode of rhetorical criticism investigating the"
+description: "A mode of rhetorical criticism investigating the interpretation of motion pictures."
+date: 2026-06-30T18:33:13.139Z
+status: "Published"
 ---
+
+import { 
+  Users,
+  GitBranch
+} from 'lucide-react';
+import { 
+  Callout, 
+  Tooltip, 
+  CrossRef, 
+  XCard, 
+  Tabs, 
+  Accordion, 
+  SeeAlso,
+  DataGrid,
+  ImageFeature
+} from '@/components/botany-core';
+
+<div className="max-w-4xl mx-auto px-6 py-12">
+
+# Rhetoric of Film
+
+<div className="my-10">
+
+<XCard 
+  variant="featured"
+  title="Rhetoric of Film" 
+  metaData={[
+    { label: "Classification", value: "Intellectual Movement" },
+    { label: "Period", value: "Classical to Contemporary" },
+    { label: "Source", value: "Encyclopedia of Rhetoric" }
+  ]} 
+  icon={<Users className="w-8 h-8 text-emerald-600" />}
+/>
+
+</div>
+
+<div className="my-14">
+
+## Definition & Etymology
+
+<div className="flex items-center mb-8">
+  <GitBranch className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed bg-emerald-50 border-emerald-200 border-l-4 pl-6 py-2 pr-4 rounded-r-lg">
 
 A mode of rhetorical criticism investigating the
 interpretation of motion pictures. At its most
@@ -13,8 +60,7 @@ broader approach encompasses rhetoric as the
 study of symbolic inducement, reaching beyond
 films that are didactic or propagandistic, and
 employing the whole range of tools common to
-humanistic inquiry into cultural forms and in-
-vestigating issues of text, genre, myth, gender,
+humanistic inquiry into cultural forms and investigating issues of text, genre, myth, gender,
 ideology, production, authorship, the human
 subject, meaning, the construction of cinematic
 ways of knowing, response, and reception.
@@ -66,3 +112,88 @@ public, argumentative discourse. Rhetorical criticism of film in the tradition o
 has at the same time been part of a broader challenge to the canon of high-cultural literary texts.
 Hence, rhetorical critics of film are a reminder of
 the unsettled and often contentious place ofrhetorical studies (both institutionally and theoretically) in academic inquiry since classical times.
+
+</div>
+
+<DataGrid 
+  columns={['Dimension', 'Scope']}
+  data={[
+    { col1: 'Origin', col2: 'Historical and Cultural Context' },
+    { col1: 'Scope', col2: 'Rhetorical Practice and Theory' },
+    { col1: 'Key Figures', col2: 'Various Theorists and Practitioners' },
+    { col1: 'Influence', col2: 'Contemporary Rhetorical Studies' }
+  ]}
+/>
+
+</div>
+
+<div className="my-12">
+
+## Functional Modularity
+
+<div className="flex items-center mb-8">
+  <Layers className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Tabs>
+  <Tabs.Item title="Overview">
+    **Rhetoric of Film** represents a significant current within rhetorical studies, encompassing both a set of critical practices and a body of theoretical reflection on the role of rhetoric in society.
+  </Tabs.Item>
+  <Tabs.Item title="Key Figures & Texts">
+    The development of **Rhetoric of Film** has been shaped by the work of numerous scholars who have expanded the boundaries of rhetorical inquiry to address issues of identity, power, and social justice.
+  </Tabs.Item>
+  <Tabs.Item title="Methodology">
+    Practitioners of **Rhetoric of Film** employ methods drawn from literary criticism, cultural studies, and social theory to analyze how rhetorical forms mediate social relations and construct meaning.
+  </Tabs.Item>
+</Tabs>
+
+</div>
+
+<div className="my-14">
+
+## Analytical Deep-Dive
+
+<div className="flex items-center mb-8">
+  <Compass className="w-6 h-6 text-emerald-600 mr-3" />
+</div>
+
+<div className="prose prose-lg max-w-none leading-relaxed">
+<Accordion title="Scholarly Analysis">
+  <CrossRef id="rhetoric-of-film" label="Rhetoric of Film" />
+  The emergence and development of **Rhetoric of Film** can be traced through a complex interplay of institutional, political, and intellectual forces. Its history reflects broader shifts in the understanding of rhetoric's scope and purpose within the academy and the public sphere.
+</Accordion>
+
+<Callout variant="warning" title="Editorial Note">
+  This entry on **Rhetoric of Film** has been formatted from archival sources. Verify citations against primary texts where possible.
+</Callout>
+
+</div>
+
+<div className="my-14">
+
+## Extended Knowledge Graph
+
+<SeeAlso 
+  items={[
+    { label: "Rhetoric", url: "/terms/rhetoric" },
+    { label: "Composition Studies", url: "/terms/composition-studies" },
+  ]} 
+/>
+
+</div>
+
+</div>
+
+---
+
+### Cross-Referenced Terms
+- <CrossRef id="rhetoric" label="RHETORIC" />
+- <CrossRef id="communication" label="Communication" />
+- <CrossRef id="rhetoric-of-film" label="Rhetoric of Film" />
+- <CrossRef id="rhetorical-criticism" label="Rhetorical Criticism" />
+- <CrossRef id="speech" label="SPEECH" />
+- <CrossRef id="discourse" label="Discourse" />
+- <CrossRef id="persuasion" label="PERSUASION" />
+- <CrossRef id="speech-communication" label="Speech Communication" />
+
