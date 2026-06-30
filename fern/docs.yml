@@ -71,6 +71,12 @@ colors:
   border:
     light: "#FAFAFA"
     dark: "#1E2023"
+  header-background:
+    dark: "#1e2320"
+  sidebar-background:
+    dark: "#1e2023"
+  card-background:
+    dark: "#1e2023"
 theme:
   page-actions: toolbar
   footer-nav: minimal
@@ -79,6 +85,5 @@ logo:
   light: docs/assets/logo.svg
   height: 20
   href: https://buildwithfern.com
-favicon: docs/assets/favicon.svg
 css: styles.css
 ai-search: {}
