@@ -8,10 +8,13 @@ function run(command: string) {
 // 1. Lint markdown files
 run('npm run docs:lint');
 
-// 2. Spell‑check markdown files (Python script)
+// 2. Proofread markdown files for style and inclusive language
+run('npm run docs:proofread');
+
+// 3. Spell‑check markdown files (Python script)
 run('npm run docs:spellcheck');
 
-// 3. Generate searchable lunr index
+// 4. Generate searchable lunr index
 run('npm run docs:index');
 
 console.log('\n=== Docs QA pipeline completed ===');
